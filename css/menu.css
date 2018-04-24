@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url('Gotham-Book.otf');
+    /* IE9 Compat Modes */
+    src: url('Gotham-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('Gotham-Book.woff2') format('woff2'), /* Super Modern Browsers */
+    url('Gotham-Book.woff') format('woff'), /* Pretty Modern Browsers */
+    url('Gotham-Book.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('Gotham-Book.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+
+.topbar {
+    overflow: hidden;
+    background: transparent;
+    position: absolute;
+    z-index: 999;
+    padding: 4rem;
+    width: 100%;
+    height: 10rem;
+    font-family: 'Gotham-Book', Fallback, sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.w3-menu {
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0;
+    font-weight: bold;
+}
+
+.w3-logo {
+    font-size: 1.3rem;
+    font-weight: normal;
+    padding: 0.5rem 1rem;
+    width: auto;
+    border: none;
+    display: inline-block;
+    outline: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    cursor: pointer;
+    user-select: none;
+    overflow: visible;
+    z-index: 999;
+}
+
+.w3-logo:hover {
+    color: #000!important;
+    background-color: #ccc!important
+}
+
+.topbar .w3-dropdown-hover,
+.topbar .w3-dropdown-click {
+    position: static;
+    float: left
+}
+
+.topbar .w3-button {
+    white-space: normal
+}
+
+.topbar-block .topbar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0
+}
+
+.topbar-block.w3-center .topbar-item {
+    text-align: center
+}
+
+.topbar-block .w3-dropdown-hover,
+.topbar-block .w3-dropdown-click {
+    width: 100%;
+}
+
+.topbar-block .w3-dropdown-hover .w3-dropdown-content,
+.topbar-block .w3-dropdown-click .w3-dropdown-content {
+    min-width: 100%
+}
+
+.topbar-block .w3-dropdown-hover .w3-button,
+.topbar-block .w3-dropdown-click .w3-button {
+    width: 100%;
+    text-align: left;
+    padding: 8px 16px
+}
