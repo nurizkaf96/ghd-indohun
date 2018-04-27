@@ -1,0 +1,29 @@
+#number {
+    margin: 1rem;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Gotham', Fallback, sans-serif;
+    padding-top: 1rem !important;
+    text-align: center;
+}
+
+#number-container {
+    margin-left: 20rem !important;
+    margin-right: 20rem !important;
+}
+
+#experience {
+	background-image: url(../img/backexp.jpg);
+    padding-bottom: 4rem;
+}
+
+#experience>h4 {
+    color: #ff3f40;
+    margin-left: 22rem !important;
+    margin-right: 22rem !important;
+}
+
+#experience>h6 {
+    margin-left: 22rem !important;
+    margin-right: 22rem !important;
+}
