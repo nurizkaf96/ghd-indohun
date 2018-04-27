@@ -55,7 +55,7 @@
     <div class="outer-container w3-center" id="programs">
       <h1><b>Programs</b></h1>
       <div class="w3-padding-large" id="padding-image">
-        <div class="w3-third w3-margin-bottom">
+        <div class="w3-third w3-margin-bottom padding-program-card">
           <img src="./img/card1.jpg" style="width:100%; height: 15rem" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <h3><b>Executive</b></h3>
@@ -67,7 +67,7 @@
             </a>
           </div>
         </div>
-        <div class="w3-third w3-margin-bottom">
+        <div class="w3-third w3-margin-bottom padding-program-card">
           <img src="./img/card2.jpg" style="width:100%; height: 15rem" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <h3><b>Student</b></h3>
@@ -79,7 +79,7 @@
             </a>
           </div>
         </div>
-        <div class="w3-third w3-margin-bottom">
+        <div class="w3-third w3-margin-bottom padding-program-card">
           <img src="./img/card1.jpg" style="width:100%; height: 15rem" class="w3-hover-opacity">
           <div class="w3-container w3-white">
             <h3><b>Intermediate</b></h3>
