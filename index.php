@@ -103,25 +103,33 @@
         <div class="w3-quarter">
           <div id="number" class="w3-row w3-margin-bottom w3-center">
             <span class='numscroller' data-min='0' data-max='28' data-delay='1' data-increment='1'>28</span>
-            <h4>institutions</h4>
+            <h4><b>institutions</b></h4>
+            <div class="garisbawah"></div>
+            <p>Representatives of national & international institutions involved</p>
           </div>
         </div>
         <div class="w3-quarter">
           <div id="number" class="w3-row w3-margin-bottom">
             <span class='numscroller' data-min='0' data-max='3' data-delay='1' data-increment='1'>3</span>
-            <h4>days</h4>
+            <h4><b>days</b></h4>
+            <div class="garisbawah"></div>
+            <p>Multi-Stage Negotiation Simulation sessions</p>
           </div>
         </div>
         <div class="w3-quarter">
           <div id="number" class="w3-row w3-margin-bottom">
             <span class='numscroller' data-min='0' data-max='12' data-delay='1' data-increment='1'>12</span>
-            <h4>classes</h4>
+            <h4><b>classes</b></h4>
+            <div class="garisbawah"></div>
+            <p>Global health and diplomatic practice</p>
           </div>
         </div>
         <div class="w3-quarter">
           <div id="number" class="w3-row w3-margin-bottom">
             <span class='numscroller' data-min='0' data-max='9' data-delay='1' data-increment='1'>9</span>
-            <h4>speakers</h4>
+            <h4><b>speakers</b></h4>
+            <div class="garisbawah"></div>
+            <p>International level</p>
           </div>
         </div>
       </div>

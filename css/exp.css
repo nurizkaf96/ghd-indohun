@@ -1,5 +1,5 @@
 #number {
-    margin: 1rem;
+    margin: 0.7rem;
     font-size: 4rem;
     font-weight: bold;
     font-family: 'Gotham', Fallback, sans-serif;
@@ -10,6 +10,12 @@
 #number-container {
     margin-left: 20rem !important;
     margin-right: 20rem !important;
+}
+
+#number>p {
+	font-size: 0.9rem;
+	text-align: left;
+	font-weight: normal;
 }
 
 #experience {
@@ -26,4 +32,12 @@
 #experience>h6 {
     margin-left: 22rem !important;
     margin-right: 22rem !important;
+}
+
+.garisbawah {
+    display: block;
+    border: 0;
+    border-top: 0.5rem solid #000;
+    width: 3rem;
+    margin: 2rem;
 }
