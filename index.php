@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="./css/bopartner.css">
 <link rel="stylesheet" href="./css/news.css">
 <link rel="stylesheet" href="./css/intouch.css">
+<link rel="stylesheet" href="./css/footer.css">
 <link rel="stylesheet" href="./css/prism.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -52,6 +53,18 @@
 
   <!-- Content -->
   <div class="content">
+
+    
+    <script type="text/javascript">
+      $url = 'http://www.foxnews.com/sports/2016/08/14/ryan-lochte-3-other-u-s-swimmers-robbed-in-brazil.html';
+      $content = file_get_contents($url);
+      $first_step = explode( '<div class="article-text">' , $content );
+      $paras = explode("<p>" , $first_step[1] );
+
+      foreach($paras as $para ) {
+        echo $para;
+      }
+    </script>
 
     <!-- Programs -->
     <div class="outer-container w3-center" id="programs">
@@ -239,31 +252,56 @@
     <div class="outer-container w3-center" id="intouch">
       <h1><b>Get In Touch</b></h1>
       <div class="w3-row-padding container-intouch">
-        <div class="w3-third w3-container w3-margin-bottom">
-          <p>High-level position of Health and International relation Professionals</p>
+        <div class="w3-third w3-container w3-margin-bottom" id="chat">
+          <div class="w3-half">
+            <img src="./img/chat.png" style="width: 4rem">
+          </div>
+          <div class="w3-half">
+            <p>847-939-9359</p>
+          </div>
         </div>
-        <div class="w3-third w3-container w3-margin-bottom">
-          <p>High-level position of Health and International relation Professionals</p>
+        <div class="w3-third w3-container w3-margin-bottom" id="messages">
+          <div class="w3-half">
+            <img src="./img/message.png" style="width: 4rem">
+          </div>
+          <div class="w3-half">
+            <p>montreal@mail.com</p>
+          </div>
         </div>
-        <div class="w3-third w3-container w3-margin-bottom">
-          <p>High-level position of Health and International relation Professionals</p>
+        <div class="w3-third w3-container w3-margin-bottom" id="location">
+          <div class="w3-half">
+            <img src="./img/globe.png" style="width: 4rem">
+          </div>
+          <div class="w3-half">
+            <p>4116 Oak Avenue</br>Chicago, IL 60607</p>
+          </div>
         </div>
       </div>
       <div class="w3-row-padding w3-padding-large">
-        <button type="button" class="w3-button w3-red w3-margin-top">Visit INDOHUN website</button>
+        <button type="button" formaction="https://indohun.org/" class="w3-button w3-red w3-margin-top">Visit INDOHUN website</button>
       </div>
     </div>
   </div>
 
   <!-- Footer -->
-  <footer class="w3-padding-32 w3-center w3-margin-top" style="background-color: #444444; color: #fff">
-    <h5>C 2018 - <a href="#">INDOHUN</a> All Right Reserved</h5>
-    <div class="w3-xlarge w3-padding-large">
-      <i class="fa fa-facebook-official w3-hover-opacity"></i>
-      <i class="fa fa-twitter w3-hover-opacity"></i>
-      <i class="fa fa-dribbble w3-hover-opacity"></i>
-      <i class="fa fa-google-plus w3-hover-opacity"></i>
-      <i class="fa fa-youtube w3-hover-opacity"></i>
+  <footer class="w3-padding-32 w3-center" id="footer">
+    <h5>&copy; 2018 - <a href="#">INDOHUN</a> All Right Reserved</h5>
+    <div class="w3-xlarge w3-padding-large" id="social-link">
+      <a href="https://www.facebook.com/indohun.id/">
+        <i class="fa fa-facebook-official w3-hover-opacity" id="icon-social"></i>
+      </a>
+      <a href="https://twitter.com/Indohun">
+        <i class="fa fa-twitter w3-hover-opacity" id="icon-social"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-dribbble w3-hover-opacity" id="icon-social"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-google-plus w3-hover-opacity" id="icon-social"></i>
+      </a>
+      <a href="https://www.youtube.com/user/INDONESIAOHUN">
+        <i class="fa fa-youtube w3-hover-opacity" id="icon-social"></i>
+      </a>
     </div>
   </footer>
   <script src="./js/jquery-1.10.2.min.js"></script>

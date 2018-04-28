@@ -128,3 +128,8 @@ a {
 	padding-left: 4rem !important;
 	padding-right: 4rem !important;
 }
+
+h5>a {
+	color: #ff3f40;
+	text-decoration: none;
+}

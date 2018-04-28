@@ -1,0 +1,12 @@
+#footer {
+	background-color: #444444 !important;
+	color: #fff;
+}
+
+#icon-social {
+	padding: 0 1rem;
+}
+
+#social-link>a {
+	text-decoration: none;
+}

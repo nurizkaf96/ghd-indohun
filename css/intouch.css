@@ -1,11 +1,32 @@
 #intouch {
 	background-color: #efefef;
+	padding-bottom: 2rem;
 }
 
 .container-intouch {
-    padding: 3rem 4rem !important;
-    margin: 0 7rem !important;
+    padding: 3rem 1rem !important;
+    margin: 0 4rem !important;
     border-style: solid;
     border-width: 0.2rem;
     border-color: #ff3f40;
+}
+
+#chat, #messages, #location {
+	padding: 0 2rem;
+	vertical-align: center;
+}
+
+#chat>.w3-half>img {
+	background-color: #ff3f40;
+	padding: 0.5rem;
+}
+
+#messages>.w3-half>img {
+	background-color: #ff3f40;
+	padding: 0.5rem;
+}
+
+#location>.w3-half>img {
+	background-color: #ff3f40;
+	padding: 0.5rem;
 }
