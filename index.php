@@ -10,6 +10,8 @@
 <link rel="stylesheet" href="./css/exp.css">
 <link rel="stylesheet" href="./css/training.css">
 <link rel="stylesheet" href="./css/bopartner.css">
+<link rel="stylesheet" href="./css/news.css">
+<link rel="stylesheet" href="./css/intouch.css">
 <link rel="stylesheet" href="./css/prism.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -167,39 +169,42 @@
       </div>
     </div>
 
-    <div class="outer-container-blue w3-center" id="news">
+    <!-- News -->
+    <div class="outer-container w3-center" id="news">
       <h1><b>News</b></h1>
-      <div class="w3-row-padding w3-padding-large">
-        <div class="w3-third w3-container w3-margin-bottom">
-          <div class="w3-container w3-white">
-            <h3><b>Executive</b></h3>
-            <p>High-level position of Health and International relation Professionals</p>
+      <div class="w3-padding-large" id="padding-image">
+        <div class="w3-third w3-margin-bottom padding-program-card">
+          <div class="w3-container w3-white" id="text-news">
+            <p>15 Feb 2018</p>
+            <h3><b>Spotlight</b></h3>
+            <p>Lorem ipsum To foster INDOHUN</p>
           </div>
-          <img src="./img/card1.jpg" alt="Norway" style="width:100%; height: 18rem" class="w3-hover-opacity">
+          <img src="./img/card1.jpg" style="width:100%; height: 15rem" class="w3-hover-opacity">
           <div class="w3-container w3-red">
             <a href="#" id="con3">
               <p>Learn More</p>
             </a>
           </div>
         </div>
-        <div class="w3-third w3-container w3-margin-bottom">
-          <div class="w3-container w3-white">
-            <h3><b>Student</b></h3>
-            <p>Design for University Student from second year and up</p>
+        <div class="w3-third w3-margin-bottom padding-program-card">
+          <div class="w3-container w3-white" id="text-news">
+            <p>15 Feb 2018</p>
+            <h3><b>World</b></h3>
+            <p>Lorem ipsum To foster INDOHUN sustainability, it is</p>
           </div>
-          <img src="./img/card2.jpg" alt="Norway" style="width:100%; height: 18rem" class="w3-hover-opacity">
+          <img src="./img/card2.jpg" style="width:100%; height: 15rem" class="w3-hover-opacity">
           <div class="w3-container w3-red">
             <a href="#" id="con3">
               <p>Learn More</p>
             </a>
           </div>
         </div>
-        <div class="w3-third w3-container w3-margin-bottom">
-          <div class="w3-container w3-white">
-            <h3><b>Intermediate</b></h3>
-            <p>High-level position of Health and International relation Professionals</p>
+        <div class="w3-third w3-margin-bottom padding-program-card">
+          <div class="w3-container w3-white" id="text-news">
+            <p>15 Feb 2018</p>
+            <h3><b>In The Media</b></h3>
           </div>
-          <img src="./img/card1.jpg" alt="Norway" style="width:100%; height: 18rem" class="w3-hover-opacity">
+          <img src="./img/card1.jpg" style="width:100%; height: 15rem" class="w3-hover-opacity">
           <div class="w3-container w3-red">
             <a href="#" id="con3">
               <p>Learn More</p>
@@ -209,6 +214,7 @@
       </div>
     </div>
 
+    <!-- Our Partner -->
     <div class="outer-container w3-center" id="partner">
       <h1><b>Our Partner</b></h1>
       <div class="w3-row-padding w3-padding-large">
@@ -216,13 +222,13 @@
         </div>
         <div class="w3-third w3-container w3-margin-bottom w3-center">
           <div class="w3-third w3-container w3-margin-bottom">
-            <img src="./img/usaid.png" alt="usaid" style="max-height: 2rem;" class="w3-hover-opacity">
+            <img src="./img/usaid.png" alt="usaid" style="width: 8rem; height: 4rem;" class="w3-hover-opacity">
           </div>
           <div class="w3-third w3-container w3-margin-bottom">
-            <img src="./img/seaohun.png" alt="usaid" style="width: 5rem;" class="w3-hover-opacity">
+            <img src="./img/seaohun.png" alt="usaid" style="width: 6rem; height: 4rem;" class="w3-hover-opacity">
           </div>
           <div class="w3-third w3-container w3-margin-bottom">
-            <img src="./img/onehealth.png" alt="usaid" style="height: 3rem;" class="w3-hover-opacity">
+            <img src="./img/onehealth.png" alt="usaid" style="width: 8rem; height: 4rem;" class="w3-hover-opacity">
           </div>
         </div>
         <div class="w3-third w3-container w3-margin-bottom">
@@ -232,21 +238,15 @@
 
     <div class="outer-container w3-center" id="intouch">
       <h1><b>Get In Touch</b></h1>
-      <div class="w3-row-padding w3-padding-large">
+      <div class="w3-row-padding container-intouch">
         <div class="w3-third w3-container w3-margin-bottom">
+          <p>High-level position of Health and International relation Professionals</p>
         </div>
         <div class="w3-third w3-container w3-margin-bottom">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <p>High-level position of Health and International relation Professionals</p>
-          </div>
-          <div class="w3-third w3-container w3-margin-bottom">
-            <p>High-level position of Health and International relation Professionals</p>
-          </div>
-          <div class="w3-third w3-container w3-margin-bottom">
-            <p>High-level position of Health and International relation Professionals</p>
-          </div>
+          <p>High-level position of Health and International relation Professionals</p>
         </div>
         <div class="w3-third w3-container w3-margin-bottom">
+          <p>High-level position of Health and International relation Professionals</p>
         </div>
       </div>
       <div class="w3-row-padding w3-padding-large">

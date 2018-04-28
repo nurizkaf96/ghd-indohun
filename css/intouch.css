@@ -1,0 +1,11 @@
+#intouch {
+	background-color: #efefef;
+}
+
+.container-intouch {
+    padding: 3rem 4rem !important;
+    margin: 0 7rem !important;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: #ff3f40;
+}
