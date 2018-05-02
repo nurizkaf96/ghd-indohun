@@ -388,60 +388,7 @@
   <script src="./js/jquery-1.10.2.min.js"></script>
   <script src="./js/numscroller-1.0.js"></script>
   <script src="./js/prism.js"></script>
-  <script type="text/javascript">
-    // Accordion 
-    function executiveFunc() {
-        var x = document.getElementById("contentExecutive");
-        var y = document.getElementById("contentStudent");
-        var z = document.getElementById("contentIntermediate");
-        if (x.className.indexOf("w3-show") == -1) {
-            x.className += " w3-show";
-            y.className = y.className.replace(" w3-show", "");
-            z.className = z.className.replace(" w3-show", "");
-        } else {
-            x.className = x.className.replace(" w3-show", "");
-        }
-    }
-
-    function studentFunc() {
-        var x = document.getElementById("contentStudent");
-        var y = document.getElementById("contentExecutive");
-        var z = document.getElementById("contentIntermediate");
-        if (x.className.indexOf("w3-show") == -1) {
-            x.className += " w3-show";
-            y.className = y.className.replace(" w3-show", "");
-            z.className = z.className.replace(" w3-show", "");
-        } else {
-            x.className = x.className.replace(" w3-show", "");
-        }
-    }
-
-    function interFunc() {
-        var x = document.getElementById("contentIntermediate");
-        var y = document.getElementById("contentStudent");
-        var z = document.getElementById("contentExecutive");
-        if (x.className.indexOf("w3-show") == -1) {
-            x.className += " w3-show";
-            y.className = y.className.replace(" w3-show", "");
-            z.className = z.className.replace(" w3-show", "");
-        } else {
-            x.className = x.className.replace(" w3-show", "");
-        }
-    }
-  </script>
-  <script type="text/javascript">
-    // Used to toggle the menu on small screens when clicking on the menu button
-    function myFunction() {
-        var x = document.getElementById("navsmall");
-        var y = document.getElementById("logo-utama");
-        if (x.className.indexOf("w3-show") == -1) {
-            x.className += " w3-show";
-            y.style.display = "none";
-        } else { 
-            x.className = x.className.replace(" w3-show", "");
-            y.style.display = "block";
-        }
-    }
-  </script>
+  <script src="./js/navbar.js"></script>
+  <script src="./js/accordion.js"></script>
 </body>
 </html>

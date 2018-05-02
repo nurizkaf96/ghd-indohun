@@ -115,7 +115,7 @@
     clear: both;
 }
 
-.navigation-bar, .navigation-bar-post {
+.navigation-bar {
     overflow: hidden;
     background: transparent;
     position: absolute;
@@ -138,8 +138,26 @@
 }
 
 .navigation-bar-post {
+    overflow: hidden;
+    background: transparent;
+    position: absolute;
+    z-index: 980;
+    padding: 4rem;
+    padding-top: 1rem !important;
+    padding-bottom: 0.5rem !important;
+    width: 100%;
+    height: auto;
+    font-family: 'Gotham-Book', Fallback, sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    content: "";
+    display: table;
+    clear: both;
     position: fixed;
-    z-index: 999;
     background-color: #2f2f2f;
 }
 
