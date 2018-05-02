@@ -10,6 +10,22 @@
     /* Legacy iOS */
 }
 
+#con1 {
+    font-family: 'Gotham-Book', Fallback, sans-serif;
+    font-size: 1.2rem;
+    border-color: #000;
+    border-bottom: 0.01rem;
+    border-bottom-style: solid;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#con2 {
+    font-size: 1.2rem;
+    line-height: 0.8rem;
+    font-weight: bold;
+}
+
 .header-container {
     padding-bottom: 4rem;
     position: relative;
@@ -32,13 +48,12 @@
 .header-image {
     max-width: 100%;
     min-width: 66.7rem;
-    height: 53.3rem;
+    min-height: 53rem;
     width: 100rem;
 }
 
 .header-inner-container {
     margin: 1rem;
-    margin-left: 4rem !important;
     margin-bottom: 3rem !important;
     margin-top: 3rem !important;
     position: relative;
@@ -85,16 +100,16 @@
     letter-spacing: 0.5rem;
 }
 
-.training-container {
+.inner2-container {
     color: #fff;
-    width: 50%;
+    width: auto;
     text-align: center;
 }
 
 .header-inner-container:after,
 .header-inner-container:before,
-.training-container:after,
-.training-container:before {
+.inner2-container:after,
+.inner2-container:before {
     content: "";
     display: table;
     clear: both;
@@ -104,7 +119,7 @@
     overflow: hidden;
     background: transparent;
     position: absolute;
-    z-index: 999;
+    z-index: 990;
     padding: 4rem;
     padding-top: 2rem !important;
     padding-bottom: 1rem !important;
@@ -196,4 +211,14 @@
     width: 100%;
     text-align: left;
     padding: 8px 16px
+}
+
+#navsmall {
+    z-index: 998 !important;
+    position: fixed;
+    width: 50%;
+}
+
+#bawahnyanavbar {
+    margin-top: 7rem;
 }

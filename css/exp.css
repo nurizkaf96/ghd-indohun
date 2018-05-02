@@ -8,8 +8,8 @@
 }
 
 #number-container {
-    margin-left: 20rem !important;
-    margin-right: 20rem !important;
+    width: 55%;
+    margin: auto;
 }
 
 #number>p {
@@ -25,13 +25,14 @@
 
 #experience>h4 {
     color: #ff3f40;
-    margin-left: 22rem !important;
-    margin-right: 22rem !important;
+    width: 40%;
+    margin: auto;
 }
 
 #experience>h6 {
-    margin-left: 22rem !important;
-    margin-right: 22rem !important;
+    width: 40%;
+    margin: 1rem auto;
+    margin-bottom: 3rem;
 }
 
 .garisbawah {

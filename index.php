@@ -17,40 +17,58 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<body>
+<!-- Header -->
+<header class="header-container w3-content" style="max-width:1500px;">
   <!-- Navigation Bar -->
   <div class="navigation-bar">
-    <a href="#" class="w3-logo w3-left w3-mobile">Global</br>Health</br>Diplomacy</a>
-    <a href="#intouch" class="menu-bar w3-right w3-button w3-mobile">Contact</a>
-    <a href="#partners" class="menu-bar w3-right w3-button w3-mobile">Partners</a>
-    <a href="#events" class="menu-bar w3-right w3-button w3-mobile">Events</a>
-    <a href="#news" class="menu-bar w3-right w3-button w3-mobile">News</a>
-    <a href="#register" class="menu-bar w3-right w3-button w3-mobile">Register</a>
-    <a href="#programs" class="menu-bar w3-right w3-button w3-mobile">Programs</a>
-    <a href="#about" class="menu-bar w3-right w3-button w3-mobile">About</a>
+    <div class="s2">
+      <a href="#" class="w3-logo w3-left" id="logo-utama">Global</br>Health</br>Diplomacy</a>
+    </div>
+    <div class="w3-rest">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    </div>
+    <a href="#intouch" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Contact</a>
+    <a href="#partners" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Partners</a>
+    <a href="#events" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Events</a>
+    <a href="#news" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">News</a>
+    <a href="#register" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Register</a>
+    <a href="#programs" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Programs</a>
+    <a href="#about" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">About</a>
   </div>
-  <!-- Header -->
-  <header class="header-container w3-content" style="max-width:1500px;">
-    <div class="w3-display-left w3-padding w3-col l6 m8">
-      <div class="header-inner-container">
-        <p>DIPLOMACY</br>NEEDS</br>ACTION</p>
-        <div id="con1" class="training-container w3-white">
-          <p>GHD Training</p>
-        </div>
-        <div id="con2" class="training-container w3-white">
-          <p>25-29 August, 2018</p>
-          <p>Bandung, Indonesia</p>
-        </div>
-        <div class="training-container w3-red">
-          <a href="#" id="con3">
-            <p>Register Now!</p>
-          </a>
-        </div>
+  <div id="bawahnyanavbar" class="navigation-bar">
+  <!-- <div class="w3-display-left w3-padding w3-col l6 m12 s12"> -->
+    <div class="header-inner-container w3-col l4 m12 s12">
+      <p class="w3-hide-small w3-hide-medium">DIPLOMACY</br>NEEDS</br>ACTION</p>
+      <div id="con1" class="inner2-container w3-white">
+        <p>GHD Training</p>
+      </div>
+      <div id="con2" class="inner2-container w3-white">
+        <p>25-29 August, 2018</p>
+        <p>Bandung, Indonesia</p>
+      </div>
+      <div class="inner2-container w3-red">
+        <a href="#" id="con3">
+          <p>Register Now!</p>
+        </a>
       </div>
     </div>
-    <img class="header-image" src="./img/headerimg.jpg" alt="Header Image">
-  </header>
+  <!-- </div> -->
+  </div>
 
+  <!-- Navbar on small screens -->
+  <div id="navsmall" class="w3-bar-block w3-black w3-hide w3-hide-large w3-top">
+    <a href="#intouch" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+    <a href="#partners" class="w3-bar-item w3-button w3-padding-large">Partners</a>
+    <a href="#events" class="w3-bar-item w3-button w3-padding-large">Events</a>
+    <a href="#news" class="w3-bar-item w3-button w3-padding-large">News</a>
+    <a href="#register" class="w3-bar-item w3-button w3-padding-large">Register</a>
+    <a href="#programs" class="w3-bar-item w3-button w3-padding-large">Programs</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large">About</a>
+  </div>
+  <img class="w3-image" src="./img/headerimg.jpg" alt="Header Image">
+</header>
+
+<body>
   <!-- Content -->
   <div class="content">
 
@@ -404,6 +422,20 @@
             z.className = z.className.replace(" w3-show", "");
         } else {
             x.className = x.className.replace(" w3-show", "");
+        }
+    }
+  </script>
+  <script type="text/javascript">
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+        var x = document.getElementById("navsmall");
+        var y = document.getElementById("logo-utama");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+            y.style.display = "none";
+        } else { 
+            x.className = x.className.replace(" w3-show", "");
+            y.style.display = "block";
         }
     }
   </script>
