@@ -21,13 +21,13 @@
   <!-- Navigation Bar -->
   <div class="navigation-bar">
     <a href="#" class="w3-logo w3-left w3-mobile">Global</br>Health</br>Diplomacy</a>
-    <a href="#contact" class="menu-bar w3-right w3-button w3-mobile">Contact</a>
-    <a href="#contact" class="menu-bar w3-right w3-button w3-mobile">Partners</a>
-    <a href="#contact" class="menu-bar w3-right w3-button w3-mobile">Events</a>
-    <a href="#contact" class="menu-bar w3-right w3-button w3-mobile">News</a>
-    <a href="#contact" class="menu-bar w3-right w3-button w3-mobile">Register</a>
-    <a href="#about" class="menu-bar w3-right w3-button w3-mobile">Programs</a>
-    <a href="#rooms" class="menu-bar w3-right w3-button w3-mobile">About</a>
+    <a href="#intouch" class="menu-bar w3-right w3-button w3-mobile">Contact</a>
+    <a href="#partners" class="menu-bar w3-right w3-button w3-mobile">Partners</a>
+    <a href="#events" class="menu-bar w3-right w3-button w3-mobile">Events</a>
+    <a href="#news" class="menu-bar w3-right w3-button w3-mobile">News</a>
+    <a href="#register" class="menu-bar w3-right w3-button w3-mobile">Register</a>
+    <a href="#programs" class="menu-bar w3-right w3-button w3-mobile">Programs</a>
+    <a href="#about" class="menu-bar w3-right w3-button w3-mobile">About</a>
   </div>
   <!-- Header -->
   <header class="header-container w3-content" style="max-width:1500px;">
@@ -54,18 +54,6 @@
   <!-- Content -->
   <div class="content">
 
-    
-    <script type="text/javascript">
-      $url = 'http://www.foxnews.com/sports/2016/08/14/ryan-lochte-3-other-u-s-swimmers-robbed-in-brazil.html';
-      $content = file_get_contents($url);
-      $first_step = explode( '<div class="article-text">' , $content );
-      $paras = explode("<p>" , $first_step[1] );
-
-      foreach($paras as $para ) {
-        echo $para;
-      }
-    </script>
-
     <!-- Programs -->
     <div class="outer-container w3-center" id="programs">
       <h1><b>Programs</b></h1>
@@ -77,7 +65,7 @@
             <p>High-level position of Health and International relation Professionals</p>
           </div>
           <div class="w3-container w3-red">
-            <a href="#" id="con3">
+            <a onclick="executiveFunc()" href="javascript:void(0)" id="programExecutive">
               <p>Learn More</p>
             </a>
           </div>
@@ -89,7 +77,7 @@
             <p>Design for University Student from second year and up</p>
           </div>
           <div class="w3-container w3-red">
-            <a href="#" id="con3">
+            <a onclick="studentFunc()" href="javascript:void(0)" id="programStudent">
               <p>Coming Soon</p>
             </a>
           </div>
@@ -101,10 +89,79 @@
             <p>High-level position of Health and International relation Professionals</p>
           </div>
           <div class="w3-container w3-red">
-            <a href="#" id="con3">
+            <a onclick="interFunc()" href="javascript:void(0)" id="programIntermediate">
               <p>Coming Soon</p>
             </a>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contentExecutive" class="outer-container w3-hide w3-animate-opacity w3-bar-block">
+      <div class="executive-training-container w3-row-padding">
+        <div class="w3-third image-content-executive">
+          <img src="./img/card1.jpg" class="w3-hover-opacity">
+        </div>
+        <div class="w3-twothird" id="inner-executive-training">
+          <h1><b>EXECUTIVE TRAINING</b></h1>
+          <p><b>Requirements:</b></p>
+          <p>Age</p>
+          <p>Profession</p>
+          <p>Degree</p>
+          </br>
+          <p><b>How to Register:</b></p>
+          <p>1. Please make sure to complete all the application and requirements form</p>
+          <p>2. Send the form to ghd2018@gmail.com with [GDH 2018] Application form_scholarship as a subject</p>
+          <p>3. The announcement will be uploaded in www.GHD.org</p>
+          <p>4. Deadline : April 30, 2018</p>
+          </br>
+          <p>Download booklet : <a href="#">click here</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="contentStudent" class="outer-container w3-hide w3-animate-opacity w3-bar-block">
+      <div class="student-training-container w3-row-padding">
+        <div class="w3-third image-content-student">
+          <img src="./img/card1.jpg" class="w3-hover-opacity">
+        </div>
+        <div class="w3-twothird" id="inner-student-training">
+          <h1><b>STUDENT TRAINING</b></h1>
+          <p><b>Requirements:</b></p>
+          <p>Age</p>
+          <p>Profession</p>
+          <p>Degree</p>
+          </br>
+          <p><b>How to Register:</b></p>
+          <p>1. Please make sure to complete all the application and requirements form</p>
+          <p>2. Send the form to ghd2018@gmail.com with [GDH 2018] Application form_scholarship as a subject</p>
+          <p>3. The announcement will be uploaded in www.GHD.org</p>
+          <p>4. Deadline : April 30, 2018</p>
+          </br>
+          <p>Download booklet : <a href="#">click here</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="contentIntermediate" class="outer-container w3-hide w3-animate-opacity w3-bar-block">
+      <div class="intermediate-training-container w3-row-padding">
+        <div class="w3-third image-content-intermediate">
+          <img src="./img/card1.jpg" class="w3-hover-opacity">
+        </div>
+        <div class="w3-twothird" id="inner-intermediate-training">
+          <h1><b>INTERMEDIATE TRAINING</b></h1>
+          <p><b>Requirements:</b></p>
+          <p>Age</p>
+          <p>Profession</p>
+          <p>Degree</p>
+          </br>
+          <p><b>How to Register:</b></p>
+          <p>1. Please make sure to complete all the application and requirements form</p>
+          <p>2. Send the form to ghd2018@gmail.com with [GDH 2018] Application form_scholarship as a subject</p>
+          <p>3. The announcement will be uploaded in www.GHD.org</p>
+          <p>4. Deadline : April 30, 2018</p>
+          </br>
+          <p>Download booklet : <a href="#">click here</a></p>
         </div>
       </div>
     </div>
@@ -278,14 +335,16 @@
         </div>
       </div>
       <div class="w3-row-padding w3-padding-large">
-        <button type="button" formaction="https://indohun.org/" class="w3-button w3-red w3-margin-top">Visit INDOHUN website</button>
+        <a href="https://indohun.org/">
+          <button type="button" class="w3-button w3-red w3-margin-top">Visit INDOHUN website</button>
+        </a>
       </div>
     </div>
   </div>
 
   <!-- Footer -->
   <footer class="w3-padding-32 w3-center" id="footer">
-    <h5>&copy; 2018 - <a href="#">INDOHUN</a> All Right Reserved</h5>
+    <h5>&copy; 2018 - <a href="https://indohun.org/">INDOHUN</a> All Right Reserved</h5>
     <div class="w3-xlarge w3-padding-large" id="social-link">
       <a href="https://www.facebook.com/indohun.id/">
         <i class="fa fa-facebook-official w3-hover-opacity" id="icon-social"></i>
@@ -307,5 +366,46 @@
   <script src="./js/jquery-1.10.2.min.js"></script>
   <script src="./js/numscroller-1.0.js"></script>
   <script src="./js/prism.js"></script>
+  <script type="text/javascript">
+    // Accordion 
+    function executiveFunc() {
+        var x = document.getElementById("contentExecutive");
+        var y = document.getElementById("contentStudent");
+        var z = document.getElementById("contentIntermediate");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+            y.className = y.className.replace(" w3-show", "");
+            z.className = z.className.replace(" w3-show", "");
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+
+    function studentFunc() {
+        var x = document.getElementById("contentStudent");
+        var y = document.getElementById("contentExecutive");
+        var z = document.getElementById("contentIntermediate");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+            y.className = y.className.replace(" w3-show", "");
+            z.className = z.className.replace(" w3-show", "");
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+
+    function interFunc() {
+        var x = document.getElementById("contentIntermediate");
+        var y = document.getElementById("contentStudent");
+        var z = document.getElementById("contentExecutive");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+            y.className = y.className.replace(" w3-show", "");
+            z.className = z.className.replace(" w3-show", "");
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+  </script>
 </body>
 </html>

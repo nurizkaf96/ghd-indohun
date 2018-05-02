@@ -28,10 +28,46 @@
     font-weight: bold;
 }
 
-#con3 {
+#con3, #programExecutive, #programStudent, #programIntermediate {
     font-size: 1.2rem;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 0.1rem;
+}
+
+#contentExecutive, #contentStudent, #contentIntermediate {
+	display: none;
+	background-color: #51c3e4;
+	padding-bottom: 4rem;
+}
+
+.executive-training-container, .student-training-container, .intermediate-training-container {
+	margin: 0rem 4rem;
+	background-color: white;
+	padding: 0rem !important;
+}
+
+.image-content-executive>img, .image-content-student>img, .image-content-intermediate>img {
+	background: 50% 50%;
+	width: 25rem;
+	height: 25rem;
+}
+
+.image-content-executive, .image-content-student, .image-content-intermediate {
+	padding: 0rem !important;
+}
+
+
+#inner-executive-training, #inner-student-training, #inner-intermediate-training {
+	padding-left: 4rem;
+}
+
+#inner-executive-training>p, #inner-student-training>p, #inner-intermediate-training>p {
+	font-size: 0.8rem;
+	line-height: 0.5rem;
+}
+
+#inner-executive-training>p>a, #inner-student-training>p>a, #inner-intermediate-training>p>a {
+	color: #f44336!important;
 }

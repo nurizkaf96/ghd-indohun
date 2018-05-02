@@ -9,6 +9,7 @@
     border-style: solid;
     border-width: 0.2rem;
     border-color: #ff3f40;
+    align-content: center;
 }
 
 #chat, #messages, #location {

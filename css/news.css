@@ -20,27 +20,3 @@
 	padding-left: 2rem;
 	padding-right: 2rem;
 }
-
-#con1 {
-    font-family: 'Gotham-Book', Fallback, sans-serif;
-    font-size: 1.2rem;
-    border-color: #000;
-    border-bottom: 0.01rem;
-    border-bottom-style: solid;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-#con2 {
-    font-size: 1.2rem;
-    line-height: 0.8rem;
-    font-weight: bold;
-}
-
-#con3 {
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bold;
-    letter-spacing: 0.1rem;
-}
