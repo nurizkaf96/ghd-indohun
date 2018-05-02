@@ -236,7 +236,9 @@
           <h1><b>Training</b></h1>
           <h1><b>2017</b></h1>
           <h6>Diplomacy is undergoing profound changes in the 21st century – and global health is one of the areas where this is most apparent. The negotiation processes that shape and manage the global policy environment for health are increasingly conducted not only between sectors.</h6>
-          <button type="button" class="w3-button w3-red w3-margin-top">Learn More</button>
+          <a href="./post.php">
+            <button type="button" class="w3-button w3-red w3-margin-top">Learn More</button>
+          </a>
         </div>
       </div>
     </div>
@@ -249,7 +251,9 @@
           <h1><b>Our</b></h1>
           <h1><b>Partner</b></h1>
           <h6>Are you the best candidate for our future Global Health Diplomacy Training? Join our Team as Speaker or Volunteer. Also, we are happy to open donate or grant from everyone, particularly Health Philanthropy for Global Health development.</h6>
-          <button type="button" class="w3-button w3-red w3-margin-top">Learn More</button>
+          <a href="./post.php">
+            <button type="button" class="w3-button w3-red w3-margin-top">Learn More</button>
+          </a>
         </div>
         <div class="w3-half" id="image-be-ourpartner">
           <img src="./img/bop.jpg" class="w3-hover-opacity">

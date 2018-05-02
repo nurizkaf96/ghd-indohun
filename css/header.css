@@ -115,7 +115,7 @@
     clear: both;
 }
 
-.navigation-bar {
+.navigation-bar, .navigation-bar-post {
     overflow: hidden;
     background: transparent;
     position: absolute;
@@ -135,6 +135,12 @@
     content: "";
     display: table;
     clear: both;
+}
+
+.navigation-bar-post {
+    position: fixed;
+    z-index: 999;
+    background-color: #2f2f2f;
 }
 
 .menu-bar {
@@ -172,12 +178,13 @@
 }
 
 .navigation-bar .w3-dropdown-hover,
-.navigation-bar .w3-dropdown-click {
+.navigation-bar .w3-dropdown-click, .navigation-bar-post .w3-dropdown-hover,
+.navigation-bar-post .w3-dropdown-click {
     position: static;
     float: left
 }
 
-.navigation-bar .w3-button {
+.navigation-bar .w3-button, .navigation-bar-post .w3-button {
     white-space: normal
 }
 
