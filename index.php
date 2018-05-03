@@ -261,44 +261,109 @@
     <!-- News -->
     <div class="outer-container w3-center" id="news">
       <h1><b>News</b></h1>
-      <div class="w3-padding-large" id="padding-image">
-        <div class="w3-third w3-margin-bottom padding-news-card">
-          <div class="w3-container w3-white" id="text-news">
-            <p>15 Feb 2018</p>
-            <h3><b>Spotlight</b></h3>
-            <p>Lorem ipsum To foster INDOHUN</p>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="slider-container">
+              <div class="w3-padding-large" id="padding-image">
+                <div class="w3-third w3-margin-bottom padding-news-card">
+                  <div class="w3-container w3-white" id="text-news">
+                    <p>15 Feb 2018</p>
+                    <h3><b>Spotlight</b></h3>
+                    <p>Lorem ipsum To foster INDOHUN</p>
+                  </div>
+                  <img src="./img/program/executive.png" class="w3-hover-opacity">
+                  <div class="w3-container w3-red">
+                    <a href="#" id="con3">
+                      <p>Learn More</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="w3-third w3-margin-bottom padding-news-card">
+                  <div class="w3-container w3-white" id="text-news">
+                    <p>15 Feb 2018</p>
+                    <h3><b>World</b></h3>
+                    <p>Lorem ipsum To foster INDOHUN sustainability, it is</p>
+                  </div>
+                  <img src="./img/program/student.png" class="w3-hover-opacity">
+                  <div class="w3-container w3-red">
+                    <a href="#" id="con3">
+                      <p>Learn More</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="w3-third w3-margin-bottom padding-news-card">
+                  <div class="w3-container w3-white" id="text-news">
+                    <p>15 Feb 2018</p>
+                    <h3><b>In The Media</b></h3>
+                  </div>
+                  <img src="./img/program/intermediate.png" class="w3-hover-opacity">
+                  <div class="w3-container w3-red">
+                    <a href="#" id="con3">
+                      <p>Learn More</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <img src="./img/program/executive.png" class="w3-hover-opacity">
-          <div class="w3-container w3-red">
-            <a href="#" id="con3">
-              <p>Learn More</p>
-            </a>
+
+          <div class="item">
+            <div class="slider-container">
+              <div class="w3-padding-large" id="padding-image">
+                <div class="w3-third w3-margin-bottom padding-news-card">
+                  <div class="w3-container w3-white" id="text-news">
+                    <p>15 Feb 2018</p>
+                    <h3><b>Spotlight</b></h3>
+                    <p>Lorem ipsum To foster INDOHUN</p>
+                  </div>
+                  <img src="./img/program/executive.png" class="w3-hover-opacity">
+                  <div class="w3-container w3-red">
+                    <a href="#" id="con3">
+                      <p>Learn More</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="w3-third w3-margin-bottom padding-news-card">
+                  <div class="w3-container w3-white" id="text-news">
+                    <p>15 Feb 2018</p>
+                    <h3><b>World</b></h3>
+                    <p>Lorem ipsum To foster INDOHUN sustainability, it is</p>
+                  </div>
+                  <img src="./img/program/student.png" class="w3-hover-opacity">
+                  <div class="w3-container w3-red">
+                    <a href="#" id="con3">
+                      <p>Learn More</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="w3-third w3-margin-bottom padding-news-card">
+                  <div class="w3-container w3-white" id="text-news">
+                    <p>15 Feb 2018</p>
+                    <h3><b>In The Media</b></h3>
+                  </div>
+                  <img src="./img/program/intermediate.png" class="w3-hover-opacity">
+                  <div class="w3-container w3-red">
+                    <a href="#" id="con3">
+                      <p>Learn More</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="w3-third w3-margin-bottom padding-news-card">
-          <div class="w3-container w3-white" id="text-news">
-            <p>15 Feb 2018</p>
-            <h3><b>World</b></h3>
-            <p>Lorem ipsum To foster INDOHUN sustainability, it is</p>
-          </div>
-          <img src="./img/program/student.png" class="w3-hover-opacity">
-          <div class="w3-container w3-red">
-            <a href="#" id="con3">
-              <p>Learn More</p>
-            </a>
-          </div>
-        </div>
-        <div class="w3-third w3-margin-bottom padding-news-card">
-          <div class="w3-container w3-white" id="text-news">
-            <p>15 Feb 2018</p>
-            <h3><b>In The Media</b></h3>
-          </div>
-          <img src="./img/program/intermediate.png" class="w3-hover-opacity">
-          <div class="w3-container w3-red">
-            <a href="#" id="con3">
-              <p>Learn More</p>
-            </a>
-          </div>
+
+          <!-- Left and right controls -->
+          <a id="sebelum" class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="fa fa-long-arrow-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a id="sesudah" class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="fa fa-long-arrow-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
     </div>
@@ -387,5 +452,8 @@
   <script src="./js/prism.js"></script>
   <script src="./js/navbar.js"></script>
   <script src="./js/accordion.js"></script>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/setting-carousel.js"></script>
 </body>
 </html>

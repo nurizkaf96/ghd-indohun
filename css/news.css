@@ -10,6 +10,17 @@
     font-size: 3.125rem;
 }
 
+.slider-container {
+    height: auto;
+    width: auto;
+}
+
+#sebelum, #sesudah {
+    color: #ffffff;
+    z-index: 999;
+    padding: 1.3rem 1.3rem;
+}
+
 #text-news {
     padding: 0 1.5625rem;
     padding-top: 0.5rem;
