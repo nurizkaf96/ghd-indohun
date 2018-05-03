@@ -189,7 +189,7 @@
         <h6> This training prepares participants with negotiation and policy skills to help them in influencing people, collaboration, and decision making at national and international level.</h6>
         <div id="number-container">
           <div class="w3-quarter">
-            <div id="number" class="w3-row w3-margin-bottom w3-center">
+            <div id="number" class="w3-row">
               <span class='numscroller' data-min='0' data-max='28' data-delay='1' data-increment='1'>28</span>
               <h4><b>institutions</b></h4>
               <div class="garisbawah"></div>
@@ -197,7 +197,7 @@
             </div>
           </div>
           <div class="w3-quarter">
-            <div id="number" class="w3-row w3-margin-bottom">
+            <div id="number" class="w3-row">
               <span class='numscroller' data-min='0' data-max='3' data-delay='1' data-increment='1'>3</span>
               <h4><b>days</b></h4>
               <div class="garisbawah"></div>
@@ -205,7 +205,7 @@
             </div>
           </div>
           <div class="w3-quarter">
-            <div id="number" class="w3-row w3-margin-bottom">
+            <div id="number" class="w3-row">
               <span class='numscroller' data-min='0' data-max='12' data-delay='1' data-increment='1'>12</span>
               <h4><b>classes</b></h4>
               <div class="garisbawah"></div>
@@ -213,7 +213,7 @@
             </div>
           </div>
           <div class="w3-quarter">
-            <div id="number" class="w3-row w3-margin-bottom">
+            <div id="number" class="w3-row">
               <span class='numscroller' data-min='0' data-max='9' data-delay='1' data-increment='1'>9</span>
               <h4><b>speakers</b></h4>
               <div class="garisbawah"></div>
@@ -234,7 +234,7 @@
         </div>
         <div class="w3-half" id="inner-training">
           <h1>GHD Training 2017</h1>
-          <h6>Diplomacy is undergoing profound changes in the 21st century – and global health is one of the areas where this is most apparent. The negotiation processes that shape and manage the global policy environment for health are increasingly conducted not only between sectors.</h6>
+          <h6>Diplomacy is undergoing profound changes in the 21st century – and global health is one of the areas where this is most apparent.</h6>
           <a href="./post.php">
             <button type="button" class="w3-button w3-red w3-margin-top">Learn More</button>
           </a>
@@ -262,38 +262,38 @@
     <div class="outer-container w3-center" id="news">
       <h1><b>News</b></h1>
       <div class="w3-padding-large" id="padding-image">
-        <div class="w3-third w3-margin-bottom padding-program-card">
+        <div class="w3-third w3-margin-bottom padding-news-card">
           <div class="w3-container w3-white" id="text-news">
             <p>15 Feb 2018</p>
             <h3><b>Spotlight</b></h3>
             <p>Lorem ipsum To foster INDOHUN</p>
           </div>
-          <img src="./img/card1.jpg" style="width:100%; height: 15rem" class="w3-hover-opacity">
+          <img src="./img/program/executive.png" class="w3-hover-opacity">
           <div class="w3-container w3-red">
             <a href="#" id="con3">
               <p>Learn More</p>
             </a>
           </div>
         </div>
-        <div class="w3-third w3-margin-bottom padding-program-card">
+        <div class="w3-third w3-margin-bottom padding-news-card">
           <div class="w3-container w3-white" id="text-news">
             <p>15 Feb 2018</p>
             <h3><b>World</b></h3>
             <p>Lorem ipsum To foster INDOHUN sustainability, it is</p>
           </div>
-          <img src="./img/card2.jpg" style="width:100%; height: 15rem" class="w3-hover-opacity">
+          <img src="./img/program/student.png" class="w3-hover-opacity">
           <div class="w3-container w3-red">
             <a href="#" id="con3">
               <p>Learn More</p>
             </a>
           </div>
         </div>
-        <div class="w3-third w3-margin-bottom padding-program-card">
+        <div class="w3-third w3-margin-bottom padding-news-card">
           <div class="w3-container w3-white" id="text-news">
             <p>15 Feb 2018</p>
             <h3><b>In The Media</b></h3>
           </div>
-          <img src="./img/card1.jpg" style="width:100%; height: 15rem" class="w3-hover-opacity">
+          <img src="./img/program/intermediate.png" class="w3-hover-opacity">
           <div class="w3-container w3-red">
             <a href="#" id="con3">
               <p>Learn More</p>

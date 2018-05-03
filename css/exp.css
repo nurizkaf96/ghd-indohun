@@ -2,9 +2,10 @@
     margin: 0.7rem;
     font-size: 4.2rem;
     font-weight: bold;
-    font-family: 'Gotham', Fallback, sans-serif;
-    padding-top: 3.1rem !important;
+    font-family: Gotham;
     text-align: center;
+    margin-bottom: 1rem !important;
+    margin-top: 0 !important;
 }
 
 #number-container {
@@ -24,12 +25,12 @@
 }
 
 #red-back-number {
-	background-color: red;
+	background-color: #ff3f40;
 	background: linear-gradient(rgba(255,0,0,1), rgba(255,0,0,0));
 	width: auto;
-	height: 30rem;
+	height: 20rem;
 	position: static;
-	margin-top: 10rem !important;
+	margin-top: 6.3rem !important;
 	margin: 0 7rem;
 }
 
@@ -47,23 +48,23 @@
 #experience {
 	background-image: url(../img/hero/experience.png);
 	background-repeat: no-repeat;
+	background-size: 100%;
     padding-bottom: 0;
-    background-size: cover;
 }
 
 #experience>.outer-container>h4 {
     color: #ff3f40;
-    width: 70%;
+    width: 64%;
     margin: auto;
-    font-size: 2rem;
-    letter-spacing: 0.3rem;
+    font-size: 1.875rem;
+    letter-spacing: 0.05rem;
 }
 
 #experience>.outer-container>h6 {
-    width: 70%;
+    width: 64%;
     margin: 2.3rem auto;
-    margin-bottom: 3rem;
-    font-size: 1.7rem;
+    margin-bottom: 3.1rem;
+    font-size: 1.25rem;
 }
 
 #experience>.outer-container>h1 {

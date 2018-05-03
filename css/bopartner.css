@@ -4,20 +4,22 @@
 }
 
 #inner-be-ourpartner>h1 {
-	font-size: 3.7rem;
+	font-size: 3.125rem;
 	margin-left: auto;
 	width: 50%;
 	font-weight: bold;
 	text-align: right;
 	line-height: 4rem;
 	font-family: Gotham;
+	line-height: 3.5rem;
 }
 
 #inner-be-ourpartner>h6 {
 	font-size: 1.25rem;
-	width: 80%;
+	width: 100%;
 	margin-left: auto;
 	font-family: Gotham;
+	line-height: 1.5rem;
 }
 
 #image-be-ourpartner>img {
