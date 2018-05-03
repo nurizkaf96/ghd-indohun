@@ -1,9 +1,9 @@
 #number {
     margin: 0.7rem;
-    font-size: 4rem;
+    font-size: 4.2rem;
     font-weight: bold;
     font-family: 'Gotham', Fallback, sans-serif;
-    padding-top: 1rem !important;
+    padding-top: 3.1rem !important;
     text-align: center;
 }
 
@@ -13,26 +13,62 @@
 }
 
 #number>p {
-	font-size: 0.9rem;
+	font-size: 1.1rem;
 	text-align: left;
 	font-weight: normal;
 }
 
+#number>h4 {
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+#red-back-number {
+	background-color: red;
+	background: linear-gradient(rgba(255,0,0,1), rgba(255,0,0,0));
+	width: auto;
+	height: 30rem;
+	position: static;
+	margin-top: 10rem !important;
+	margin: 0 7rem;
+}
+
+#coverbackground {
+	background-color: white;
+	background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1));
+	width: 100%;
+	height: 10rem;
+	position: static;
+	margin: 0;
+	margin-top: -10rem;
+	padding: 0 !important;
+}
+
 #experience {
-	background-image: url(../img/backexp.jpg);
-    padding-bottom: 4rem;
+	background-image: url(../img/hero/experience.png);
+	background-repeat: no-repeat;
+    padding-bottom: 0;
+    background-size: cover;
 }
 
-#experience>h4 {
+#experience>.outer-container>h4 {
     color: #ff3f40;
-    width: 40%;
+    width: 60%;
     margin: auto;
+    font-size: 2rem;
 }
 
-#experience>h6 {
-    width: 40%;
-    margin: 1rem auto;
+#experience>.outer-container>h6 {
+    width: 60%;
+    margin: 2.3rem auto;
     margin-bottom: 3rem;
+    font-size: 1.7rem;
+}
+
+#experience>.outer-container>h1 {
+	font-size: 3.125rem;
+	font-weight: bold;
+	margin-bottom: 2.6rem;
 }
 
 .garisbawah {
@@ -40,5 +76,5 @@
     border: 0;
     border-top: 0.5rem solid #000;
     width: 3rem;
-    margin: 2rem;
+    margin: 2rem auto;
 }

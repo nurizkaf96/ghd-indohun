@@ -65,7 +65,7 @@
     <a href="#programs" class="w3-bar-item w3-button w3-padding-large">Programs</a>
     <a href="#about" class="w3-bar-item w3-button w3-padding-large">About</a>
   </div>
-  <img class="w3-image" src="./img/headerimg.jpg" alt="Header Image">
+  <img class="w3-image" src="./img/hero/header.png" alt="Header Image">
 </header>
 
 <body>
@@ -77,7 +77,7 @@
       <h1><b>Programs</b></h1>
       <div class="w3-padding-large" id="padding-image">
         <div class="w3-third w3-margin-bottom padding-program-card">
-          <img src="./img/card1.jpg" style="width:100%; height: 15rem" class="w3-hover-opacity">
+          <img src="./img/program/executive.png" class="w3-image w3-hover-opacity">
           <div class="w3-container w3-white">
             <h3><b>Executive</b></h3>
             <p>High-level position of Health and International relation Professionals</p>
@@ -89,7 +89,7 @@
           </div>
         </div>
         <div class="w3-third w3-margin-bottom padding-program-card">
-          <img src="./img/card2.jpg" style="width:100%; height: 15rem" class="w3-hover-opacity">
+          <img src="./img/program/student.png" class="w3-image w3-hover-opacity">
           <div class="w3-container w3-white">
             <h3><b>Student</b></h3>
             <p>Design for University Student from second year and up</p>
@@ -101,7 +101,7 @@
           </div>
         </div>
         <div class="w3-third w3-margin-bottom padding-program-card">
-          <img src="./img/card1.jpg" style="width:100%; height: 15rem" class="w3-hover-opacity">
+          <img src="./img/program/intermediate.png" class="w3-image w3-hover-opacity">
           <div class="w3-container w3-white">
             <h3><b>Intermediate</b></h3>
             <p>High-level position of Health and International relation Professionals</p>
@@ -118,7 +118,7 @@
     <div id="contentExecutive" class="outer-container w3-hide w3-animate-opacity w3-bar-block">
       <div class="executive-training-container w3-row-padding">
         <div class="w3-third image-content-executive">
-          <img src="./img/card1.jpg" class="w3-hover-opacity">
+          <img src="./img/program/executive.png" class="w3-hover-opacity">
         </div>
         <div class="w3-twothird" id="inner-executive-training">
           <h1><b>EXECUTIVE TRAINING</b></h1>
@@ -185,56 +185,58 @@
     </div>
 
     <!-- Experience -->
-    <div class="outer-container w3-center" id="experience">
-      <h1><b>The Experience</b></h1>
-      <h4><b>Global Health Diplomacy (GHD) Training</b> is a three to five-day intensive program that combine 40 percent theory and 60 percent practice.</h4>
-      <h6> This training prepares participants with negotiation and policy skills to help them in influencing people, collaboration, and decision making at national and international level.</h6>
-      <div id="number-container">
-        <div class="w3-quarter">
-          <div id="number" class="w3-row w3-margin-bottom w3-center">
-            <span class='numscroller' data-min='0' data-max='28' data-delay='1' data-increment='1'>28</span>
-            <h4><b>institutions</b></h4>
-            <div class="garisbawah"></div>
-            <p>Representatives of national & international institutions involved</p>
+    <div class="w3-center" id="experience">
+      <div class="outer-container">
+        <h1><b>The Experience</b></h1>
+        <h4><b>Global Health Diplomacy (GHD) Training</b> is a three to five-day intensive program that combine 40 percent theory and 60 percent practice.</h4>
+        <h6> This training prepares participants with negotiation and policy skills to help them in influencing people, collaboration, and decision making at national and international level.</h6>
+        <div id="number-container">
+          <div class="w3-quarter">
+            <div id="number" class="w3-row w3-margin-bottom w3-center">
+              <span class='numscroller' data-min='0' data-max='28' data-delay='1' data-increment='1'>28</span>
+              <h4><b>institutions</b></h4>
+              <div class="garisbawah"></div>
+              <p>Representatives of national & international institutions involved</p>
+            </div>
+          </div>
+          <div class="w3-quarter">
+            <div id="number" class="w3-row w3-margin-bottom">
+              <span class='numscroller' data-min='0' data-max='3' data-delay='1' data-increment='1'>3</span>
+              <h4><b>days</b></h4>
+              <div class="garisbawah"></div>
+              <p>Multi-Stage Negotiation Simulation sessions</p>
+            </div>
+          </div>
+          <div class="w3-quarter">
+            <div id="number" class="w3-row w3-margin-bottom">
+              <span class='numscroller' data-min='0' data-max='12' data-delay='1' data-increment='1'>12</span>
+              <h4><b>classes</b></h4>
+              <div class="garisbawah"></div>
+              <p>Global health and diplomatic practice</p>
+            </div>
+          </div>
+          <div class="w3-quarter">
+            <div id="number" class="w3-row w3-margin-bottom">
+              <span class='numscroller' data-min='0' data-max='9' data-delay='1' data-increment='1'>9</span>
+              <h4><b>speakers</b></h4>
+              <div class="garisbawah"></div>
+              <p>International level</p>
+            </div>
           </div>
         </div>
-        <div class="w3-quarter">
-          <div id="number" class="w3-row w3-margin-bottom">
-            <span class='numscroller' data-min='0' data-max='3' data-delay='1' data-increment='1'>3</span>
-            <h4><b>days</b></h4>
-            <div class="garisbawah"></div>
-            <p>Multi-Stage Negotiation Simulation sessions</p>
-          </div>
-        </div>
-        <div class="w3-quarter">
-          <div id="number" class="w3-row w3-margin-bottom">
-            <span class='numscroller' data-min='0' data-max='12' data-delay='1' data-increment='1'>12</span>
-            <h4><b>classes</b></h4>
-            <div class="garisbawah"></div>
-            <p>Global health and diplomatic practice</p>
-          </div>
-        </div>
-        <div class="w3-quarter">
-          <div id="number" class="w3-row w3-margin-bottom">
-            <span class='numscroller' data-min='0' data-max='9' data-delay='1' data-increment='1'>9</span>
-            <h4><b>speakers</b></h4>
-            <div class="garisbawah"></div>
-            <p>International level</p>
-          </div>
-        </div>
+        <div id="red-back-number"></div>
       </div>
+      <div id="coverbackground"></div>
     </div>
 
     <!-- Training -->
     <div class="outer-container" id="training">
       <div id="training-container">
         <div class="w3-half" id="image-training">
-          <img src="./img/training.jpg" class="w3-hover-opacity">
+          <img src="./img/article/ghd-17.png" class="w3-hover-opacity">
         </div>
         <div class="w3-half" id="inner-training">
-          <h1><b>GHD</b></h1>
-          <h1><b>Training</b></h1>
-          <h1><b>2017</b></h1>
+          <h1><b>GHD Training 2017</b></h1>
           <h6>Diplomacy is undergoing profound changes in the 21st century – and global health is one of the areas where this is most apparent. The negotiation processes that shape and manage the global policy environment for health are increasingly conducted not only between sectors.</h6>
           <a href="./post.php">
             <button type="button" class="w3-button w3-red w3-margin-top">Learn More</button>
@@ -247,16 +249,14 @@
     <div class="outer-container" id="be-ourpartner">
       <div id="be-ourpartner-container">
         <div class="w3-half" id="inner-be-ourpartner">
-          <h1><b>Be</b></h1>
-          <h1><b>Our</b></h1>
-          <h1><b>Partner</b></h1>
+          <h1><b>Be Our Partner</b></h1>
           <h6>Are you the best candidate for our future Global Health Diplomacy Training? Join our Team as Speaker or Volunteer. Also, we are happy to open donate or grant from everyone, particularly Health Philanthropy for Global Health development.</h6>
           <a href="./post.php">
             <button type="button" class="w3-button w3-red w3-margin-top">Learn More</button>
           </a>
         </div>
         <div class="w3-half" id="image-be-ourpartner">
-          <img src="./img/bop.jpg" class="w3-hover-opacity">
+          <img src="./img/article/bop.png" class="w3-hover-opacity">
         </div>
       </div>
     </div>
@@ -314,13 +314,13 @@
         </div>
         <div class="w3-third w3-container w3-margin-bottom w3-center">
           <div class="w3-third w3-container w3-margin-bottom">
-            <img src="./img/usaid.png" alt="usaid" style="width: 8rem; height: 4rem;" class="w3-hover-opacity">
+            <img src="./img/partner/USAID.png" alt="usaid" style="width: 8rem; height: 4rem;" class="w3-hover-opacity">
           </div>
           <div class="w3-third w3-container w3-margin-bottom">
-            <img src="./img/seaohun.png" alt="usaid" style="width: 6rem; height: 4rem;" class="w3-hover-opacity">
+            <img src="./img/partner/SEAOHUN.png" alt="usaid" style="width: 8rem; height: 4rem;" class="w3-hover-opacity">
           </div>
           <div class="w3-third w3-container w3-margin-bottom">
-            <img src="./img/onehealth.png" alt="usaid" style="width: 8rem; height: 4rem;" class="w3-hover-opacity">
+            <img src="./img/partner/OHW.png" alt="usaid" style="width: 8rem; height: 4rem;" class="w3-hover-opacity">
           </div>
         </div>
         <div class="w3-third w3-container w3-margin-bottom">
@@ -333,7 +333,7 @@
       <div class="w3-row-padding container-intouch">
         <div class="w3-third w3-container w3-margin-bottom" id="chat">
           <div class="w3-half">
-            <img src="./img/chat.png" style="width: 4rem">
+            <img src="./img/intouch/chat.png" style="width: 4rem">
           </div>
           <div class="w3-half">
             <p>847-939-9359</p>
@@ -341,7 +341,7 @@
         </div>
         <div class="w3-third w3-container w3-margin-bottom" id="messages">
           <div class="w3-half">
-            <img src="./img/message.png" style="width: 4rem">
+            <img src="./img/intouch/message.png" style="width: 4rem">
           </div>
           <div class="w3-half">
             <p>montreal@mail.com</p>
@@ -349,7 +349,7 @@
         </div>
         <div class="w3-third w3-container w3-margin-bottom" id="location">
           <div class="w3-half">
-            <img src="./img/globe.png" style="width: 4rem">
+            <img src="./img/intouch/globe.png" style="width: 4rem">
           </div>
           <div class="w3-half">
             <p>4116 Oak Avenue</br>Chicago, IL 60607</p>
