@@ -6,6 +6,7 @@
     text-align: center;
     margin-bottom: 1rem !important;
     margin-top: 0 !important;
+	padding: 0 1rem;
 }
 
 #number-container {
@@ -17,11 +18,17 @@
 	font-size: 1.1rem;
 	text-align: left;
 	font-weight: normal;
+	width: 90%;
+	margin: 0 auto;
 }
 
 #number>h4 {
 	font-size: 1.6rem;
 	font-weight: bold;
+}
+
+#text-number2 {
+	padding-left: 1rem;
 }
 
 #red-back-number {

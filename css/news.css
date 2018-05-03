@@ -8,6 +8,7 @@
     margin-bottom: 3.03125rem !important;
     margin-top: 2.84375rem !important;
     font-size: 3.125rem;
+    font-weight: bold;
 }
 
 .slider-container {
@@ -18,7 +19,7 @@
 #sebelum, #sesudah {
     color: #ffffff;
     z-index: 999;
-    padding: 1.3rem 1.3rem;
+    padding: 1.2rem 1.3rem;
 }
 
 #text-news {
@@ -34,6 +35,7 @@
     margin-top: 0.225rem !important;
     margin-bottom: 0.3125rem !important;
     width: 80%;
+    font-weight: bold;
 }
 
 #text-news>p {

@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="./css/training.css">
 <link rel="stylesheet" href="./css/bopartner.css">
 <link rel="stylesheet" href="./css/news.css">
+<link rel="stylesheet" href="./css/partner.css">
 <link rel="stylesheet" href="./css/intouch.css">
 <link rel="stylesheet" href="./css/footer.css">
 <link rel="stylesheet" href="./css/prism.css">
@@ -26,13 +27,15 @@
     <div class="w3-rest">
       <a class="w3-bar-item w3-button w3-padding-large w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     </div>
-    <a href="#intouch" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Contact</a>
-    <a href="#partners" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Partners</a>
-    <a href="#events" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Events</a>
-    <a href="#news" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">News</a>
-    <a href="#register" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Register</a>
-    <a href="#programs" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Programs</a>
-    <a href="#about" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">About</a>
+    <div id="topbar-post">
+      <a href="#intouch" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Contact</a>
+      <a href="#partner" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Partners</a>
+      <a href="#events" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Events</a>
+      <a href="#ghd-news" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">News</a>
+      <a href="#register" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Register</a>
+      <a href="#programs" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Programs</a>
+      <a href="#about" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">About</a>
+    </div>
   </div>
   <div id="bawahnyanavbar" class="navigation-bar">
     <div class="header-inner-container w3-col l4 m12 s12">
@@ -55,9 +58,9 @@
   <!-- Navbar on small screens -->
   <div id="navsmall" class="w3-bar-block w3-black w3-hide w3-hide-large w3-top">
     <a href="#intouch" class="w3-bar-item w3-button w3-padding-large">Contact</a>
-    <a href="#partners" class="w3-bar-item w3-button w3-padding-large">Partners</a>
+    <a href="#partner" class="w3-bar-item w3-button w3-padding-large">Partners</a>
     <a href="#events" class="w3-bar-item w3-button w3-padding-large">Events</a>
-    <a href="#news" class="w3-bar-item w3-button w3-padding-large">News</a>
+    <a href="#ghd-news" class="w3-bar-item w3-button w3-padding-large">News</a>
     <a href="#register" class="w3-bar-item w3-button w3-padding-large">Register</a>
     <a href="#programs" class="w3-bar-item w3-button w3-padding-large">Programs</a>
     <a href="#about" class="w3-bar-item w3-button w3-padding-large">About</a>
@@ -201,7 +204,7 @@
               <span class='numscroller' data-min='0' data-max='3' data-delay='1' data-increment='1'>3</span>
               <h4><b>days</b></h4>
               <div class="garisbawah"></div>
-              <p>Multi-Stage Negotiation Simulation sessions</p>
+              <p id="text-number2">Multi-Stage Negotiation Simulation sessions</p>
             </div>
           </div>
           <div class="w3-quarter">
@@ -209,7 +212,7 @@
               <span class='numscroller' data-min='0' data-max='12' data-delay='1' data-increment='1'>12</span>
               <h4><b>classes</b></h4>
               <div class="garisbawah"></div>
-              <p>Global health and diplomatic practice</p>
+              <p id="text-number2">Global health and diplomatic practice</p>
             </div>
           </div>
           <div class="w3-quarter">
@@ -217,7 +220,7 @@
               <span class='numscroller' data-min='0' data-max='9' data-delay='1' data-increment='1'>9</span>
               <h4><b>speakers</b></h4>
               <div class="garisbawah"></div>
-              <p>International level</p>
+              <p id="text-number2">International level</p>
             </div>
           </div>
         </div>
@@ -226,41 +229,43 @@
       <div id="coverbackground"></div>
     </div>
 
-    <!-- Training -->
-    <div class="outer-container" id="training">
-      <div id="training-container">
-        <div class="w3-half" id="image-training">
-          <img src="./img/article/ghd-17.png" class="w3-hover-opacity">
-        </div>
-        <div class="w3-half" id="inner-training">
-          <h1>GHD Training 2017</h1>
-          <h6>Diplomacy is undergoing profound changes in the 21st century – and global health is one of the areas where this is most apparent.</h6>
-          <a href="./post.php">
-            <button type="button" class="w3-button w3-red w3-margin-top">Learn More</button>
-          </a>
+    <!-- Learn More -->
+    <div id="learn-more">
+      <div class="outer-container" id="training">
+        <div id="training-container">
+          <div class="w3-half" id="image-training">
+            <img src="./img/article/ghd-17.png" class="w3-hover-opacity">
+          </div>
+          <div class="w3-half" id="inner-training">
+            <h1>GHD Training 2017</h1>
+            <h6>Diplomacy is undergoing profound changes in the 21st century – and global health is one of the areas where this is most apparent.</h6>
+            <a href="./post.php">
+              <button type="button" class="w3-button w3-red w3-margin-top">Learn More</button>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Be Our Partner -->
-    <div class="outer-container" id="be-ourpartner">
-      <div id="be-ourpartner-container">
-        <div class="w3-half" id="inner-be-ourpartner">
-          <h1>Be Our Partner</h1>
-          <h6>Are you the best candidate for our future Global Health Diplomacy Training? Join our Team as Speaker or Volunteer. Also, we are happy to open donate or grant from everyone, particularly Health Philanthropy for Global Health development.</h6>
-          <a href="./post.php">
-            <button type="button" class="w3-button w3-red w3-margin-top">Learn More</button>
-          </a>
-        </div>
-        <div class="w3-half" id="image-be-ourpartner">
-          <img src="./img/article/bop.png" class="w3-hover-opacity">
+      <!-- Be Our Partner -->
+      <div class="outer-container" id="be-ourpartner">
+        <div id="be-ourpartner-container">
+          <div class="w3-half" id="inner-be-ourpartner">
+            <h1>Be Our Partner</h1>
+            <h6>Are you the best candidate for our future Global Health Diplomacy Training? Join our Team as Speaker or Volunteer. Also, we are happy to open donate or grant from everyone, particularly Health Philanthropy for Global Health development.</h6>
+            <a href="./post.php">
+              <button type="button" class="w3-button w3-red w3-margin-top">Learn More</button>
+            </a>
+          </div>
+          <div class="w3-half" id="image-be-ourpartner">
+            <img src="./img/article/bop.png" class="w3-hover-opacity">
+          </div>
         </div>
       </div>
-    </div>
+    </div>  
 
     <!-- News -->
     <div class="outer-container w3-center" id="news">
-      <h1><b>News</b></h1>
+      <h1 id="ghd-news">News</h1>
       <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
 
         <!-- Wrapper for slides -->
@@ -271,7 +276,7 @@
                 <div class="w3-third w3-margin-bottom padding-news-card">
                   <div class="w3-container w3-white" id="text-news">
                     <p>15 Feb 2018</p>
-                    <h3><b>Spotlight</b></h3>
+                    <h3>Spotlight</h3>
                     <p>Lorem ipsum To foster INDOHUN</p>
                   </div>
                   <img src="./img/program/executive.png" class="w3-hover-opacity">
@@ -370,19 +375,19 @@
 
     <!-- Our Partner -->
     <div class="outer-container w3-center" id="partner">
-      <h1><b>Our Partner</b></h1>
-      <div class="w3-row-padding w3-padding-large">
+      <h1>Our Partner</h1>
+      <div class="w3-row-padding" id="partner-container">
         <div class="w3-third w3-container w3-margin-bottom">
         </div>
         <div class="w3-third w3-container w3-margin-bottom w3-center">
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="./img/partner/USAID.png" alt="usaid" style="width: 8rem; height: 4rem;" class="w3-hover-opacity">
+          <div class="w3-third w3-container w3-margin-bottom" id="partner-img">
+            <img src="./img/partner/USAID.png" class="w3-hover-opacity">
           </div>
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="./img/partner/SEAOHUN.png" alt="usaid" style="width: 8rem; height: 4rem;" class="w3-hover-opacity">
+          <div class="w3-third w3-container w3-margin-bottom" id="partner-img">
+            <img src="./img/partner/SEAOHUN.png" class="w3-hover-opacity">
           </div>
-          <div class="w3-third w3-container w3-margin-bottom">
-            <img src="./img/partner/OHW.png" alt="usaid" style="width: 8rem; height: 4rem;" class="w3-hover-opacity">
+          <div class="w3-third w3-container w3-margin-bottom" id="partner-img">
+            <img src="./img/partner/OHW.png" class="w3-hover-opacity">
           </div>
         </div>
         <div class="w3-third w3-container w3-margin-bottom">
@@ -391,36 +396,36 @@
     </div>
 
     <div class="outer-container w3-center" id="intouch">
-      <h1><b>Get In Touch</b></h1>
+      <h1>Get In Touch</h1>
       <div class="w3-row-padding container-intouch">
         <div class="w3-third w3-container w3-margin-bottom" id="chat">
-          <div class="w3-half">
-            <img src="./img/intouch/chat.png" style="width: 4rem">
+          <div class="w3-half" id="img-intouch">
+            <img src="./img/intouch/chat.png">
           </div>
-          <div class="w3-half">
+          <div class="w3-half" id="text-intouch">
             <p>847-939-9359</p>
           </div>
         </div>
         <div class="w3-third w3-container w3-margin-bottom" id="messages">
-          <div class="w3-half">
-            <img src="./img/intouch/message.png" style="width: 4rem">
+          <div class="w3-half" id="img-intouch">
+            <img src="./img/intouch/message.png">
           </div>
-          <div class="w3-half">
+          <div class="w3-half" id="text-intouch">
             <p>montreal@mail.com</p>
           </div>
         </div>
         <div class="w3-third w3-container w3-margin-bottom" id="location">
-          <div class="w3-half">
-            <img src="./img/intouch/globe.png" style="width: 4rem">
+          <div class="w3-half" id="img-intouch">
+            <img src="./img/intouch/globe.png">
           </div>
-          <div class="w3-half">
+          <div class="w3-half" id="text-intouch">
             <p>4116 Oak Avenue</br>Chicago, IL 60607</p>
           </div>
         </div>
       </div>
       <div class="w3-row-padding w3-padding-large">
         <a href="https://indohun.org/">
-          <button type="button" class="w3-button w3-red w3-margin-top">Visit INDOHUN website</button>
+          <button type="button" class="w3-button w3-red w3-margin-top" id="button-source">Visit INDOHUN website</button>
         </a>
       </div>
     </div>
