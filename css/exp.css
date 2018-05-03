@@ -8,7 +8,7 @@
 }
 
 #number-container {
-    width: 55%;
+    width: 70%;
     margin: auto;
 }
 
@@ -53,13 +53,14 @@
 
 #experience>.outer-container>h4 {
     color: #ff3f40;
-    width: 60%;
+    width: 70%;
     margin: auto;
     font-size: 2rem;
+    letter-spacing: 0.3rem;
 }
 
 #experience>.outer-container>h6 {
-    width: 60%;
+    width: 70%;
     margin: 2.3rem auto;
     margin-bottom: 3rem;
     font-size: 1.7rem;
@@ -69,6 +70,7 @@
 	font-size: 3.125rem;
 	font-weight: bold;
 	margin-bottom: 2.6rem;
+	margin-top: 6rem;
 }
 
 .garisbawah {

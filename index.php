@@ -14,11 +14,10 @@
 <link rel="stylesheet" href="./css/intouch.css">
 <link rel="stylesheet" href="./css/footer.css">
 <link rel="stylesheet" href="./css/prism.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <!-- Header -->
-<header class="header-container w3-content" style="max-width:1500px;">
+<header class="header-container w3-content">
   <!-- Navigation Bar -->
   <div class="navigation-bar">
     <div class="s2">
@@ -36,9 +35,8 @@
     <a href="#about" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">About</a>
   </div>
   <div id="bawahnyanavbar" class="navigation-bar">
-  <!-- <div class="w3-display-left w3-padding w3-col l6 m12 s12"> -->
     <div class="header-inner-container w3-col l4 m12 s12">
-      <p class="w3-hide-small w3-hide-medium">DIPLOMACY</br>NEEDS</br>ACTION</p>
+      <p class="w3-hide-small w3-hide-medium" id="text-big">DIPLOMACY</br>NEEDS</br>ACTION</p>
       <div id="con1" class="inner2-container w3-white">
         <p>GHD Training</p>
       </div>
@@ -52,7 +50,6 @@
         </a>
       </div>
     </div>
-  <!-- </div> -->
   </div>
 
   <!-- Navbar on small screens -->
@@ -74,12 +71,12 @@
 
     <!-- Programs -->
     <div class="outer-container w3-center" id="programs">
-      <h1><b>Programs</b></h1>
+      <h1>Programs</h1>
       <div class="w3-padding-large" id="padding-image">
         <div class="w3-third w3-margin-bottom padding-program-card">
           <img src="./img/program/executive.png" class="w3-image w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <h3><b>Executive</b></h3>
+          <div class="w3-container w3-white" id="text-card">
+            <h3>Executive</h3>
             <p>High-level position of Health and International relation Professionals</p>
           </div>
           <div class="w3-container w3-red">
@@ -90,8 +87,8 @@
         </div>
         <div class="w3-third w3-margin-bottom padding-program-card">
           <img src="./img/program/student.png" class="w3-image w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <h3><b>Student</b></h3>
+          <div class="w3-container w3-white" id="text-card">
+            <h3>Student</h3>
             <p>Design for University Student from second year and up</p>
           </div>
           <div class="w3-container w3-red">
@@ -102,8 +99,8 @@
         </div>
         <div class="w3-third w3-margin-bottom padding-program-card">
           <img src="./img/program/intermediate.png" class="w3-image w3-hover-opacity">
-          <div class="w3-container w3-white">
-            <h3><b>Intermediate</b></h3>
+          <div class="w3-container w3-white" id="text-card">
+            <h3>Intermediate</h3>
             <p>High-level position of Health and International relation Professionals</p>
           </div>
           <div class="w3-container w3-red">
@@ -141,7 +138,7 @@
     <div id="contentStudent" class="outer-container w3-hide w3-animate-opacity w3-bar-block">
       <div class="student-training-container w3-row-padding">
         <div class="w3-third image-content-student">
-          <img src="./img/card1.jpg" class="w3-hover-opacity">
+          <img src="./img/program/student.png" class="w3-hover-opacity">
         </div>
         <div class="w3-twothird" id="inner-student-training">
           <h1><b>STUDENT TRAINING</b></h1>
@@ -164,7 +161,7 @@
     <div id="contentIntermediate" class="outer-container w3-hide w3-animate-opacity w3-bar-block">
       <div class="intermediate-training-container w3-row-padding">
         <div class="w3-third image-content-intermediate">
-          <img src="./img/card1.jpg" class="w3-hover-opacity">
+          <img src="./img/program/intermediate.png" class="w3-hover-opacity">
         </div>
         <div class="w3-twothird" id="inner-intermediate-training">
           <h1><b>INTERMEDIATE TRAINING</b></h1>
@@ -236,7 +233,7 @@
           <img src="./img/article/ghd-17.png" class="w3-hover-opacity">
         </div>
         <div class="w3-half" id="inner-training">
-          <h1><b>GHD Training 2017</b></h1>
+          <h1>GHD Training 2017</h1>
           <h6>Diplomacy is undergoing profound changes in the 21st century – and global health is one of the areas where this is most apparent. The negotiation processes that shape and manage the global policy environment for health are increasingly conducted not only between sectors.</h6>
           <a href="./post.php">
             <button type="button" class="w3-button w3-red w3-margin-top">Learn More</button>
@@ -249,7 +246,7 @@
     <div class="outer-container" id="be-ourpartner">
       <div id="be-ourpartner-container">
         <div class="w3-half" id="inner-be-ourpartner">
-          <h1><b>Be Our Partner</b></h1>
+          <h1>Be Our Partner</h1>
           <h6>Are you the best candidate for our future Global Health Diplomacy Training? Join our Team as Speaker or Volunteer. Also, we are happy to open donate or grant from everyone, particularly Health Philanthropy for Global Health development.</h6>
           <a href="./post.php">
             <button type="button" class="w3-button w3-red w3-margin-top">Learn More</button>

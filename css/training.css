@@ -9,6 +9,9 @@
 
 #image-training>img {
 	height: 25rem;
+	width: auto;
+	float: right;
+	margin-right: 4rem;
 }
 
 #training-container {
@@ -19,4 +22,11 @@
 
 #inner-training>h1 {
 	font-size: 3.7rem;
+	font-weight: bold;
+	font-family: Gotham;
+}
+
+#inner-training>h6 {
+	font-size: 1.25rem;
+	font-family: Gotham;
 }
