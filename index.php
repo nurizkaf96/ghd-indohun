@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
-<title>Global Health Diplomacy</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./css/w3.css">
-<link rel="stylesheet" href="./css/header.css">
-<link rel="stylesheet" href="./css/style-basic.css">
-<link rel="stylesheet" href="./css/programs.css">
-<link rel="stylesheet" href="./css/exp.css">
-<link rel="stylesheet" href="./css/training.css">
-<link rel="stylesheet" href="./css/bopartner.css">
-<link rel="stylesheet" href="./css/news.css">
-<link rel="stylesheet" href="./css/partner.css">
-<link rel="stylesheet" href="./css/intouch.css">
-<link rel="stylesheet" href="./css/footer.css">
-<link rel="stylesheet" href="./css/prism.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<head>
+  <title>Global Health Diplomacy</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/w3.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/style-basic.css">
+  <link rel="stylesheet" href="./css/programs.css">
+  <link rel="stylesheet" href="./css/exp.css">
+  <link rel="stylesheet" href="./css/training.css">
+  <link rel="stylesheet" href="./css/bopartner.css">
+  <link rel="stylesheet" href="./css/news.css">
+  <link rel="stylesheet" href="./css/partner.css">
+  <link rel="stylesheet" href="./css/intouch.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/prism.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
 <!-- Header -->
 <header class="header-container w3-content">
@@ -118,7 +121,7 @@
     <div id="contentExecutive" class="outer-container w3-hide w3-animate-opacity w3-bar-block">
       <div class="executive-training-container w3-row-padding">
         <div class="w3-third image-content-executive">
-          <img src="./img/program/executive.png" class="w3-hover-opacity w3-third">
+          <img src="./img/program/executive.png" class="w3-hover-opacity w3-third w3-image">
         </div>
         <div class="w3-twothird" id="inner-executive-training">
           <h1><b>EXECUTIVE TRAINING</b></h1>
@@ -415,4 +418,5 @@
   <script src="./js/bootstrap.min.js"></script>
   <script src="./js/setting-carousel.js"></script>
 </body>
+
 </html>
