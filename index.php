@@ -118,56 +118,10 @@
     <div id="contentExecutive" class="outer-container w3-hide w3-animate-opacity w3-bar-block">
       <div class="executive-training-container w3-row-padding">
         <div class="w3-third image-content-executive">
-          <img src="./img/program/executive.png" class="w3-hover-opacity">
+          <img src="./img/program/executive.png" class="w3-hover-opacity w3-third">
         </div>
         <div class="w3-twothird" id="inner-executive-training">
           <h1><b>EXECUTIVE TRAINING</b></h1>
-          <p><b>Requirements:</b></p>
-          <p>Age</p>
-          <p>Profession</p>
-          <p>Degree</p>
-          </br>
-          <p><b>How to Register:</b></p>
-          <p>1. Please make sure to complete all the application and requirements form</p>
-          <p>2. Send the form to ghd2018@gmail.com with [GDH 2018] Application form_scholarship as a subject</p>
-          <p>3. The announcement will be uploaded in www.GHD.org</p>
-          <p>4. Deadline : April 30, 2018</p>
-          </br>
-          <p>Download booklet : <a href="#">click here</a></p>
-        </div>
-      </div>
-    </div>
-
-    <div id="contentStudent" class="outer-container w3-hide w3-animate-opacity w3-bar-block">
-      <div class="student-training-container w3-row-padding">
-        <div class="w3-third image-content-student">
-          <img src="./img/program/student.png" class="w3-hover-opacity">
-        </div>
-        <div class="w3-twothird" id="inner-student-training">
-          <h1><b>STUDENT TRAINING</b></h1>
-          <p><b>Requirements:</b></p>
-          <p>Age</p>
-          <p>Profession</p>
-          <p>Degree</p>
-          </br>
-          <p><b>How to Register:</b></p>
-          <p>1. Please make sure to complete all the application and requirements form</p>
-          <p>2. Send the form to ghd2018@gmail.com with [GDH 2018] Application form_scholarship as a subject</p>
-          <p>3. The announcement will be uploaded in www.GHD.org</p>
-          <p>4. Deadline : April 30, 2018</p>
-          </br>
-          <p>Download booklet : <a href="#">click here</a></p>
-        </div>
-      </div>
-    </div>
-
-    <div id="contentIntermediate" class="outer-container w3-hide w3-animate-opacity w3-bar-block">
-      <div class="intermediate-training-container w3-row-padding">
-        <div class="w3-third image-content-intermediate">
-          <img src="./img/program/intermediate.png" class="w3-hover-opacity">
-        </div>
-        <div class="w3-twothird" id="inner-intermediate-training">
-          <h1><b>INTERMEDIATE TRAINING</b></h1>
           <p><b>Requirements:</b></p>
           <p>Age</p>
           <p>Profession</p>
