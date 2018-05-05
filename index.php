@@ -119,8 +119,8 @@
     </div>
 
     <div id="contentExecutive" class="outer-container w3-hide w3-animate-opacity w3-bar-block">
-      <div class="executive-training-container w3-row-padding">
-        <div class="w3-third image-content-executive">
+      <div class="training-container w3-row-padding">
+        <div class="w3-third image-content-programs">
           <img src="./img/program/executive.png" class="w3-hover-opacity w3-third w3-image">
         </div>
         <div class="w3-twothird inner-programs">

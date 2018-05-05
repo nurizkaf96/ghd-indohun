@@ -29,7 +29,7 @@
 	font-size: 0.8rem;
 	font-weight: normal;
 	margin: 0;
-	letter-spacing: 0.06rem;
+	/* letter-spacing: 0.06rem; */
 }
 
 #programExecutive, #programStudent, #programIntermediate {
@@ -46,19 +46,19 @@
 	padding-bottom: 4rem;
 }
 
-.executive-training-container, .student-training-container, .intermediate-training-container {
+.training-container {
 	margin: 0rem 4rem;
 	background-color: white;
 	padding: 0rem !important;
 }
 
-.image-content-executive>img, .image-content-student>img, .image-content-intermediate>img {
+.image-content-programs>img {
 	background: 50% 50%;
 	width: 25rem;
 	height: 25rem;
 }
 
-.image-content-executive, .image-content-student, .image-content-intermediate {
+.image-content-programs {
 	padding: 0rem !important;
 }
 

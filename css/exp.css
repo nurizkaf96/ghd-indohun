@@ -64,7 +64,7 @@
     width: 64%;
     margin: auto;
     font-size: 1.875rem;
-    letter-spacing: 0.05rem;
+    /* letter-spacing: 0.05rem; */
 }
 
 #experience>.outer-container>h6 {
