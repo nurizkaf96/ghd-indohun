@@ -30,17 +30,15 @@ div {
 }
 
 .post-header-full {
-    height: 550px;
+    height: 35rem;
     position: relative;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-color: #161b2d;
+	background-image: url(../img/hero/header.png);
     background-position: center center;
-    background-repeat: none;
+    background-repeat: no-repeat;
     width: 100%;
-    margin: 0 auto;
+    max-width: 100%;
+    margin: 7rem auto;
+    margin-bottom: 0;
     z-index: 4;
 }
 
@@ -368,7 +366,6 @@ h4, .h4, h5, .h5, h6, .h6 {
     margin-top: 10px;
     margin-bottom: 13.3333333333px;
     vertical-align: middle;
-    color: #161b2d;
 }
 
 table {
@@ -564,6 +561,10 @@ small {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+#social-link>a>i {
+	color: #fff;
 }
 
 .big-share-buttons i {

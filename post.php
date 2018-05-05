@@ -49,7 +49,7 @@
 	<!-- Post -->
 	<div class="post-container">
 		<div class="ajax-post post">
-			<div class="post-header-full" style="background-image: url(./img/card1.jpg);">
+			<div class="post-header-full">
 				<div>
 					<div class="container-fluid relative">
 						<section class="section">
@@ -93,5 +93,27 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- Footer -->
+  <footer class="w3-padding-32 w3-center" id="footer">
+    <h5>&copy; 2018 - <a href="https://indohun.org/">INDOHUN</a> All Right Reserved</h5>
+    <div class="w3-xlarge w3-padding-large" id="social-link">
+      <a href="https://www.facebook.com/indohun.id/">
+        <i class="fa fa-facebook-official w3-hover-opacity" id="icon-social"></i>
+      </a>
+      <a href="https://twitter.com/Indohun">
+        <i class="fa fa-twitter w3-hover-opacity" id="icon-social"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-dribbble w3-hover-opacity" id="icon-social"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-google-plus w3-hover-opacity" id="icon-social"></i>
+      </a>
+      <a href="https://www.youtube.com/user/INDONESIAOHUN">
+        <i class="fa fa-youtube w3-hover-opacity" id="icon-social"></i>
+      </a>
+    </div>
+  </footer>
   	<script src="./js/navbar.js"></script>
 </html>

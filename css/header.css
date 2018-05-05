@@ -14,8 +14,7 @@
 }
 
 #con1 {
-    font-family: 'Gotham-Book', Fallback, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     border-color: #000;
     border-bottom: 0.01rem;
     border-bottom-style: solid;
@@ -24,16 +23,23 @@
 }
 
 #con2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 0.8rem;
     font-weight: bold;
 }
 
+#con3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.08rem;
+}
+
 .header-container {
-    padding-bottom: 4rem;
     position: relative;
-    max-width: 100rem;
-    font-family: 'Gotham-Book', Fallback, sans-serif;
+    max-width: 93.75rem;
+    font-family: Gotham;
 }
 
 .header-container:hover .header-hover {
@@ -128,7 +134,7 @@
     padding-bottom: 1rem !important;
     width: 100%;
     height: 10rem;
-    font-family: 'Gotham-Book', Fallback, sans-serif;
+    font-family: Gotham;
     text-align: left;
     text-transform: uppercase;
     color: #ffffff;
@@ -142,26 +148,24 @@
 
 .navigation-bar-post {
     overflow: hidden;
-    background: transparent;
-    position: absolute;
+    position: fixed;
     z-index: 980;
+    top: 0;
     padding: 4rem;
     padding-top: 1rem !important;
     padding-bottom: 0.5rem !important;
     width: 100%;
     height: auto;
-    font-family: 'Gotham-Book', Fallback, sans-serif;
+    font-family: Gotham;
     text-align: left;
     text-transform: uppercase;
     color: #ffffff;
     font-style: normal;
     font-stretch: normal;
     letter-spacing: normal;
-    content: "";
-    display: table;
     clear: both;
-    position: fixed;
     background-color: #2f2f2f;
+    margin-top: 0 !important;
 }
 
 .menu-bar {
@@ -173,6 +177,11 @@
     display: block;
     outline: 0;
     font-weight: bold;
+}
+
+.menu-bar:hover {
+    color: #000!important;
+    background-color: #fff!important;
 }
 
 .w3-logo {
@@ -195,7 +204,15 @@
 
 .w3-logo:hover {
     color: #000!important;
-    background-color: #ccc!important
+    background-color: #fff!important;
+}
+
+#text-big {
+    font-family: Gotham;
+}
+
+#logo-utama {
+    font-family: Gotham;
 }
 
 .navigation-bar .w3-dropdown-hover,

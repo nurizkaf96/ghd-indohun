@@ -3,6 +3,26 @@
 	padding-bottom: 2rem;
 }
 
+#intouch>h1 {
+	font-size: 2.1875rem;
+	font-weight: bold;
+	margin-top: 1.9375rem;
+	margin-bottom: 3.125rem;
+}
+
+#text-intouch {
+	font-size: 0.9rem;
+	line-height: 1.3rem;
+}
+
+#img-intouch>img {
+	width: 4rem;
+}
+
+#button-source {
+	font-size: 1.25rem;
+}
+
 .container-intouch {
     padding: 3rem 1rem !important;
     margin: 0 4rem !important;
