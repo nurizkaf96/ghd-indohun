@@ -5,9 +5,9 @@
 
 #news>h1 {
 	color: #000;
-    margin-bottom: 3.03125rem !important;
-    margin-top: 2.84375rem !important;
-    font-size: 3.125rem;
+    margin-bottom: 3rem !important;
+    margin-top: 3rem !important;
+    font-size: 3rem;
     font-weight: bold;
 }
 
@@ -19,30 +19,28 @@
 #sebelum, #sesudah {
     color: #ffffff;
     z-index: 999;
-    padding: 1.2rem 1.3rem;
+    padding: 1.2rem;
 }
 
 #text-news {
-    padding: 0 1.5625rem;
+    padding: 0 1.5rem;
     padding-top: 0.5rem;
-    height: 12.875rem !important;
+    height: 13rem !important;
 }
 
 #text-news>h3 {
 	text-transform: uppercase;
 	text-align: left;
-    font-size: 1.9625rem;
-    margin-top: 0.225rem !important;
-    margin-bottom: 0.3125rem !important;
-    width: 80%;
+    font-size: 2rem;
+    margin-top: .5rem !important;
+    margin-bottom: .5rem !important;
     font-weight: bold;
 }
 
 #text-news>p {
 	text-align: left;
-    font-size: 0.93125rem;
+    font-size: 1rem;
     margin-top: 1.25rem !important;
-    width: 70%;
 }
 
 .padding-news-card {

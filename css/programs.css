@@ -1,13 +1,13 @@
 #programs {
 	background-color: #51c3e4;
-	padding-bottom: 6.7rem;
+	padding-bottom: 7rem;
 }
 
 #programs>h1 {
 	color: #fff;
 	font-size: 3.125rem;
 	font-weight: bold;
-	margin-bottom: 1.28rem !important;
+	margin-bottom: 1.5rem !important;
 }
 
 .padding-program-card {
@@ -16,7 +16,7 @@
 }
 
 #text-card {
-	padding: 1.6rem 2rem;
+	padding: 1rem 2rem 2rem 2rem;
 }
 
 #text-card>h3 {
