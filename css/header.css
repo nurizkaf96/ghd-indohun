@@ -1,12 +1,15 @@
 @font-face {
     font-family: 'Gotham-Book';
-    src: url('Gotham-Book.otf');
+    src: url('./font');
     /* IE9 Compat Modes */
-    src: url('Gotham-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('Gotham-Book.woff2') format('woff2'), /* Super Modern Browsers */
-    url('Gotham-Book.woff') format('woff'), /* Pretty Modern Browsers */
-    url('Gotham-Book.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('Gotham-Book.svg#svgFontName') format('svg');
+    src: url('./font/Gotham-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./font/Gotham-Book.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('./font/Gotham-Book.woff') format('woff'),
+    /* Pretty Modern Browsers */
+    url('./font/Gotham-Book.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('./font/Gotham-Book.svg#svgFontName') format('svg');
     /* Legacy iOS */
 }
 
@@ -97,7 +100,7 @@
     line-height: 1.2;
     margin: 0;
     margin-bottom: 2rem;
-    letter-spacing: 0.5rem;
+    letter-spacing: -0.2rem;
 }
 
 .inner2-container {
