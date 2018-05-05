@@ -123,19 +123,21 @@
         <div class="w3-third image-content-executive">
           <img src="./img/program/executive.png" class="w3-hover-opacity w3-third w3-image">
         </div>
-        <div class="w3-twothird" id="inner-executive-training">
+        <div class="w3-twothird inner-programs">
           <h1><b>EXECUTIVE TRAINING</b></h1>
           <p><b>Requirements:</b></p>
-          <p>Age</p>
-          <p>Profession</p>
-          <p>Degree</p>
-          </br>
+          <ul>
+            <li>Age</li>
+            <li>Profession</li>
+            <li>Degree</li>
+          </ul>
           <p><b>How to Register:</b></p>
-          <p>1. Please make sure to complete all the application and requirements form</p>
-          <p>2. Send the form to ghd2018@gmail.com with [GDH 2018] Application form_scholarship as a subject</p>
-          <p>3. The announcement will be uploaded in www.GHD.org</p>
-          <p>4. Deadline : April 30, 2018</p>
-          </br>
+          <ol>
+            <li>Please make sure to complete all the application and requirements form</li>
+            <li>Send the form to ghd2018@gmail.com with [GDH 2018] Application form_scholarship as a subject</li>
+            <li>The announcement will be uploaded in www.GHD.org</li>
+            <li>Deadline : April 30, 2018</li>
+          </ol>
           <p>Download booklet : <a href="#">click here</a></p>
         </div>
       </div>

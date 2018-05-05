@@ -63,15 +63,25 @@
 }
 
 
-#inner-executive-training, #inner-student-training, #inner-intermediate-training {
-	padding-left: 4rem;
+.inner-programs {
+	padding: 1.5rem 2.5rem !important;
 }
 
-#inner-executive-training>p, #inner-student-training>p, #inner-intermediate-training>p {
+.inner-programs>p {
 	font-size: 0.8rem;
-	line-height: 0.5rem;
+	line-height: 1.6rem;
 }
 
-#inner-executive-training>p>a, #inner-student-training>p>a, #inner-intermediate-training>p>a {
+.inner-programs>ol {
+	font-size: 0.8rem;
+	line-height: 1.6rem;
+}
+
+.inner-programs>ul {
+	font-size: 0.8rem;
+	line-height: 1.6rem;
+}
+
+.inner-programs>p>a {
 	color: #f44336!important;
 }
