@@ -79,38 +79,38 @@
     <div class="outer-container w3-center" id="programs">
       <h1>Programs</h1>
       <div class="w3-padding-large" id="padding-image">
-        <div class="w3-third w3-margin-bottom padding-program-card">
+        <div class="w3-margin-bottom padding-program-card w3-third">
           <img src="./img/program/executive.png" class="w3-image w3-hover-opacity">
           <div class="w3-container w3-white" id="text-card">
             <h3>Executive</h3>
             <p>High-level position of Health and International relation Professionals</p>
           </div>
           <div class="w3-container w3-red">
-            <a onclick="executiveFunc()" href="javascript:void(0)" id="programExecutive">
+            <a onclick="accordionfunc()" href="#contentExecutive" id="programExecutive">
               <p>Learn More</p>
             </a>
           </div>
         </div>
-        <div class="w3-third w3-margin-bottom padding-program-card">
+        <div class="w3-margin-bottom padding-program-card w3-third">
           <img src="./img/program/student.png" class="w3-image w3-hover-opacity">
           <div class="w3-container w3-white" id="text-card">
             <h3>Student</h3>
             <p>Design for University Student from second year and up</p>
           </div>
           <div class="w3-container w3-red">
-            <a onclick="studentFunc()" href="javascript:void(0)" id="programStudent">
+            <a href="#" id="programStudent">
               <p>Coming Soon</p>
             </a>
           </div>
         </div>
-        <div class="w3-third w3-margin-bottom padding-program-card">
+        <div class="w3-margin-bottom padding-program-card w3-third">
           <img src="./img/program/intermediate.png" class="w3-image w3-hover-opacity">
           <div class="w3-container w3-white" id="text-card">
             <h3>Intermediate</h3>
             <p>High-level position of Health and International relation Professionals</p>
           </div>
           <div class="w3-container w3-red">
-            <a onclick="interFunc()" href="javascript:void(0)" id="programIntermediate">
+            <a href="#" id="programIntermediate">
               <p>Coming Soon</p>
             </a>
           </div>
@@ -118,7 +118,7 @@
       </div>
     </div>
 
-    <div id="contentExecutive" class="outer-container w3-hide w3-animate-opacity w3-bar-block">
+    <div id="contentExecutive" class="outer-container w3-hide w3-animate-opacity w3-bar-block" tabindex="1">
       <div class="training-container w3-row-padding">
         <div class="w3-third image-content-programs">
           <img src="./img/program/executive.png" class="w3-hover-opacity w3-third w3-image">
