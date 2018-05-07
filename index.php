@@ -24,11 +24,11 @@
 <header class="header-container w3-content">
   <!-- Navigation Bar -->
   <div class="navigation-bar">
-    <div class="s2">
-      <a href="#" class="w3-logo w3-left" id="logo-utama">Global</br>Health</br>Diplomacy</a>
+    <div class="w3-logo w3-left" id="logo-utama">
+      <a href="#">Global</br>Health</br>Diplomacy</a>
     </div>
     <div class="w3-rest">
-      <a class="w3-bar-item w3-button w3-padding-large w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a class="w3-bar-item w3-button w3-padding w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     </div>
     <div id="topbar-post">
       <a href="#intouch" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Contact</a>
@@ -40,6 +40,19 @@
       <a href="#about" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">About</a>
     </div>
   </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navsmall" class="w3-bar-block w3-black w3-hide w3-hide-large w3-top">
+    <a href="#intouch" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+    <a href="#partner" class="w3-bar-item w3-button w3-padding-large">Partners</a>
+    <a href="#events" class="w3-bar-item w3-button w3-padding-large">Events</a>
+    <a href="#ghd-news" class="w3-bar-item w3-button w3-padding-large">News</a>
+    <a href="#register" class="w3-bar-item w3-button w3-padding-large">Register</a>
+    <a href="#programs" class="w3-bar-item w3-button w3-padding-large">Programs</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large">About</a>
+  </div>
+
+  <!-- Below Navbar -->
   <div id="bawahnyanavbar" class="navigation-bar">
     <div class="header-inner-container w3-col l4 m12 s12">
       <p class="w3-hide-small w3-hide-medium" id="text-big">DIPLOMACY</br>NEEDS</br>ACTION</p>
@@ -58,16 +71,7 @@
     </div>
   </div>
 
-  <!-- Navbar on small screens -->
-  <div id="navsmall" class="w3-bar-block w3-black w3-hide w3-hide-large w3-top">
-    <a href="#intouch" class="w3-bar-item w3-button w3-padding-large">Contact</a>
-    <a href="#partner" class="w3-bar-item w3-button w3-padding-large">Partners</a>
-    <a href="#events" class="w3-bar-item w3-button w3-padding-large">Events</a>
-    <a href="#ghd-news" class="w3-bar-item w3-button w3-padding-large">News</a>
-    <a href="#register" class="w3-bar-item w3-button w3-padding-large">Register</a>
-    <a href="#programs" class="w3-bar-item w3-button w3-padding-large">Programs</a>
-    <a href="#about" class="w3-bar-item w3-button w3-padding-large">About</a>
-  </div>
+  <!-- Gambar Header -->
   <img class="w3-image" src="./img/hero/header.png" alt="Header Image">
 </header>
 

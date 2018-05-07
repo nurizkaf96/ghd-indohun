@@ -2,12 +2,19 @@
 	background-color: #51c3e4;
 	padding-bottom: 7rem;
 }
+@media only screen and (max-width: 1500px) {
+	#programs>h1 {
+		color: #fff;
+		font-size: 3.125rem;
+		font-weight: bold;
+		margin-bottom: 1.5rem !important;
+	}
+}
 
-#programs>h1 {
-	color: #fff;
-	font-size: 3.125rem;
-	font-weight: bold;
-	margin-bottom: 1.5rem !important;
+@media only screen and (max-width: 500px) {
+    #programs>h1 {
+	    font-size: 2rem;
+	}
 }
 
 .padding-program-card {
