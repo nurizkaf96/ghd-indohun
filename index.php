@@ -64,7 +64,7 @@
         <p>Bandung, Indonesia</p>
       </div>
       <div class="inner2-container w3-red">
-        <a href="#" id="con3">
+        <a onclick="accordionfunc()" href="#contentExecutive" id="con3">
           <p>Register Now!</p>
         </a>
       </div>
@@ -125,7 +125,7 @@
     <div id="contentExecutive" class="outer-container w3-hide w3-animate-opacity w3-bar-block" tabindex="1">
       <div class="training-container w3-row-padding">
         <div class="w3-third image-content-programs">
-          <img src="./img/program/executive.png" class="w3-hover-opacity w3-third w3-image">
+          <img src="./img/program/executive.png" class="w3-hover-opacity img-cover w3-third w3-image">
         </div>
         <div class="w3-twothird inner-programs">
           <h1><b>EXECUTIVE TRAINING</b></h1>
@@ -242,7 +242,7 @@
                     <h3>OHCC Throughout years...</h3>
                     <p>One Health Collaboration Center (OHCC) Progress Throughout the Years—Insight for Future’s Development...</p>
                   </div>
-                  <img src="http://indohun.org/wp-content/uploads/2018/05/OHCC-Udayana-OH-Students-Club-3-Kelas-II.jpg" class="w3-hover-opacity">
+                  <img src="http://indohun.org/wp-content/uploads/2018/05/OHCC-Udayana-OH-Students-Club-3-Kelas-II.jpg" class="w3-hover-opacity image-news">
                   <div class="w3-container w3-red">
                     <a href="http://indohun.org/news/one-health-collaboration-center-ohcc-progress-throughout-the-years-insight-for-futures-development/" id="con3">
                       <p>Learn More</p>
@@ -255,7 +255,7 @@
                     <h3>Prof Jeff Bender visited Indonesia</h3>
                     <p>The Initiation of Travel Medicine in the World of One Health: ...</p>
                   </div>
-                  <img src="http://indohun.org/wp-content/uploads/2018/04/Screen-Shot-2018-04-26-at-7.49.01-PM.png" class="w3-hover-opacity">
+                  <img src="http://indohun.org/wp-content/uploads/2018/04/Screen-Shot-2018-04-26-at-7.49.01-PM.png" class="w3-hover-opacity image-news">
                   <div class="w3-container w3-red">
                     <a href="http://indohun.org/news/professor-jeff-bender-visits-to-indonesia/" id="con3">
                       <p>Learn More</p>
@@ -268,7 +268,7 @@
                     <h3>Outbreak of Influenza in US ...</h3>
                     <p>A Hundred Years after the 1918 Spanish Flu and We Are Now Experiencing ...</p>
                   </div>
-                  <img src="http://indohun.org/wp-content/uploads/2018/04/http-time.com3731745spanish-flu-history-.png" class="w3-hover-opacity">
+                  <img src="http://indohun.org/wp-content/uploads/2018/04/http-time.com3731745spanish-flu-history-.png" class="w3-hover-opacity image-news">
                   <div class="w3-container w3-red">
                     <a href="http://indohun.org/news/a-hundred-years-after-the-1918-spanish-flu-and-we-are-now-experiencing-a-similar-thing-outbreak-of-influenza-in-the-united-states-2017-2018/" id="con3">
                       <p>Learn More</p>
@@ -288,7 +288,7 @@
                     <h3><b>Deadly Measles Outbreak</b></h3>
                     <p>Deadly Measles Outbreak and Malnutrition Striking Children in Asmat ...</p>
                   </div>
-                  <img src="http://indohun.org/wp-content/uploads/2018/02/5-1.png" class="w3-hover-opacity">
+                  <img src="http://indohun.org/wp-content/uploads/2018/02/5-1.png" class="w3-hover-opacity image-news">
                   <div class="w3-container w3-red">
                     <a href="http://indohun.org/news/deadly-measles-outbreak-and-malnutrition-striking-children-in-asmat-regency-province-of-papua-the-role-of-the-indonesian-government/" id="con3">
                       <p>Learn More</p>
@@ -298,10 +298,10 @@
                 <div class="w3-third w3-margin-bottom padding-news-card">
                   <div class="w3-container w3-white" id="text-news">
                     <p>17 Feb 2018</p>
-                    <h3><b>Diphtheria Outbreak in Indonesia ...</b></h3>
+                    <h3><b>Diphtheria Outbreak in ...</b></h3>
                     <p>Outbreak of diphtheria, a communicable disease known for its life-threatening risk ...</p>
                   </div>
-                  <img src="http://indohun.org/wp-content/uploads/2018/02/JAK111-1211_2017_020155_hd.jpg" class="w3-hover-opacity">
+                  <img src="http://indohun.org/wp-content/uploads/2018/02/JAK111-1211_2017_020155_hd.jpg" class="w3-hover-opacity image-news">
                   <div class="w3-container w3-red">
                     <a href="http://indohun.org/news/an-old-foe-showing-its-fangs-diphtheria-outbreak-in-indonesia-2017/" id="con3">
                       <p>Learn More</p>
@@ -314,7 +314,7 @@
                     <h3><b>News and Updates</b></h3>
                     <p>See more updates from Indohun</p>
                   </div>
-                  <img src="http://indohun.org/wp-content/themes/indohun/inc/images/photo/main-image.JPG" class="w3-hover-opacity">
+                  <img src="http://indohun.org/wp-content/themes/indohun/inc/images/photo/main-image.JPG" class="w3-hover-opacity image-news">
                   <div class="w3-container w3-red">
                     <a href="http://indohun.org/news/" id="con3">
                       <p>Learn More</p>
