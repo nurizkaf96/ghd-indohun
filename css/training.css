@@ -29,8 +29,8 @@
 }
 
 #inner-training>h6 {
-	font-size: 1.25rem;
+	font-size: 1rem;
 	font-family: Gotham;
 	width: 80%;
-	line-height: 1.5rem;
+	/* line-height: 1.5rem; */
 }
