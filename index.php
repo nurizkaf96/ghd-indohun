@@ -51,7 +51,7 @@
         <p>Bandung, Indonesia</p>
       </div>
       <div class="inner2-container w3-red">
-        <a href="#" id="con3">
+        <a onclick="accordionfunc()" href="#contentExecutive" id="con3">
           <p>Register Now!</p>
         </a>
       </div>
@@ -121,7 +121,7 @@
     <div id="contentExecutive" class="outer-container w3-hide w3-animate-opacity w3-bar-block" tabindex="1">
       <div class="training-container w3-row-padding">
         <div class="w3-third image-content-programs">
-          <img src="./img/program/executive.png" class="w3-hover-opacity w3-third w3-image">
+          <img src="./img/program/executive.png" class="w3-hover-opacity img-cover w3-third w3-image">
         </div>
         <div class="w3-twothird inner-programs">
           <h1><b>EXECUTIVE TRAINING</b></h1>

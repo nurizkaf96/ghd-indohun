@@ -357,3 +357,7 @@ h5>a {
     overflow: visible;
     clip: auto
 }
+
+.img-cover {
+    object-fit: cover;
+}
