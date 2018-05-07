@@ -82,9 +82,9 @@
     <!-- Programs -->
     <div class="outer-container w3-center" id="programs">
       <h1>Programs</h1>
-      <div class="w3-padding-large" id="padding-image">
-        <div class="w3-margin-bottom padding-program-card w3-third">
-          <img src="./img/program/executive.png" class="w3-image w3-hover-opacity">
+      <div id="padding-image">
+        <div class="w3-margin-bottom padding-program-card w3-col l4 m12 s12">
+          <img src="./img/program/executive.png" class="w3-image w3-hover-opacity" id="image-card-programs">
           <div class="w3-container w3-white" id="text-card">
             <h3>Executive</h3>
             <p>High-level position of Health and International relation Professionals</p>
@@ -95,8 +95,8 @@
             </a>
           </div>
         </div>
-        <div class="w3-margin-bottom padding-program-card w3-third">
-          <img src="./img/program/student.png" class="w3-image w3-hover-opacity">
+        <div class="w3-margin-bottom padding-program-card w3-col l4 m12 s12">
+          <img src="./img/program/student.png" class="w3-image w3-hover-opacity" id="image-card-programs">
           <div class="w3-container w3-white" id="text-card">
             <h3>Student</h3>
             <p>Design for University Student from second year and up</p>
@@ -107,8 +107,8 @@
             </a>
           </div>
         </div>
-        <div class="w3-margin-bottom padding-program-card w3-third">
-          <img src="./img/program/intermediate.png" class="w3-image w3-hover-opacity">
+        <div class="w3-margin-bottom padding-program-card w3-col l4 m12 s12">
+          <img src="./img/program/intermediate.png" class="w3-image w3-hover-opacity" id="image-card-programs">
           <div class="w3-container w3-white" id="text-card">
             <h3>Intermediate</h3>
             <p>High-level position of Health and International relation Professionals</p>
@@ -123,7 +123,7 @@
     </div>
 
     <div id="contentExecutive" class="outer-container w3-hide w3-animate-opacity w3-bar-block" tabindex="1">
-      <div class="training-container w3-row-padding">
+      <div class="exe-container w3-row-padding">
         <div class="w3-third image-content-programs">
           <img src="./img/program/executive.png" class="w3-hover-opacity img-cover w3-third w3-image">
         </div>
@@ -150,7 +150,7 @@
     <!-- Experience -->
     <div class="w3-center" id="experience">
       <div class="outer-container">
-        <h1><b>The Experience</b></h1>
+        <h1>The Experience</h1>
         <h4><b>Global Health Diplomacy (GHD) Training</b> is a three to five-day intensive program that combine 40 percent theory and 60 percent practice.</h4>
         <h6> This training prepares participants with negotiation and policy skills to help them in influencing people, collaboration, and decision making at national and international level.</h6>
         <div id="number-container">

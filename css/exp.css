@@ -1,3 +1,43 @@
+@media only screen and (max-width: 768px) {
+	#experience>.outer-container>h1 {
+	    font-size: 2rem !important;
+	    margin: 2rem 0 !important;
+	}
+	#experience>.outer-container>h4 {
+	    font-size: 1.2rem !important;
+	}
+	#experience>.outer-container>h6 {
+	    font-size: 1rem !important;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#experience>.outer-container {
+		padding-top: 0.5rem !important;
+	}
+	#experience>.outer-container>h1 {
+	    font-size: 2rem !important;
+	    margin-top: 0.5rem !important;
+	}
+	#experience>.outer-container>h4 {
+	    font-size: 1rem !important;
+	    width: 100% !important;
+	}
+	#experience>.outer-container>h6 {
+	    font-size: 0.8rem !important;
+	    width: 100% !important
+	}
+}
+
+@media only screen and (max-width: 635px) {
+	#experience {
+		object-fit: fill !important;
+		background-size: auto !important;
+		height: 100% !important;
+		background-position: right top !important;
+	}
+}
+
 #number {
     margin: 0.7rem;
     font-size: 4.2rem;
@@ -55,8 +95,9 @@
 #experience {
 	background-image: url(../img/hero/experience.png);
 	background-repeat: no-repeat;
-	background-size: 100%;
     padding-bottom: 0;
+    background-size: 100%;
+    object-fit: cover;
 }
 
 #experience>.outer-container>h4 {
@@ -64,7 +105,6 @@
     width: 64%;
     margin: auto;
     font-size: 1.875rem;
-    /* letter-spacing: 0.05rem; */
 }
 
 #experience>.outer-container>h6 {

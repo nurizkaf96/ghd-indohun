@@ -124,9 +124,7 @@ a {
 }
 
 .outer-container {
-	padding-top: 2rem;
-	padding-left: 4rem !important;
-	padding-right: 4rem !important;
+	padding: 2rem 4rem;
 }
 
 h5>a {
@@ -358,7 +356,6 @@ h5>a {
     clip: auto
 }
 
-<<<<<<< HEAD
 /* Responsive */
 /* For desktop: */
 .col-1 {width: 8.33%;}
@@ -373,8 +370,13 @@ h5>a {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-=======
+
 .img-cover {
     object-fit: cover;
 }
->>>>>>> 012123bc52500a86abaf4096a61e5106a8faa4c3
+
+@media only screen and (max-width: 500px) {
+	.outer-container {
+		padding: 2rem 2rem;
+	}
+}
