@@ -33,11 +33,11 @@
 <header class="header-container w3-content">
   <!-- Navigation Bar -->
   <div class="navigation-bar">
-    <div class="s2">
-      <a href="#" class="w3-logo w3-left" id="logo-utama">Global</br>Health</br>Diplomacy</a>
+    <div class="w3-logo w3-left" id="logo-utama">
+      <a href="#">Global</br>Health</br>Diplomacy</a>
     </div>
     <div class="w3-rest">
-      <a class="w3-bar-item w3-button w3-padding-large w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a class="w3-bar-item w3-button w3-padding w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     </div>
     <div id="topbar-post">
       <a href="#intouch" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Contact</a>
@@ -49,6 +49,19 @@
       <a href="#about" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">About</a>
     </div>
   </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navsmall" class="w3-bar-block w3-black w3-hide w3-hide-large w3-top">
+    <a href="#intouch" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+    <a href="#partner" class="w3-bar-item w3-button w3-padding-large">Partners</a>
+    <a href="#events" class="w3-bar-item w3-button w3-padding-large">Events</a>
+    <a href="#ghd-news" class="w3-bar-item w3-button w3-padding-large">News</a>
+    <a href="#register" class="w3-bar-item w3-button w3-padding-large">Register</a>
+    <a href="#programs" class="w3-bar-item w3-button w3-padding-large">Programs</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large">About</a>
+  </div>
+
+  <!-- Below Navbar -->
   <div id="bawahnyanavbar" class="navigation-bar">
     <div class="header-inner-container w3-col l4 m12 s12">
       <p class="w3-hide-small w3-hide-medium" id="text-big">DIPLOMACY</br>NEEDS</br>ACTION</p>
@@ -67,16 +80,7 @@
     </div>
   </div>
 
-  <!-- Navbar on small screens -->
-  <div id="navsmall" class="w3-bar-block w3-black w3-hide w3-hide-large w3-top">
-    <a href="#intouch" class="w3-bar-item w3-button w3-padding-large">Contact</a>
-    <a href="#partner" class="w3-bar-item w3-button w3-padding-large">Partners</a>
-    <a href="#events" class="w3-bar-item w3-button w3-padding-large">Events</a>
-    <a href="#ghd-news" class="w3-bar-item w3-button w3-padding-large">News</a>
-    <a href="#register" class="w3-bar-item w3-button w3-padding-large">Register</a>
-    <a href="#programs" class="w3-bar-item w3-button w3-padding-large">Programs</a>
-    <a href="#about" class="w3-bar-item w3-button w3-padding-large">About</a>
-  </div>
+  <!-- Gambar Header -->
   <img class="w3-image" src="./img/hero/header.png" alt="Header Image">
 </header>
 
@@ -87,9 +91,9 @@
     <!-- Programs -->
     <div class="outer-container w3-center" id="programs">
       <h1>Programs</h1>
-      <div class="w3-padding-large" id="padding-image">
-        <div class="w3-margin-bottom padding-program-card w3-third">
-          <img src="./img/program/executive.png" class="w3-image w3-hover-opacity">
+      <div id="padding-image">
+        <div class="w3-margin-bottom padding-program-card w3-col l4 m12 s12">
+          <img src="./img/program/executive.png" class="w3-image w3-hover-opacity" id="image-card-programs">
           <div class="w3-container w3-white" id="text-card">
             <h3>Executive</h3>
             <p>High-level position of Health and International relation Professionals</p>
@@ -100,8 +104,8 @@
             </a>
           </div>
         </div>
-        <div class="w3-margin-bottom padding-program-card w3-third">
-          <img src="./img/program/student.png" class="w3-image w3-hover-opacity">
+        <div class="w3-margin-bottom padding-program-card w3-col l4 m12 s12">
+          <img src="./img/program/student.png" class="w3-image w3-hover-opacity" id="image-card-programs">
           <div class="w3-container w3-white" id="text-card">
             <h3>Student</h3>
             <p>Design for University Student from second year and up</p>
@@ -112,8 +116,8 @@
             </a>
           </div>
         </div>
-        <div class="w3-margin-bottom padding-program-card w3-third">
-          <img src="./img/program/intermediate.png" class="w3-image w3-hover-opacity">
+        <div class="w3-margin-bottom padding-program-card w3-col l4 m12 s12">
+          <img src="./img/program/intermediate.png" class="w3-image w3-hover-opacity" id="image-card-programs">
           <div class="w3-container w3-white" id="text-card">
             <h3>Intermediate</h3>
             <p>High-level position of Health and International relation Professionals</p>
@@ -128,7 +132,7 @@
     </div>
 
     <div id="contentExecutive" class="outer-container w3-hide w3-animate-opacity w3-bar-block" tabindex="1">
-      <div class="training-container w3-row-padding">
+      <div class="exe-container w3-row-padding">
         <div class="w3-third image-content-programs">
           <img src="./img/program/executive.png" class="w3-hover-opacity img-cover w3-third w3-image">
         </div>
@@ -155,11 +159,11 @@
     <!-- Experience -->
     <div class="w3-center" id="experience">
       <div class="outer-container">
-        <h1><b>The Experience</b></h1>
+        <h1>The Experience</h1>
         <h4><b>Global Health Diplomacy (GHD) Training</b> is a three to five-day intensive program that combine 40 percent theory and 60 percent practice.</h4>
         <h6> This training prepares participants with negotiation and policy skills to help them in influencing people, collaboration, and decision making at national and international level.</h6>
         <div id="number-container">
-          <div class="w3-quarter">
+          <div class="w3-quarter m12 s12">
             <div id="number" class="w3-row">
               <span class='numscroller' data-min='0' data-max='28' data-delay='1' data-increment='1'>28</span>
               <h4><b>institutions</b></h4>
@@ -167,7 +171,7 @@
               <p>Representatives of national & international institutions involved</p>
             </div>
           </div>
-          <div class="w3-quarter">
+          <div class="w3-quarter m12 s12">
             <div id="number" class="w3-row">
               <span class='numscroller' data-min='0' data-max='3' data-delay='1' data-increment='1'>3</span>
               <h4><b>days</b></h4>
@@ -175,7 +179,7 @@
               <p id="text-number2">Multi-Stage Negotiation Simulation sessions</p>
             </div>
           </div>
-          <div class="w3-quarter">
+          <div class="w3-quarter m12 s12">
             <div id="number" class="w3-row">
               <span class='numscroller' data-min='0' data-max='12' data-delay='1' data-increment='1'>12</span>
               <h4><b>classes</b></h4>
@@ -183,7 +187,7 @@
               <p id="text-number2">Global health and diplomatic practice</p>
             </div>
           </div>
-          <div class="w3-quarter">
+          <div class="w3-quarter m12 s12">
             <div id="number" class="w3-row">
               <span class='numscroller' data-min='0' data-max='9' data-delay='1' data-increment='1'>9</span>
               <h4><b>speakers</b></h4>

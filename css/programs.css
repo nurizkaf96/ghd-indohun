@@ -10,9 +10,74 @@
 	margin-bottom: 1.5rem !important;
 }
 
+@media only screen and (max-width: 768px) {
+	.image-content-programs {
+		width: 100% !important;
+	}
+	.inner-programs {
+		width: 100% !important;
+	}
+	.img-cover {
+		width: 100% !important;
+		height: auto !important;
+	}
+	.inner-programs {
+		padding: 1.5rem 1.5rem !important;
+	}
+	#programs>h1 {
+	font-size: 3.125rem;
+}
+}
+
+@media only screen and (max-width: 570px) {
+	.inner-programs>h1 {
+		font-size: 1rem !important;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+    #programs>h1 {
+	    font-size: 2rem;
+	}
+	.padding-program-card {
+		padding: 0 !important;
+	}
+	#padding-image {
+	    padding: 0.75rem 0 !important;
+	}
+	.exe-container {
+		margin: 0rem !important;
+	}
+	.inner-programs {
+		padding: 1.5rem 1rem !important;
+	}
+}
+
+@media only screen and (max-width: 345px) {
+    #text-card>h3 {
+	    font-size: 1.2rem !important;
+	}
+	#text-card {
+	    padding: 1rem !important;
+	}
+	#programExecutive, #programStudent, #programIntermediate {
+		font-size: 0.8rem !important;
+	}
+}
+
+#image-card-programs {
+    max-width: 100%;
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+#padding-image {
+	padding: 0.75rem 1.5rem;
+}
+
 .padding-program-card {
-	padding-left: 2rem;
-	padding-right: 2rem;
+	padding: 0 2rem;
 }
 
 #text-card {
@@ -46,7 +111,7 @@
 	padding-bottom: 4rem;
 }
 
-.training-container {
+.training-container, .exe-container {
 	margin: 0rem 4rem;
 	background-color: white;
 	padding: 0rem !important;
@@ -55,7 +120,7 @@
 .image-content-programs>img {
 	background: 100% 100%;
 	width: auto;
-	height: 30rem;
+	height: 40rem;
 }
 
 .image-content-programs {
@@ -64,7 +129,8 @@
 
 
 .inner-programs {
-	padding: 1.5rem 2.5rem !important;
+	padding: 1.5rem 2.5rem;
+	padding-bottom: 0 !important;
 }
 
 .inner-programs>p {

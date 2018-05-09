@@ -1,3 +1,107 @@
+@media only screen and (max-width: 1265px) {
+	#red-back-number {
+		height: 15rem !important;
+		margin: 0 4rem !important;
+	}
+	#coverbackground {
+		margin-top: -17rem !important;
+	}
+	#number {
+		margin-top: -3rem !important;
+	}
+}
+
+@media only screen and (max-width: 1165px) {
+	#red-back-number {
+		height: 10rem !important;
+	}
+	#coverbackground {
+		margin-top: -19rem !important;
+	}
+	#number>p {
+		font-size: 0.8rem !important;
+	}
+	#number>h4 {
+		font-size: 1.1rem !important;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#experience>.outer-container>h1 {
+	    font-size: 2rem !important;
+	    margin: 2rem 0 !important;
+	}
+	#experience>.outer-container>h4 {
+	    font-size: 1.2rem !important;
+	}
+	#experience>.outer-container>h6 {
+	    font-size: 1rem !important;
+	    margin-bottom: 2rem !important;
+	}
+	#number {
+	    font-size: 2rem !important;
+	    margin-top: -1.5rem !important;
+	}
+	#experience {
+		object-fit: fill !important;
+		background-size: auto !important;
+		height: 100% !important;
+		background-position: right top !important;
+	}
+	#number-container {
+	    width: 100% !important;
+	}
+	#number>h4 {
+	    font-size: 1.1rem !important;
+	    margin: 0.5rem 0 !important;
+	}
+	#number>p {
+		text-align: center !important;
+	}
+	#red-back-number {
+	    width: auto !important;
+	    top: 3.3rem !important;
+	    margin: 0 !important;
+	    position: relative;
+	    height: 16rem !important;
+	    background-repeat: no-repeat !important;
+	}
+	.garisbawah {
+	    margin: 1rem auto !important;
+	}
+	#text-number2 {
+	    padding-left: 0 !important;
+	}
+	#coverbackground {
+		height: 10rem !important;
+		margin-top: -6rem !important;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#experience>.outer-container {
+		padding-top: 0.5rem !important;
+	}
+	#experience>.outer-container>h1 {
+	    font-size: 2rem !important;
+	    margin-top: 0.5rem !important;
+	}
+	#experience>.outer-container>h4 {
+	    font-size: 1rem !important;
+	    width: 100% !important;
+	}
+	#experience>.outer-container>h6 {
+	    font-size: 0.8rem !important;
+	    width: 100% !important
+	}
+	#red-back-number {
+	    height: 33.5rem !important;
+	}
+	#coverbackground {
+		height: 10rem !important;
+	}
+}
+
 #number {
     margin: 0.7rem;
     font-size: 4.2rem;
@@ -5,7 +109,7 @@
     font-family: Gotham;
     text-align: center;
     margin-bottom: 1rem !important;
-    margin-top: 0 !important;
+    margin-top: 0;
 	padding: 0 1rem;
 }
 
@@ -37,8 +141,9 @@
 	width: auto;
 	height: 20rem;
 	position: static;
-	margin-top: 6.3rem !important;
-	margin: 0 7rem;
+	margin-top: 6.3rem;
+	margin-left: 7rem;
+	margin-right: 7rem;
 }
 
 #coverbackground {
@@ -55,20 +160,20 @@
 #experience {
 	background-image: url(../img/hero/experience.png);
 	background-repeat: no-repeat;
-	background-size: 100%;
     padding-bottom: 0;
+    background-size: 100%;
+    object-fit: cover;
 }
 
 #experience>.outer-container>h4 {
     color: #ff3f40;
-    width: 64%;
+    width: 58%;
     margin: auto;
     font-size: 1.875rem;
-    /* letter-spacing: 0.05rem; */
 }
 
 #experience>.outer-container>h6 {
-    width: 64%;
+    width: 58%;
     margin: 2.3rem auto;
     margin-bottom: 3.1rem;
     font-size: 1.25rem;
