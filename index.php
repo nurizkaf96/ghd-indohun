@@ -221,15 +221,15 @@
       <!-- Be Our Partner -->
       <div class="outer-container" id="be-ourpartner">
         <div id="be-ourpartner-container">
+          <div class="w3-half" id="image-be-ourpartner">
+            <img src="./img/article/bop.png" class="w3-hover-opacity">
+          </div>
           <div class="w3-half" id="inner-be-ourpartner">
             <h1>Be Our Partner</h1>
             <h6>Are you the best candidate for our future Global Health Diplomacy Training? Join our Team as Speaker or Volunteer. Also, we are happy to open donate or grant from everyone, particularly Health Philanthropy for Global Health development.</h6>
             <a href="./post.php">
               <button type="button" class="w3-button w3-red w3-margin-top">Learn More</button>
             </a>
-          </div>
-          <div class="w3-half" id="image-be-ourpartner">
-            <img src="./img/article/bop.png" class="w3-hover-opacity">
           </div>
         </div>
       </div>
