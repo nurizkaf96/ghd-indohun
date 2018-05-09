@@ -20,14 +20,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<script src="./js/jquery-1.10.2.min.js"></script>
-<script src="./js/numscroller-1.0.js"></script>
-<script src="./js/prism.js"></script>
-<script src="./js/navbar.js"></script>
-<script src="./js/accordion.js"></script>
-<script src="./js/jquery.min.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-<script src="./js/setting-carousel.js"></script>
+  <script src="./js/jquery-1.10.2.min.js"></script>
+  <script src="./js/numscroller-1.0.js"></script>
+  <script src="./js/prism.js"></script>
+  <script src="./js/navbar.js"></script>
+  <script src="./js/accordion.js"></script>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/setting-carousel.js"></script>
 
 <!-- Header -->
 <header class="header-container w3-content">
