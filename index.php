@@ -20,6 +20,15 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
+<script src="./js/jquery-1.10.2.min.js"></script>
+<script src="./js/numscroller-1.0.js"></script>
+<script src="./js/prism.js"></script>
+<script src="./js/navbar.js"></script>
+<script src="./js/accordion.js"></script>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/setting-carousel.js"></script>
+
 <!-- Header -->
 <header class="header-container w3-content">
   <!-- Navigation Bar -->
@@ -125,7 +134,7 @@
     <div id="contentExecutive" class="outer-container w3-hide w3-animate-opacity w3-bar-block" tabindex="1">
       <div class="exe-container w3-row-padding">
         <div class="w3-third image-content-programs">
-          <img src="./img/program/executive.png" class="w3-hover-opacity img-cover w3-third w3-image">
+          <img src="./img/program/executive.png" class="w3-hover-opacity w3-third w3-image">
         </div>
         <div class="w3-twothird inner-programs">
           <h1><b>EXECUTIVE TRAINING</b></h1>
@@ -196,10 +205,10 @@
     <div id="learn-more">
       <div class="outer-container" id="training">
         <div id="training-container">
-          <div class="w3-half" id="image-training">
+          <div class="w3-half m6 s12" id="image-training">
             <img src="./img/article/ghd-17.png" class="w3-hover-opacity">
           </div>
-          <div class="w3-half" id="inner-training">
+          <div class="w3-half m6 s12" id="inner-training">
             <h1>GHD Training 2017</h1>
             <h6>Diplomacy is undergoing profound changes in the 21st century – and global health is one of the areas where this is most apparent.</h6>
             <a href="./post.php">
@@ -255,7 +264,7 @@
                     <h3>Prof Jeff Bender visited Indonesia</h3>
                     <p>The Initiation of Travel Medicine in the World of One Health: ...</p>
                   </div>
-                  <img src="http://indohun.org/wp-content/uploads/2018/04/Screen-Shot-2018-04-26-at-7.49.01-PM.png" class="w3-hover-opacity image-news">
+                  <img src="http://indohun.org/wp-content/uploads/2018/04/Screen-Shot-2018-04-26-at-7.49.01-PM.jpg" class="w3-hover-opacity image-news">
                   <div class="w3-container w3-red">
                     <a href="http://indohun.org/news/professor-jeff-bender-visits-to-indonesia/" id="con3">
                       <p>Learn More</p>
@@ -268,7 +277,7 @@
                     <h3>Outbreak of Influenza in US ...</h3>
                     <p>A Hundred Years after the 1918 Spanish Flu and We Are Now Experiencing ...</p>
                   </div>
-                  <img src="http://indohun.org/wp-content/uploads/2018/04/http-time.com3731745spanish-flu-history-.png" class="w3-hover-opacity image-news">
+                  <img src="http://indohun.org/wp-content/uploads/2018/04/http-time.com3731745spanish-flu-history-.jpg" class="w3-hover-opacity image-news">
                   <div class="w3-container w3-red">
                     <a href="http://indohun.org/news/a-hundred-years-after-the-1918-spanish-flu-and-we-are-now-experiencing-a-similar-thing-outbreak-of-influenza-in-the-united-states-2017-2018/" id="con3">
                       <p>Learn More</p>
@@ -284,11 +293,11 @@
               <div class="w3-padding-large" id="padding-image">
                 <div class="w3-third w3-margin-bottom padding-news-card">
                   <div class="w3-container w3-white" id="text-news">
-                    <p>19 Feb 2018</p>
+                    <p class="news-date">19 Feb 2018</p>
                     <h3><b>Deadly Measles Outbreak</b></h3>
                     <p>Deadly Measles Outbreak and Malnutrition Striking Children in Asmat ...</p>
                   </div>
-                  <img src="http://indohun.org/wp-content/uploads/2018/02/5-1.png" class="w3-hover-opacity image-news">
+                  <img src="http://indohun.org/wp-content/uploads/2018/02/5-1.jpg" class="w3-hover-opacity image-news">
                   <div class="w3-container w3-red">
                     <a href="http://indohun.org/news/deadly-measles-outbreak-and-malnutrition-striking-children-in-asmat-regency-province-of-papua-the-role-of-the-indonesian-government/" id="con3">
                       <p>Learn More</p>
@@ -297,7 +306,7 @@
                 </div>
                 <div class="w3-third w3-margin-bottom padding-news-card">
                   <div class="w3-container w3-white" id="text-news">
-                    <p>17 Feb 2018</p>
+                    <p class="news-date">17 Feb 2018</p>
                     <h3><b>Diphtheria Outbreak in ...</b></h3>
                     <p>Outbreak of diphtheria, a communicable disease known for its life-threatening risk ...</p>
                   </div>
@@ -310,7 +319,7 @@
                 </div>
                 <div class="w3-third w3-margin-bottom padding-news-card">
                   <div class="w3-container w3-white" id="text-news">
-                    <p>See More</p>
+                    <p class="news-date">See More</p>
                     <h3><b>News and Updates</b></h3>
                     <p>See more updates from Indohun</p>
                   </div>
@@ -417,14 +426,6 @@
       </a>
     </div>
   </footer>
-  <script src="./js/jquery-1.10.2.min.js"></script>
-  <script src="./js/numscroller-1.0.js"></script>
-  <script src="./js/prism.js"></script>
-  <script src="./js/navbar.js"></script>
-  <script src="./js/accordion.js"></script>
-  <script src="./js/jquery.min.js"></script>
-  <script src="./js/bootstrap.min.js"></script>
-  <script src="./js/setting-carousel.js"></script>
 </body>
 
 </html>

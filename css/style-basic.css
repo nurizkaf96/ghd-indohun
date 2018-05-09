@@ -371,10 +371,6 @@ h5>a {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-.img-cover {
-    object-fit: cover;
-}
-
 @media only screen and (max-width: 500px) {
 	.outer-container {
 		padding: 2rem 2rem;

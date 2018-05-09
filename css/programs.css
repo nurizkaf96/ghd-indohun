@@ -67,7 +67,7 @@
 
 #image-card-programs {
     max-width: 100%;
-    height: 20rem;
+    height: 12rem;
     width: 100%;
     object-fit: cover;
 }
@@ -120,7 +120,8 @@
 .image-content-programs>img {
 	background: 100% 100%;
 	width: auto;
-	height: 40rem;
+	height: 32rem;
+	object-fit: cover;
 }
 
 .image-content-programs {
@@ -129,8 +130,8 @@
 
 
 .inner-programs {
-	padding: 1.5rem 2.5rem;
-	padding-bottom: 0 !important;
+	padding: 2rem 3rem !important;
+	/*padding-bottom: 0 !important;*/
 }
 
 .inner-programs>p {

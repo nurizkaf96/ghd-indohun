@@ -1,3 +1,74 @@
+@media only screen and (max-width: 1165px) {
+	#inner-training>h1 {
+		font-size: 2rem !important;
+	}
+	#image-training>img {
+		margin: 0 !important;
+	}
+	#image-training {
+		width: 50% !important;
+		text-align: center !important;
+		margin: 0 auto !important;
+		float: left !important;
+	}
+	#inner-training {
+		float: right !important;
+		width: 50% !important;
+		margin: 0 auto !important;
+		padding-left: 4rem !important;
+	}
+	#image-training>img {
+		margin: 0 !important;
+		float: none !important;
+	}
+	#training-container {
+	    /*padding-right: 4rem !important;*/
+	    padding: 0 4rem !important;
+	}
+}
+
+@media only screen and (max-width: 976px) {
+	#image-training {
+		width: 100% !important;
+		text-align: center !important;
+		margin: 0 auto !important;
+	}
+	#image-training>img {
+		float: none !important;
+	}
+	#inner-training {
+		float: none !important;
+		width: 100% !important;
+		padding: 0 !important;
+		text-align: center !important;
+	}
+	#inner-training>h1 {
+		width: 100% !important;
+	}
+	#inner-training>h6 {
+		width: 100% !important;
+		padding: 0 4rem !important;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	#inner-training>h6 {
+		width: 100% !important;
+		padding: 0 !important;
+	}
+	#training-container {
+	    /*padding-right: 4rem !important;*/
+	    padding: 0 !important;
+	}
+}
+
+@media only screen and (max-width: 532px) {
+	#image-training>img {
+		height: auto !important;
+		width: 100% !important;
+	}
+}
+
 #padding-training {
     padding-left: 4rem !important;
     text-align: left;
