@@ -20,6 +20,15 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
+  <script src="./js/jquery-1.10.2.min.js"></script>
+  <script src="./js/numscroller-1.0.js"></script>
+  <script src="./js/prism.js"></script>
+  <script src="./js/navbar.js"></script>
+  <script src="./js/accordion.js"></script>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/setting-carousel.js"></script>
+
 <!-- Header -->
 <header class="header-container w3-content">
   <!-- Navigation Bar -->
@@ -280,7 +289,7 @@
               <div class="w3-padding-large" id="padding-image">
                 <div class="w3-third w3-margin-bottom padding-news-card">
                   <div class="w3-container w3-white" id="text-news">
-                    <p>19 Feb 2018</p>
+                    <p class="news-date">19 Feb 2018</p>
                     <h3><b>Deadly Measles Outbreak</b></h3>
                     <p>Deadly Measles Outbreak and Malnutrition Striking Children in Asmat ...</p>
                   </div>
@@ -293,7 +302,7 @@
                 </div>
                 <div class="w3-third w3-margin-bottom padding-news-card">
                   <div class="w3-container w3-white" id="text-news">
-                    <p>17 Feb 2018</p>
+                    <p class="news-date">17 Feb 2018</p>
                     <h3><b>Diphtheria Outbreak in ...</b></h3>
                     <p>Outbreak of diphtheria, a communicable disease known for its life-threatening risk ...</p>
                   </div>
@@ -306,7 +315,7 @@
                 </div>
                 <div class="w3-third w3-margin-bottom padding-news-card">
                   <div class="w3-container w3-white" id="text-news">
-                    <p>See More</p>
+                    <p class="news-date">See More</p>
                     <h3><b>News and Updates</b></h3>
                     <p>See more updates from Indohun</p>
                   </div>
@@ -413,14 +422,6 @@
       </a>
     </div>
   </footer>
-  <script src="./js/jquery-1.10.2.min.js"></script>
-  <script src="./js/numscroller-1.0.js"></script>
-  <script src="./js/prism.js"></script>
-  <script src="./js/navbar.js"></script>
-  <script src="./js/accordion.js"></script>
-  <script src="./js/jquery.min.js"></script>
-  <script src="./js/bootstrap.min.js"></script>
-  <script src="./js/setting-carousel.js"></script>
 </body>
 
 </html>
