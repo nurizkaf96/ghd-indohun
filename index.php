@@ -264,7 +264,7 @@
                     <h3>Prof Jeff Bender visited Indonesia</h3>
                     <p>The Initiation of Travel Medicine in the World of One Health: ...</p>
                   </div>
-                  <img src="http://indohun.org/wp-content/uploads/2018/04/Screen-Shot-2018-04-26-at-7.49.01-PM.png" class="w3-hover-opacity image-news">
+                  <img src="http://indohun.org/wp-content/uploads/2018/04/Screen-Shot-2018-04-26-at-7.49.01-PM.jpg" class="w3-hover-opacity image-news">
                   <div class="w3-container w3-red">
                     <a href="http://indohun.org/news/professor-jeff-bender-visits-to-indonesia/" id="con3">
                       <p>Learn More</p>
@@ -277,7 +277,7 @@
                     <h3>Outbreak of Influenza in US ...</h3>
                     <p>A Hundred Years after the 1918 Spanish Flu and We Are Now Experiencing ...</p>
                   </div>
-                  <img src="http://indohun.org/wp-content/uploads/2018/04/http-time.com3731745spanish-flu-history-.png" class="w3-hover-opacity image-news">
+                  <img src="http://indohun.org/wp-content/uploads/2018/04/http-time.com3731745spanish-flu-history-.jpg" class="w3-hover-opacity image-news">
                   <div class="w3-container w3-red">
                     <a href="http://indohun.org/news/a-hundred-years-after-the-1918-spanish-flu-and-we-are-now-experiencing-a-similar-thing-outbreak-of-influenza-in-the-united-states-2017-2018/" id="con3">
                       <p>Learn More</p>
@@ -297,7 +297,7 @@
                     <h3><b>Deadly Measles Outbreak</b></h3>
                     <p>Deadly Measles Outbreak and Malnutrition Striking Children in Asmat ...</p>
                   </div>
-                  <img src="http://indohun.org/wp-content/uploads/2018/02/5-1.png" class="w3-hover-opacity image-news">
+                  <img src="http://indohun.org/wp-content/uploads/2018/02/5-1.jpg" class="w3-hover-opacity image-news">
                   <div class="w3-container w3-red">
                     <a href="http://indohun.org/news/deadly-measles-outbreak-and-malnutrition-striking-children-in-asmat-regency-province-of-papua-the-role-of-the-indonesian-government/" id="con3">
                       <p>Learn More</p>
