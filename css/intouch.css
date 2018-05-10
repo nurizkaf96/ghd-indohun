@@ -1,3 +1,35 @@
+@media only screen and (max-width: 1304px) {
+	#text-intouch>p {
+		font-size: 0.7rem !important;
+	}
+}
+
+@media only screen and (max-width: 1135px) {
+	.container-intouch {
+		width: auto !important;
+	}
+	#chat, #messages, #location {
+		width: 100% !important;
+		padding: 0 !important;
+	}
+	#text-intouch {
+		width: 100% !important;
+		padding: 0 !important;
+	}
+	#text-intouch>p {
+		text-align: center !important;
+	}
+	#img-intouch {
+	    width: 100% !important;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#tombol-indohun {
+		padding: 0 !important;
+	}
+}
+
 #intouch {
 	background-color: #efefef;
 	padding-bottom: 2rem;
@@ -13,10 +45,21 @@
 #text-intouch {
 	font-size: 0.9rem;
 	line-height: 1.3rem;
+	height: 4rem;
+	position: relative;
+}
+
+#text-intouch>p {
+	position: absolute;
+	padding: auto 0;
+	height: auto;
+	width: 100%;
+	text-align: left;
 }
 
 #img-intouch>img {
-	width: 4rem;
+	width: 3.5rem;
+	height: auto;
 }
 
 #button-source {
@@ -26,8 +69,8 @@
 }
 
 .container-intouch {
-    padding: 3rem 1rem !important;
-    margin: 0 4rem !important;
+    padding: 3rem 1rem;
+    margin: 0 4rem;
     border-style: solid;
     border-width: 0.2rem;
     border-color: #ff3f40;

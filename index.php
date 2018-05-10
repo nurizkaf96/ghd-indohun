@@ -368,7 +368,7 @@
     <div class="outer-container w3-center" id="intouch">
       <h1>Get In Touch</h1>
       <div class="w3-row-padding container-intouch">
-        <div class="w3-third w3-container w3-margin-bottom" id="chat">
+        <div class="w3-third w3-container" id="chat">
           <div class="w3-half" id="img-intouch">
             <img src="./img/intouch/chat.png">
           </div>
@@ -376,7 +376,7 @@
             <p>847-939-9359</p>
           </div>
         </div>
-        <div class="w3-third w3-container w3-margin-bottom" id="messages">
+        <div class="w3-third w3-container" id="messages">
           <div class="w3-half" id="img-intouch">
             <img src="./img/intouch/message.png">
           </div>
@@ -384,7 +384,7 @@
             <p>montreal@mail.com</p>
           </div>
         </div>
-        <div class="w3-third w3-container w3-margin-bottom" id="location">
+        <div class="w3-third w3-container" id="location">
           <div class="w3-half" id="img-intouch">
             <img src="./img/intouch/globe.png">
           </div>
@@ -393,7 +393,7 @@
           </div>
         </div>
       </div>
-      <div class="w3-row-padding w3-padding-large">
+      <div class="w3-row-padding w3-padding-large" id="tombol-indohun">
         <a href="https://indohun.org/">
           <button type="button" class="w3-button w3-red w3-margin-top" id="button-source">Visit INDOHUN website</button>
         </a>
