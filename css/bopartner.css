@@ -2,9 +2,6 @@
 	#inner-be-ourpartner>h1 {
 		font-size: 2rem !important;
 	}
-	#image-be-ourpartner>img {
-		margin: 0 !important;
-	}
 	#image-be-ourpartner {
 		width: 50% !important;
 		text-align: center !important;
@@ -28,12 +25,22 @@
 
 @media only screen and (max-width: 976px) {
 	#image-be-ourpartner {
-		width: 100% !important;
-		text-align: center !important;
-		margin: 0 auto !important;
+		display: none !important;
 	}
 	#image-be-ourpartner>img {
 		float: none !important;
+	}
+	#image-be-ourpartner-resp>img {
+		display: block !important;
+		margin: 0 auto !important;
+		float: none !important;
+	}
+	#image-be-ourpartner-resp {
+		display: block !important;
+		width: 100% !important;
+		text-align: center !important;
+		margin: 0 auto !important;
+		float: right !important;
 	}
 	#inner-be-ourpartner {
 		float: none !important;
@@ -63,7 +70,7 @@
 }
 
 @media only screen and (max-width: 532px) {
-	#image-be-ourpartner>img {
+	#image-be-ourpartner-resp>img {
 		height: auto !important;
 		width: 100% !important;
 	}
@@ -95,6 +102,12 @@
 #image-be-ourpartner>img {
 	height: 25rem;
 	width: auto;
+}
+
+#image-be-ourpartner-resp>img {
+	height: 25rem;
+	width: auto;
+	display: none;
 }
 
 #be-ourpartner-container {

@@ -221,7 +221,7 @@
       <!-- Be Our Partner -->
       <div class="outer-container" id="be-ourpartner">
         <div id="be-ourpartner-container">
-          <div class="w3-half" id="image-be-ourpartner">
+          <div class="w3-half" id="image-be-ourpartner-resp">
             <img src="./img/article/bop.png" class="w3-hover-opacity">
           </div>
           <div class="w3-half" id="inner-be-ourpartner">
@@ -230,6 +230,9 @@
             <a href="./post.php">
               <button type="button" class="w3-button w3-red w3-margin-top">Learn More</button>
             </a>
+          </div>
+          <div class="w3-half" id="image-be-ourpartner">
+            <img src="./img/article/bop.png" class="w3-hover-opacity">
           </div>
         </div>
       </div>

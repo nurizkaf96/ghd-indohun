@@ -11,7 +11,7 @@ html {
 
 body {
     font-family: "DIN", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 1.428571429;
     color: #363636;
     background-color: #fff;
@@ -19,6 +19,18 @@ body {
 
 div {
 	display: block;
+}
+
+@media only screen and (max-width: 500px) {
+	.post-header-full {
+	    margin: 5rem auto !important;
+	}
+	.post-header-full h1 {
+	    font-size: 2rem !important;
+	}
+	.blog-content {
+	    margin-top: -8rem !important;
+	}
 }
 
 .post-container {
