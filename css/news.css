@@ -1,3 +1,16 @@
+@media only screen and (max-width: 1165px) {
+    #text-news>h3 {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #news>h1 {
+        font-size: 2rem !important;
+        margin: 2rem 0 !important;
+    }
+}
+
 #news {
 	background-color: #51c3e4;
 	padding-bottom: 4rem;
@@ -24,14 +37,14 @@
 
 #text-news {
     padding: 1rem 1.5rem;
-    height: 15rem !important;
+    height: 20rem;
     /* padding-top: 0.5rem;
     height: 13rem !important; */
 }
 
 .image-news {
     height: 12rem;
-    width: 20rem !important;
+    width: 100%;
     object-fit: cover;
 }
 
@@ -61,7 +74,7 @@
 }
 
 .padding-news-card>img {
-    width: auto;
+    width: 100%;
     max-width: 100%;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */

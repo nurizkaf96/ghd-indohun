@@ -351,20 +351,16 @@
     <div class="outer-container w3-center" id="partner">
       <h1>Our Partner</h1>
       <div class="w3-row-padding" id="partner-container">
-        <div class="w3-third w3-container w3-margin-bottom">
-        </div>
-        <div class="w3-third w3-container w3-margin-bottom w3-center">
-          <div class="w3-third w3-container w3-margin-bottom" id="partner-img">
+        <div class="w3-container w3-margin-bottom w3-center">
+          <div class="w3-third w3-container w3-margin-bottom" id="partner-img-kiri">
             <img src="./img/partner/USAID.png" class="w3-hover-opacity">
           </div>
           <div class="w3-third w3-container w3-margin-bottom" id="partner-img">
             <img src="./img/partner/SEAOHUN.png" class="w3-hover-opacity">
           </div>
-          <div class="w3-third w3-container w3-margin-bottom" id="partner-img">
+          <div class="w3-third w3-container w3-margin-bottom" id="partner-img-kanan">
             <img src="./img/partner/OHW.png" class="w3-hover-opacity">
           </div>
-        </div>
-        <div class="w3-third w3-container w3-margin-bottom">
         </div>
       </div>
     </div>

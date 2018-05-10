@@ -1,3 +1,17 @@
+@media only screen and (max-width: 768px) {
+    #partner>h1 {
+        font-size: 2rem !important;
+        margin: 2rem 0 !important;
+    }
+    #partner-img-kiri>img {
+		float: none !important;
+	}
+
+	#partner-img-kanan>img {
+		float: none !important;
+	}
+}
+
 #partner>h1 {
 	font-size: 2.1875rem;
 	font-weight: bold;
@@ -5,9 +19,25 @@
 	margin-bottom: 1.03125rem;
 }
 
+#partner-img {
+	padding: 0.01rem 3rem;
+}
+
 #partner-img>img {
 	width: 8rem;
 	height: 4rem;
+}
+
+#partner-img-kiri>img {
+	width: 8rem;
+	height: 4rem;
+	float: right;
+}
+
+#partner-img-kanan>img {
+	width: 8rem;
+	height: 4rem;
+	float: left;
 }
 
 #partner-container {
