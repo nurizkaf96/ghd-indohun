@@ -33,8 +33,9 @@
 <header class="header-container w3-content">
   <!-- Navigation Bar -->
   <div class="navigation-bar">
-    <div class="w3-logo w3-left" id="logo-utama">
-      <a href="#">Global</br>Health</br>Diplomacy</a>
+    <div class="w3-logo w3-left logo-area">
+      <img src="./img/Logo_GHD.png" alt="Logo GHD" id="logo-utama" class="logo-img">
+      <!-- <a href="#">Global</br>Health</br>Diplomacy</a> -->
     </div>
     <div class="w3-rest">
       <a class="w3-bar-item w3-button w3-padding w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
