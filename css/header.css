@@ -261,7 +261,7 @@
 .navigation-bar-block .w3-dropdown-click .w3-button {
     width: 100%;
     text-align: left;
-    padding: 8px 16px
+    padding: 0.5rem 1rem;
 }
 
 #navsmall {
@@ -280,7 +280,7 @@
     display: block;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 31.25rem) {
     .header-container {
         padding-bottom: 3rem;
         background-color: #51c3e4;
@@ -301,7 +301,7 @@
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 25rem) {
     .header-container {
         padding-bottom: 8rem;
         background-color: #51c3e4;

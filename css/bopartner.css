@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1165px) {
+@media only screen and (max-width: 72.8125rem) {
 	#inner-be-ourpartner>h1 {
 		font-size: 2rem !important;
 	}
@@ -23,7 +23,7 @@
 	}
 }
 
-@media only screen and (max-width: 976px) {
+@media only screen and (max-width: 61rem) {
 	#image-be-ourpartner {
 		display: none !important;
 	}
@@ -58,7 +58,7 @@
 	}
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 40.625rem) {
 	#inner-be-ourpartner>h6 {
 		width: 100% !important;
 		padding: 0 !important;
@@ -69,7 +69,7 @@
 	}
 }
 
-@media only screen and (max-width: 532px) {
+@media only screen and (max-width: 33.25rem) {
 	#image-be-ourpartner-resp>img {
 		height: auto !important;
 		width: 100% !important;

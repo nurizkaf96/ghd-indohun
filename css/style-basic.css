@@ -56,7 +56,7 @@ h6 {
 
 hr {
     border: 0;
-    border-top: 1px solid #eee;
+    border-top: 0.0625rem solid #eee;
     margin: 1.25rem 0
 }
 
@@ -120,7 +120,7 @@ a {
 .w3-container,
 .outer-container,
 .w3-panel {
-    padding: 0.01em 16px;
+    padding: 0.01em 1rem;
 }
 
 .outer-container {
@@ -173,8 +173,8 @@ h5>a {
         transition: transform .6s ease-in-out;
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
-        -webkit-perspective: 1000px;
-        perspective: 1000px
+        -webkit-perspective: 62.5rem;
+        perspective: 62.5rem
     }
     .carousel-inner>.item.active.right,
     .carousel-inner>.item.next {
@@ -275,25 +275,25 @@ h5>a {
     top: 50%;
     z-index: 5;
     display: inline-block;
-    margin-top: -10px
+    margin-top: -0.625rem;
 }
 
 .carousel-control .glyphicon-chevron-left,
 .carousel-control .icon-prev {
     left: 50%;
-    margin-left: -10px
+    margin-left: -0.625rem
 }
 
 .carousel-control .glyphicon-chevron-right,
 .carousel-control .icon-next {
     right: 50%;
-    margin-right: -10px
+    margin-right: -0.625rem
 }
 
 .carousel-control .icon-next,
 .carousel-control .icon-prev {
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
     font-family: serif;
     line-height: 1
 }
@@ -306,41 +306,41 @@ h5>a {
     content: '\203a'
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:48rem) {
     .carousel-control .glyphicon-chevron-left,
     .carousel-control .glyphicon-chevron-right,
     .carousel-control .icon-next,
     .carousel-control .icon-prev {
-        width: 30px;
-        height: 30px;
-        margin-top: -10px;
-        font-size: 30px
+        width: 1.875rem;
+        height: 1.875rem;
+        margin-top: -0.625rem;
+        font-size: 1.875rem
     }
     .carousel-control .glyphicon-chevron-left,
     .carousel-control .icon-prev {
-        margin-left: -10px
+        margin-left: -0.625rem
     }
     .carousel-control .glyphicon-chevron-right,
     .carousel-control .icon-next {
-        margin-right: -10px
+        margin-right: -0.625rem
     }
     .carousel-caption {
         right: 20%;
         left: 20%;
-        padding-bottom: 30px
+        padding-bottom: 1.875rem
     }
     .carousel-indicators {
-        bottom: 20px
+        bottom: 1.25rem
     }
 }
 
 
 .sr-only {
     position: absolute;
-    width: 1px;
-    height: 1px;
+    width: 0.0625rem;
+    height: 0.0625rem;
     padding: 0;
-    margin: -1px;
+    margin: -0.0625rem;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0
@@ -371,7 +371,7 @@ h5>a {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 31.25rem) {
 	.outer-container {
 		padding: 2rem 2rem;
 	}

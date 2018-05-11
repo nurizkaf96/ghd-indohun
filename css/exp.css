@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1265px) {
+@media only screen and (max-width: 79.0625rem) {
 	#red-back-number {
 		height: 15rem !important;
 		margin: 0 4rem !important;
@@ -11,7 +11,7 @@
 	}
 }
 
-@media only screen and (max-width: 1165px) {
+@media only screen and (max-width: 72.8125rem) {
 	#red-back-number {
 		height: 10rem !important;
 	}
@@ -26,7 +26,7 @@
 	}
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 48rem) {
 	#experience>.outer-container>h1 {
 	    font-size: 2rem !important;
 	    margin: 2rem 0 !important;
@@ -78,7 +78,7 @@
 	}
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 37.5rem) {
 	#experience>.outer-container {
 		padding-top: 0.5rem !important;
 	}
