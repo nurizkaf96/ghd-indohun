@@ -1,10 +1,10 @@
-@media only screen and (max-width: 1304px) {
+@media only screen and (max-width: 81.5rem) {
 	#text-intouch>p {
 		font-size: 0.7rem !important;
 	}
 }
 
-@media only screen and (max-width: 1135px) {
+@media only screen and (max-width: 70.9375rem) {
 	.container-intouch {
 		width: auto !important;
 	}
@@ -24,7 +24,7 @@
 	}
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 31.25rem) {
 	#tombol-indohun {
 		padding: 0 !important;
 	}
