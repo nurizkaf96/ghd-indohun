@@ -82,17 +82,17 @@
 	vertical-align: center;
 }
 
-#chat>.w3-half>img {
+#chat>.idh-half>img {
 	background-color: #ff3f40;
 	padding: 0.5rem;
 }
 
-#messages>.w3-half>img {
+#messages>.idh-half>img {
 	background-color: #ff3f40;
 	padding: 0.5rem;
 }
 
-#location>.w3-half>img {
+#location>.idh-half>img {
 	background-color: #ff3f40;
 	padding: 0.5rem;
 }
