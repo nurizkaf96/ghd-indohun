@@ -237,9 +237,7 @@ h5>a {
 
 .carousel-control {
     position: absolute;
-    margin-right: 1.4rem;
-    margin-top: 25rem;
-    margin-left: 1.4rem;
+    margin: 20rem 1.5rem 0 1.5rem;
     left: 0;
     width: 4.25rem;
     height: 4.25rem;
