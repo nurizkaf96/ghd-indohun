@@ -1,22 +1,33 @@
-@media only screen and (max-width: 79.0625rem) {
+@media only screen and (max-width: 82rem) {
 	#red-back-number {
 		height: 15rem !important;
 		margin: 0 4rem !important;
 	}
 	#coverbackground {
-		margin-top: -17rem !important;
+		margin-top: -13rem !important;
 	}
 	#number {
 		margin-top: -3rem !important;
+		margin-bottom: 5rem !important;
+	}
+	#experience>.outer-container>h4 {
+	    width: 75% !important;
+	}
+	#experience>.outer-container>h6 {
+	    width: 75% !important;
+	}
+	#number-container {
+		width: 85% !important;
 	}
 }
 
 @media only screen and (max-width: 72.8125rem) {
 	#red-back-number {
-		height: 10rem !important;
+		height: 16rem !important;
 	}
 	#coverbackground {
-		margin-top: -19rem !important;
+		margin-top: -16rem !important;
+		height: 
 	}
 	#number>p {
 		font-size: 0.8rem !important;
@@ -26,7 +37,41 @@
 	}
 }
 
+@media only screen and (max-width: 67.8125rem) {
+	#coverbackground {
+		margin-top: -16rem !important;
+	}
+	#experience>.outer-container>h4 {
+	    width: 85% !important;
+	    font-size: 1.3rem !important;
+	}
+	#experience>.outer-container>h6 {
+	    width: 85% !important;
+	    font-size: 1rem !important;
+	}
+	#experience {
+		object-fit: fill !important;
+		background-size: 120% !important;
+		height:100% !important;
+		background-position: right top !important;
+		margin-bottom: 2rem !important;
+	}
+}
+
+@media only screen and (max-width: 53.125rem) {
+	#experience {
+		background-size: 140% !important;
+	}
+	#coverbackground {
+	    margin-top: -20rem !important;
+	}
+}
+
 @media only screen and (max-width: 48rem) {
+	#experience {
+		/*height: 1% !important;*/
+		background-size: 170% !important;
+	}
 	#experience>.outer-container>h1 {
 	    font-size: 2rem !important;
 	    margin: 2rem 0 !important;
@@ -36,17 +81,11 @@
 	}
 	#experience>.outer-container>h6 {
 	    font-size: 1rem !important;
-	    margin-bottom: 2rem !important;
+	    margin-bottom: 3rem !important;
 	}
 	#number {
 	    font-size: 2rem !important;
 	    margin-top: -1.5rem !important;
-	}
-	#experience {
-		object-fit: fill !important;
-		background-size: auto !important;
-		height: 100% !important;
-		background-position: right top !important;
 	}
 	#number-container {
 	    width: 100% !important;
@@ -73,12 +112,14 @@
 	    padding-left: 0 !important;
 	}
 	#coverbackground {
-		height: 10rem !important;
-		margin-top: -6rem !important;
+		margin-top: -16rem !important;
 	}
 }
 
 @media only screen and (max-width: 37.5rem) {
+	#experience {
+		background-size: auto !important;
+	}
 	#experience>.outer-container {
 		padding-top: 0.5rem !important;
 	}
@@ -108,7 +149,7 @@
     font-weight: bold;
     font-family: Gotham;
     text-align: center;
-    margin-bottom: 1rem !important;
+    margin-bottom: 1rem;
     margin-top: 0;
 	padding: 0 1rem;
 }
@@ -119,7 +160,7 @@
 }
 
 #number>p {
-	font-size: 1.1rem;
+	font-size: 0.8rem;
 	text-align: left;
 	font-weight: normal;
 	width: 90%;
@@ -150,7 +191,7 @@
 	background-color: white;
 	background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1));
 	width: 100%;
-	height: 10rem;
+	height: 9rem;
 	position: static;
 	margin: 0;
 	margin-top: -10rem;
@@ -163,6 +204,11 @@
     padding-bottom: 0;
     background-size: 100%;
     object-fit: cover;
+    height: 100%;
+}
+
+#experience>.outer-container {
+    margin-bottom: 4rem;
 }
 
 #experience>.outer-container>h4 {
@@ -183,7 +229,7 @@
 	font-size: 3.125rem;
 	font-weight: bold;
 	margin-bottom: 2.6rem;
-	margin-top: 6rem;
+	margin-top: 3rem;
 }
 
 .garisbawah {
