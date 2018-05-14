@@ -30,7 +30,7 @@
   <script src="./js/setting-carousel.js"></script>
 
 <!-- Header -->
-<header class="header-container w3-content">
+<header class="header-container w3-content" id="top">
   <!-- Navigation Bar -->
   <div class="navigation-bar">
     <div class="w3-logo w3-left logo-area">
@@ -437,6 +437,9 @@
       </a>
       <a href="https://www.youtube.com/user/INDONESIAOHUN">
         <i class="fa fa-youtube w3-hover-opacity" id="icon-social"></i>
+      </a>
+      <a href="#top">
+        <button class="btn-up"><i class="fa fa-chevron-up"></i></button>
       </a>
     </div>
   </footer>
