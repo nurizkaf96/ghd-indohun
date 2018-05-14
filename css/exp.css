@@ -1,7 +1,7 @@
 @media only screen and (max-width: 82rem) {
 	#red-back-number {
-		height: 15rem !important;
-		margin: 0 4rem !important;
+		height: 20rem !important;
+		margin: 0 5rem !important;
 	}
 	#coverbackground {
 		margin-top: -13rem !important;
@@ -27,7 +27,7 @@
 	}
 	#coverbackground {
 		margin-top: -16rem !important;
-		height: 
+		/* height:  */
 	}
 	#number>p {
 		font-size: 0.8rem !important;
@@ -182,9 +182,7 @@
 	width: auto;
 	height: 20rem;
 	position: static;
-	margin-top: 6.3rem;
-	margin-left: 7rem;
-	margin-right: 7rem;
+	margin: 0 5rem;
 }
 
 #coverbackground {
@@ -220,8 +218,8 @@
 
 #experience>.outer-container>h6 {
     width: 58%;
-    margin: 2.3rem auto;
-    margin-bottom: 3.1rem;
+    margin: 3rem auto;
+    margin-bottom: 6rem;
     font-size: 1.25rem;
 }
 

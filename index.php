@@ -149,7 +149,7 @@
           <ol>
             <li>Please make sure to complete all the application and requirements form</li>
             <li>Send the form to ghd2018@gmail.com with [GDH 2018] Application form_scholarship as a subject</li>
-            <li>The announcement will be uploaded in www.GHD.org</li>
+            <li>The announcement will be uploaded in this website (globalhealthdiplomacy.id)</li>
             <li>Deadline : April 30, 2018</li>
           </ol>
           <p>Download booklet : <a href="#">click here</a></p>
