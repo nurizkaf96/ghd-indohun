@@ -4,50 +4,55 @@
 	<title>Global Health Diplomacy</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="./css/w3.css">
-	<link rel="stylesheet" href="./css/header.css">
-	<link rel="stylesheet" href="./css/style-basic.css">
-	<link rel="stylesheet" href="./css/programs.css">
-	<link rel="stylesheet" href="./css/exp.css">
-	<link rel="stylesheet" href="./css/training.css">
-	<link rel="stylesheet" href="./css/bopartner.css">
-	<link rel="stylesheet" href="./css/news.css">
-	<link rel="stylesheet" href="./css/intouch.css">
-	<link rel="stylesheet" href="./css/footer.css">
-	<link rel="stylesheet" href="./css/prism.css">
-	<link rel="stylesheet" href="./css/post.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/w3.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/style-basic.css">
+  <link rel="stylesheet" href="./css/programs.css">
+  <link rel="stylesheet" href="./css/exp.css">
+  <link rel="stylesheet" href="./css/training.css">
+  <link rel="stylesheet" href="./css/bopartner.css">
+  <link rel="stylesheet" href="./css/news.css">
+  <link rel="stylesheet" href="./css/partner.css">
+  <link rel="stylesheet" href="./css/intouch.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/prism.css">
+  <link rel="stylesheet" href="./css/post.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
+<script src="./js/navbar.js"></script>
 
 <body>
 	<!-- Navigation Bar -->
-	<div class="navigation-bar-post">
-	    <div class="s2">
-	      	<a href="./index.php" class="w3-logo w3-left" id="logo-utama">Global</br>Health</br>Diplomacy</a>
+	<div class="navigation-bar">
+	    <div class="w3-logo w3-left logo-area">
+			<img src="./img/Logo_GHD.png" alt="Logo GHD" id="logo-utama" class="logo-img">
+			<!-- <a href="#">Global</br>Health</br>Diplomacy</a> -->
 	    </div>
 	    <div class="w3-rest">
-	      	<a class="w3-bar-item w3-button w3-padding-large w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+			<a class="w3-bar-item w3-button w3-padding w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
 	    </div>
-	    <a href="./index.php#intouch" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Contact</a>
-	    <a href="./index.php#partners" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Partners</a>
-	    <a href="./index.php#events" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Events</a>
-	    <a href="./index.php#news" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">News</a>
-	    <a href="./index.php#register" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Register</a>
-	    <a href="./index.php#programs" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Programs</a>
-	    <a href="./index.php#about" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">About</a>
-	</div>
+	    <div id="topbar-post">
+			<a href="./index.php#intouch" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Contact</a>
+			<a href="./index.php#partner" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Partners</a>
+			<a href="./index.php#events" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Events</a>
+			<a href="./index.php#ghd-news" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">News</a>
+			<a href="./index.php#register" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Register</a>
+			<a href="./index.php#programs" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Programs</a>
+			<a href="./index.php#about" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">About</a>
+	    </div>
+  	</div>
 
-	<!-- Navbar on small screens -->
-	<div id="navsmall" class="w3-bar-block w3-black w3-hide w3-hide-large w3-top">
+	  <!-- Navbar on small screens -->
+	  <div id="navsmall" class="w3-bar-block w3-black w3-hide w3-hide-large w3-top">
 	    <a href="./index.php#intouch" class="w3-bar-item w3-button w3-padding-large">Contact</a>
-	    <a href="./index.php#partners" class="w3-bar-item w3-button w3-padding-large">Partners</a>
+	    <a href="./index.php#partner" class="w3-bar-item w3-button w3-padding-large">Partners</a>
 	    <a href="./index.php#events" class="w3-bar-item w3-button w3-padding-large">Events</a>
-	    <a href="./index.php#news" class="w3-bar-item w3-button w3-padding-large">News</a>
+	    <a href="./index.php#ghd-news" class="w3-bar-item w3-button w3-padding-large">News</a>
 	    <a href="./index.php#register" class="w3-bar-item w3-button w3-padding-large">Register</a>
 	    <a href="./index.php#programs" class="w3-bar-item w3-button w3-padding-large">Programs</a>
 	    <a href="./index.php#about" class="w3-bar-item w3-button w3-padding-large">About</a>
-	</div>
+	  </div>
 
 	<!-- Post -->
 	<div class="post-container">
@@ -97,26 +102,25 @@
 		</div>
 	</div>
 </body>
-	<!-- Footer -->
-  <footer class="w3-padding-32 w3-center" id="footer">
-    <h5>&copy; 2018 - <a href="https://indohun.org/">INDOHUN</a> All Right Reserved</h5>
-    <div class="w3-xlarge w3-padding-large" id="social-link">
-      <a href="https://www.facebook.com/indohun.id/">
-        <i class="fa fa-facebook-official w3-hover-opacity" id="icon-social"></i>
-      </a>
-      <a href="https://twitter.com/Indohun">
-        <i class="fa fa-twitter w3-hover-opacity" id="icon-social"></i>
-      </a>
-      <a href="#">
-        <i class="fa fa-dribbble w3-hover-opacity" id="icon-social"></i>
-      </a>
-      <a href="#">
-        <i class="fa fa-google-plus w3-hover-opacity" id="icon-social"></i>
-      </a>
-      <a href="https://www.youtube.com/user/INDONESIAOHUN">
-        <i class="fa fa-youtube w3-hover-opacity" id="icon-social"></i>
-      </a>
-    </div>
-  </footer>
-  	<script src="./js/navbar.js"></script>
+  	<!-- Footer -->
+	<footer class="w3-padding-32 w3-center" id="footer">
+		<h5>&copy; 2018 - <a href="https://indohun.org/">INDOHUN</a> All Right Reserved</h5>
+		<div class="w3-xlarge w3-padding-large" id="social-link">
+		  <a href="https://www.facebook.com/indohun.id/">
+		    <i class="fa fa-facebook-official w3-hover-opacity" id="icon-social"></i>
+		  </a>
+		  <a href="https://twitter.com/Indohun">
+		    <i class="fa fa-twitter w3-hover-opacity" id="icon-social"></i>
+		  </a>
+		  <a href="#">
+		    <i class="fa fa-dribbble w3-hover-opacity" id="icon-social"></i>
+		  </a>
+		  <a href="#">
+		    <i class="fa fa-google-plus w3-hover-opacity" id="icon-social"></i>
+		  </a>
+		  <a href="https://www.youtube.com/user/INDONESIAOHUN">
+		    <i class="fa fa-youtube w3-hover-opacity" id="icon-social"></i>
+		  </a>
+		</div>
+	</footer>
 </html>

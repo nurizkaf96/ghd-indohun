@@ -51,8 +51,7 @@ div {
     background-repeat: no-repeat;
     width: 100%;
     max-width: 100%;
-    margin: 7rem auto;
-    margin-bottom: 0;
+    margin: 0 auto;
     z-index: 4;
 }
 
