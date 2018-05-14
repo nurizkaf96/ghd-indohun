@@ -134,25 +134,39 @@
 
     <div id="contentExecutive" class="outer-container w3-hide w3-animate-opacity w3-bar-block" tabindex="1">
       <div class="exe-container w3-row-padding">
-        <div class="w3-third image-content-programs">
-          <img src="./img/program/executive.png" class="w3-hover-opacity w3-third w3-image">
-        </div>
-        <div class="w3-twothird inner-programs">
+        <div class="inner-programs">
+          <img src="./img/program/executive.png" class="w3-hover-opacity image-content-programs">
           <h1><b>EXECUTIVE TRAINING</b></h1>
-          <p><b>Requirements:</b></p>
+          <p>
+            Global health diplomacy (GHD) Training is three to five-day intensive program that combine 40 percent theory and 60 percent practice. This training prepares participants with negotiation and policy skills to help them in influencing people, collaboration, and decision making at national and international level.
+          </p>
           <ul>
-            <li>Age</li>
-            <li>Profession</li>
-            <li>Degree</li>
+            <li>Participant will be trained diplomacy skills set including negotiation manner and strategy, social influencing, and building professional image.</li>
+            <li>
+              Participant will benefit from the structure of the program and the lecturer since it is highly participatory and it provides them with skill-building activities, multi-stakeholders panels, case study, role-play exercises, and negotiation simulation with world-prominent and leading facilitators.
+              We are calling for the next true leaders!
+            </li>
           </ul>
-          <p><b>How to Register:</b></p>
+          <h5>Download Links</h4>
+          <ul>
+            <li><a href="http://bit.ly/GHD2018ProgramBooklet">Booklet</a></li>
+            <li><a href="https://drive.google.com/open?id=11P2_aUbLO8ft-hnri0ZJGVBTYhnQSEdN">Scholarship Application Forms</a></li>
+            <li><a href="https://drive.google.com/open?id=1uI1hywgViPDMlVaXTpHq9cFyo5xT_UBX">Regular Application Forms</a></li>
+          </ul>
+          <h4><b>Instructions</b></h3>
           <ol>
             <li>Please make sure to complete all the application and requirements form</li>
-            <li>Send the form to ghd2018@gmail.com with [GDH 2018] Application form_scholarship as a subject</li>
-            <li>The announcement will be uploaded in this website (globalhealthdiplomacy.id)</li>
-            <li>Deadline : April 30, 2018</li>
+            <li>Complete this application form and submit to our email at discoversghd@gmail.com, (with the file subject: GHD – SCH – 2018 – Full Name – Your Institution/Organisation Name – Nationality).</li>
+            <li>If selected, we will publish the announcement of the Global Health Diplomacy candidates at: globalhealthdiplomacy.id on 15th June, 2018</li>
           </ol>
-          <p>Download booklet : <a href="#">click here</a></p>
+          <h4><b>Impotant Dates</b></h3>
+          <ul>
+            <li>Scholarship Application Deadline May 30, 2018</li>
+            <li>Non-scholarship Application Deadline June 30, 2018</li>
+            <li>Participant Selected and Administration Process 15 July – 22 July, 2018</li>
+            <li>Pre-departure Assignment Process July 23 – August 6, 2018</li>
+            <li>Training Days August 25 – August 29, 2018</li>
+          </ul>
         </div>
       </div>
     </div>
