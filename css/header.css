@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Gotham';
-  src: url('../font/Gotham-Medium.eot'); /* IE9 Compat Modes */
-  src: url('../font/Gotham-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../font/Gotham-Medium.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../font/Gotham-Medium.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../font/Gotham-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../font/Gotham-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('../font/Gotham-Black.eot'); /* IE9 Compat Modes */
+  src: url('../font/Gotham-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/Gotham-Black.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../font/Gotham-Black.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../font/Gotham-Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../font/Gotham-Black.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
@@ -209,7 +209,7 @@
 }
 
 #text-big {
-    font-family: Gotham;
+    font-family: Gotham-Book;
 }
 
 .logo-img {
