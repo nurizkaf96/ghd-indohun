@@ -126,6 +126,11 @@
     clear: both;
 }
 
+#navbar {
+    position: fixed !important;
+    z-index: 1000 !important;
+}
+
 .navigation-bar {
     overflow: hidden;
     background: transparent;
@@ -143,6 +148,7 @@
     content: "";
     display: table;
     clear: both;
+    top: 0;
 }
 
 .navigation-bar-post {

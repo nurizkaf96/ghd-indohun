@@ -32,7 +32,7 @@
 <!-- Header -->
 <header class="header-container" id="top">
   <!-- Navigation Bar -->
-  <div class="navigation-bar">
+  <div class="navigation-bar" id="navbar">
     <div class="w3-logo w3-left logo-area">
       <img src="./img/Logo_GHD.png" alt="Logo GHD" id="logo-utama" class="logo-img">
       <!-- <a href="#">Global</br>Health</br>Diplomacy</a> -->
