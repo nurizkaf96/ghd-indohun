@@ -166,18 +166,6 @@
     background-color: #2f2f2f;
     margin-top: 0 !important;
 }
-
-.menu-bar {
-    font-size: 1rem;
-    padding: 0.5rem 2rem;
-    float: left;
-    width: auto;
-    border: none;
-    display: block;
-    outline: 0;
-    font-weight: bold;
-}
-
 .menu-bar:hover {
     color: #000!important;
     background-color: #fff!important;
@@ -284,9 +272,32 @@
     display: block;
 }
 
-/*@media only screen and (min-width: 85.375rem) {*/
+@media only screen and (min-width: 125rem) {
+    .logo-img {
+        max-height: 10rem;
+    }
+    .menu-bar {
+        font-size: 3rem;
+    }
+}
 
-@media only screen and (max-width: 31.25rem) {
+@media only screen and (min-width: 85.4rem) {
+    .logo-img {
+        max-height: 6rem;
+    }
+    .menu-bar {
+        font-size: 1.5rem;
+        padding: 0.5rem 2rem;
+        float: left;
+        width: auto;
+        border: none;
+        display: block;
+        outline: 0;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 85.375rem) {
     .header-container {
         padding-bottom: 3rem;
         background-color: #51c3e4;
@@ -304,6 +315,16 @@
     }
     .inner2-container>p {
         font-size: 0.8rem;
+    }
+    .menu-bar {
+        font-size: 1rem;
+        padding: 0.5rem 2rem;
+        float: left;
+        width: auto;
+        border: none;
+        display: block;
+        outline: 0;
+        font-weight: bold;
     }
 }
 
