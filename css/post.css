@@ -23,15 +23,98 @@ div {
 	display: block;
 }
 
-@media only screen and (max-width: 31.25rem) {
+@media only screen and (max-width: 85.375rem) {
 	.post-header-full {
-	    margin: 5rem auto !important;
+	    margin: 5rem auto;
 	}
 	.post-header-full h1 {
 	    font-size: 2rem !important;
+	    z-index: 999 !important;
 	}
 	.blog-content {
-	    margin-top: -8rem !important;
+	    margin-top: -2rem !important;
+	}
+	.post-header-full {
+	    height: 35rem;
+	    position: relative;
+		background-image: url(../img/hero/header.png);
+	    background-position: center center;
+	    background-repeat: no-repeat;
+	    background-size: auto 85.375rem !important;
+	    width: 100%;
+	    max-width: 100%;
+	    margin: 0 auto;
+	    z-index: 4;
+	}
+	.container-fluid {
+	    margin-right: auto;
+	    margin-left: auto;
+	    padding-left: 1rem;
+	    padding-right: 1rem;
+	    min-width: 20rem;
+	    max-width: 100%;
+	    width: 70.625rem;
+	}
+	.post-content {
+	    line-height: 175%;
+	    font-size: 1rem;
+	    color: #444;
+	    font-weight: 200;
+	    position: relative;
+	    word-wrap: break-word;
+	    text-overflow: ellipsis;
+	    /* font-family: "Merriweather", Georgia, "Times New Roman", Times, sans-serif; */
+	}
+	.blog-content .author small.time {
+	    margin-top: 1.25rem;
+	    font-size: 0.75rem;
+	    text-transform: none;
+	}
+}	
+
+@media only screen and (min-width: 85.375rem) {
+	.post-header-full h1 {
+	    font-size: 6rem !important;
+	    z-index: 999 !important;
+	}
+	.post-header-full {
+	    height: 100rem;
+	    position: relative;
+		background-image: url(../img/hero/header.png);
+	    background-position: center center;
+	    background-repeat: no-repeat;
+	    background-size: auto 256rem;
+	    width: 100%;
+	    max-width: 100%;
+	    margin: 0 auto;
+	    z-index: 4;
+	}
+	.container-fluid {
+	    margin-right: auto;
+	    margin-left: auto;
+	    padding-left: 1rem;
+	    padding-right: 1rem;
+	    min-width: 20rem;
+	    max-width: 100%;
+	    width: 70%;
+	}
+	.post-content {
+	    line-height: 175%;
+	    font-size: 2.5rem;
+	    color: #444;
+	    font-weight: 200;
+	    position: relative;
+	    word-wrap: break-word;
+	    text-overflow: ellipsis;
+	    /* font-family: "Merriweather", Georgia, "Times New Roman", Times, sans-serif; */
+	}
+	.blog-content .author small.time {
+	    margin-top: 1.25rem;
+	    font-size: 1.5rem;
+	    text-transform: none;
+	}
+	.author>h5 {
+		font-size: 1.5rem;
 	}
 }
 
@@ -41,18 +124,6 @@ div {
 
 .ajax-post.link, .ajax-post.post {
     margin-bottom: 4.375rem;
-}
-
-.post-header-full {
-    height: 35rem;
-    position: relative;
-	background-image: url(../img/hero/header.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    z-index: 4;
 }
 
 .post-header-full::before {
@@ -85,16 +156,6 @@ div {
 
 .relative {
     position: relative !important;
-}
-
-.container-fluid {
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    min-width: 20rem;
-    max-width: 100%;
-    width: 70.625rem;
 }
 
 .container-fluid:before, .container-fluid:after {
@@ -204,10 +265,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
     display: block;
 }
 
-
-
-
-
 .blog-content > .table {
     table-layout: fixed;
     width: 100%;
@@ -223,17 +280,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 
 .module {
     margin-bottom: 2.5rem !important;
-}
-
-.post-content {
-    line-height: 175%;
-    font-size: 1rem;
-    color: #444;
-    font-weight: 200;
-    position: relative;
-    word-wrap: break-word;
-    text-overflow: ellipsis;
-    /* font-family: "Merriweather", Georgia, "Times New Roman", Times, sans-serif; */
 }
 
 .post-content p {
@@ -435,12 +481,6 @@ img[Attributes Style] {
     color: #59696b;
     font-weight: bold;
     font-size: 0.6875rem;
-}
-
-.blog-content .author small.time {
-    margin-top: 1.25rem;
-    font-size: 0.75rem;
-    text-transform: none;
 }
 
 .blog-content .author small {

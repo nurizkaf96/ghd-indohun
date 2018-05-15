@@ -78,7 +78,7 @@ a {
 }
 
 .w3-image {
-    max-width: 100%;
+    max-width: 256rem;
     height: auto
 }
 
@@ -91,7 +91,7 @@ a {
 }
 
 .content {
-    max-width: 102rem;
+    max-width: 100%;
     margin: auto
 }
 

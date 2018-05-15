@@ -30,7 +30,7 @@
   <script src="./js/setting-carousel.js"></script>
 
 <!-- Header -->
-<header class="header-container w3-content" id="top">
+<header class="header-container" id="top">
   <!-- Navigation Bar -->
   <div class="navigation-bar">
     <div class="w3-logo w3-left logo-area">
@@ -82,7 +82,7 @@
   </div>
 
   <!-- Gambar Header -->
-  <img class="w3-image" src="./img/hero/header.png" alt="Header Image">
+  <img class="w3-image img-head" src="./img/hero/header.png" alt="Header Image">
 </header>
 
 <body>

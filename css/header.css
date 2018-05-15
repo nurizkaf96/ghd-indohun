@@ -38,8 +38,12 @@
 
 .header-container {
     position: relative;
-    max-width: 93.75rem;
+    max-width: 100%;
     font-family: Gotham;
+}
+
+.img-head {
+    width: 100%;
 }
 
 .header-container:hover .header-hover {
@@ -279,6 +283,8 @@
     clear: both;
     display: block;
 }
+
+/*@media only screen and (min-width: 85.375rem) {*/
 
 @media only screen and (max-width: 31.25rem) {
     .header-container {
