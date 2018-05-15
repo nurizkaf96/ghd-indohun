@@ -93,14 +93,14 @@
 #inner-training>h1 {
 	font-size: 3.125rem;
 	font-weight: bold;
-	font-family: Gotham;
+	font-family: Gotham-Book;
 	width: 50%;
 	line-height: 3.5rem;
 }
 
 #inner-training>h6 {
 	font-size: 1rem;
-	font-family: Gotham;
+	font-family: Gotham-Book;
 	width: 80%;
 	/* line-height: 1.5rem; */
 }
