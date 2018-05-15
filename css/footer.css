@@ -26,3 +26,21 @@
     background-color: #fff;
     color: #f44336;
 }
+
+@media only screen and (min-width: 125rem) {
+    #footer>h5 {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (min-width: 85.4rem) {
+    #footer>h5 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 85.375rem) {
+    #footer>h5 {
+        font-size: 1rem;
+    }
+}
