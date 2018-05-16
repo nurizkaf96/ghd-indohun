@@ -384,31 +384,32 @@
       </div>
     </div>
 
+
     <div class="outer-container w3-center" id="intouch">
       <h1>Get In Touch</h1>
       <div class="w3-row-padding container-intouch">
-        <div class="w3-third w3-container" id="chat">
-          <div class="w3-half" id="img-intouch">
+        <div class="w3-third" id="chat">
+          <div class="w3-third" id="img-intouch">
             <img src="./img/intouch/chat.png">
           </div>
-          <div class="w3-half" id="text-intouch">
-            <p>847-939-9359</p>
+          <div class="w3-twothird" id="text-intouch">
+            <p>(+62) 812-8011-9690</p>
           </div>
         </div>
         <div class="w3-third w3-container" id="messages">
-          <div class="w3-half" id="img-intouch">
+          <div class="w3-third" id="img-intouch">
             <img src="./img/intouch/message.png">
           </div>
-          <div class="w3-half" id="text-intouch">
-            <p>montreal@mail.com</p>
+          <div class="w3-twothird" id="text-intouch">
+            <p>discoversghd@gmail.com</p>
           </div>
         </div>
         <div class="w3-third w3-container" id="location">
-          <div class="w3-half" id="img-intouch">
+          <div class="w3-third" id="img-intouch">
             <img src="./img/intouch/globe.png">
           </div>
-          <div class="w3-half" id="text-intouch">
-            <p>4116 Oak Avenue</br>Chicago, IL 60607</p>
+          <div class="w3-twothird" id="text-intouch">
+            <p>Tempat</p>
           </div>
         </div>
       </div>
