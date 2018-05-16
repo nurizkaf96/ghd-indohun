@@ -279,9 +279,10 @@
 }
 
 #navsmall {
-    z-index: 998 !important;
+    z-index: 1001 !important;
     position: fixed;
     width: 50%;
+    display: none;
 }
 
 #bawahnyanavbar {
@@ -344,6 +345,12 @@
         border: none;
         display: block;
         outline: 0;
+    }
+}
+
+@media only screen and (max-width: 62rem) {
+    #topbar-post {
+        display: none !important;
     }
 }
 

@@ -37,9 +37,10 @@
       <img src="./img/Logo_GHD.png" alt="Logo GHD" id="logo-utama" class="logo-img">
       <!-- <a href="#">Global</br>Health</br>Diplomacy</a> -->
     </div>
-    <div class="w3-rest">
-      <a class="w3-bar-item w3-button w3-padding w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    </div>
+    <!-- <div class="w3-rest"> -->
+      <button class="w3-bar-item w3-button w3-hide-large w3-right" onclick="myFunction()">
+      <a href="javascript:void(0)"><i class="fa fa-bars"></i></a></button>
+    <!-- </div> -->
     <div id="topbar-post" class="navigation-bar">
       <a href="#intouch" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Contact</a>
       <a href="#partner" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Partners</a>
@@ -52,7 +53,7 @@
   </div>
 
   <!-- Navbar on small screens -->
-  <div id="navsmall" class="w3-bar-block w3-black w3-hide w3-hide-large w3-top">
+  <div id="navsmall" class="w3-bar-block w3-black w3-hide-large w3-top">
     <a href="#intouch" class="w3-bar-item w3-button w3-padding-large">Contact</a>
     <a href="#partner" class="w3-bar-item w3-button w3-padding-large">Partners</a>
     <a href="#events" class="w3-bar-item w3-button w3-padding-large">Events</a>
