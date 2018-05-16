@@ -96,6 +96,12 @@
 	vertical-align: center;
 }
 
+.intouch-icons-area {
+	background-color: #ff3f40;
+	padding: .75rem;
+	color: white;
+}
+
 #chat>.w3-third>img {
 	background-color: #ff3f40;
 	padding: 0.5rem;
