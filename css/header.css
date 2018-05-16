@@ -24,27 +24,25 @@
     border-bottom: 0.01rem;
     border-bottom-style: solid;
     text-transform: uppercase;
-    font-weight: bold;
 }
 
 #con2 {
     font-size: 1rem;
     line-height: 0.8rem;
-    font-weight: bold;
 }
 
 #con3 {
+    font-family: 'Gotham', sans-serif;
     font-size: 1rem;
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: bold;
     letter-spacing: 0.08rem;
 }
 
 .header-container {
     position: relative;
     max-width: 100%;
-    font-family: Gotham;
+    font-family: 'Gotham', sans-serif;
 }
 
 .img-head {
@@ -79,6 +77,11 @@
     animation-duration: 10s;
 }
 
+#topbar-post {
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
     0% {
@@ -105,15 +108,13 @@
 
 .header-inner-container>p {
     color: #fff;
-    font-family: 'Gotham-Book', Fallback, sans-serif;
     font-size: 4rem;
-    font-weight: bold;
     font-style: normal;
     text-align: left;
     line-height: 1.2;
     margin: 0;
     margin-bottom: 2rem;
-    letter-spacing: -0.2rem;
+    letter-spacing: -0.12rem;
 }
 
 .inner2-container {
@@ -144,7 +145,7 @@
     z-index: 990;
     padding: 2rem 4rem 1rem 4rem;
     width: 100%;
-    font-family: Gotham;
+    font-family: 'Gotham', sans-serif;
     text-align: left;
     text-transform: uppercase;
     color: #ffffff;
@@ -167,7 +168,7 @@
     padding-bottom: 0.5rem !important;
     width: 100%;
     height: auto;
-    font-family: Gotham;
+    font-family: 'Gotham', sans-serif;
     text-align: left;
     text-transform: uppercase;
     color: #ffffff;
@@ -210,17 +211,17 @@
 }
 
 #text-big {
-    font-family: Gotham-Book;
+    font-family: 'Gotham', sans-serif;
 }
 
 .logo-img {
-    /* font-family: Gotham; */
+    /* font-family: 'Gotham', sans-serif; */
     /* background-image: url('./img/Logo_GHD.png'); */
-    max-height: 3rem;
+    max-height: 2.5rem;
 }
 
 .logo-area {
-    padding: 1rem 1.5rem !important;
+    padding: .5rem 1rem !important;
     background-color: white;
 }
 
@@ -233,7 +234,6 @@
 
 .navigation-bar .w3-button, .navigation-bar-post .w3-button {
     white-space: normal;
-    /* transform: translate(0, 50%); */
 }
 
 .navigation-bar-block .navigation-bar-item {
@@ -275,7 +275,7 @@
 }
 
 #bawahnyanavbar {
-    margin-top: 7rem;
+    margin-top: 10rem;
 }
 
 .row::after {
@@ -305,7 +305,6 @@
         border: none;
         display: block;
         outline: 0;
-        font-weight: bold;
     }
 }
 
@@ -320,7 +319,6 @@
     }
     .navigation-bar {
         padding-top: 1rem;
-        padding: 2rem;
     }
     .header-inner-container {
         margin: 0;
@@ -336,7 +334,6 @@
         border: none;
         display: block;
         outline: 0;
-        font-weight: bold;
     }
 }
 

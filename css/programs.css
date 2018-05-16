@@ -6,7 +6,6 @@
 #programs>h1 {
 	color: #fff;
 	font-size: 3.125rem;
-	font-weight: bold;
 	margin-bottom: 1.5rem !important;
 	font-family: "Gotham";
 }
@@ -96,9 +95,9 @@
 }
 
 #text-card>h3 {
+	font-family: 'Gotham', sans-serif;
 	font-size: 1.6rem;
 	text-transform: uppercase;
-	font-weight: bold;
 }
 
 #text-card>p {
@@ -112,7 +111,6 @@
     font-size: 1.2rem;
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: bold;
     letter-spacing: 0.1rem;
 }
 

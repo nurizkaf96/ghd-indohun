@@ -13,7 +13,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Gotham-Book;
+    font-family: 'Gotham-Book', sans-serif;
 }
 
 h1,
@@ -23,7 +23,7 @@ h4,
 h5,
 h6 {
     margin: 1rem 0rem;
-    letter-spacing: -0.05rem;
+    /* letter-spacing: -0.05rem; */
 }
 
 html {

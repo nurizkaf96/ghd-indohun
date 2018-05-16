@@ -21,8 +21,7 @@
     margin-bottom: 3rem !important;
     margin-top: 3rem !important;
     font-size: 3rem;
-    font-weight: bold;
-    font-family: Gotham;
+    font-family: 'Gotham', sans-serif;
 }
 
 .slider-container {
@@ -50,12 +49,12 @@
 }
 
 #text-news>h3 {
-	text-transform: uppercase;
+    font-family: 'Gotham', sans-serif;
+    text-transform: uppercase;
 	text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: .5rem !important;
     margin-bottom: .5rem !important;
-    font-weight: bold;
 }
 
 .news-date {
