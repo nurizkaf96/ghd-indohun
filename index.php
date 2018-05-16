@@ -6,8 +6,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./css/w3.css">
-  <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/style-basic.css">
+  <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/programs.css">
   <link rel="stylesheet" href="./css/exp.css">
   <link rel="stylesheet" href="./css/training.css">
@@ -67,7 +67,7 @@
     <div class="header-inner-container w3-col l4 m12 s12">
       <p class="w3-hide-small w3-hide-medium" id="text-big">DIPLOMACY</br>NEEDS</br>ACTION</p>
       <div id="con1" class="inner2-container w3-white">
-        <p>GHD Training</p>
+        <h1>GHD Training</h1>
       </div>
       <div id="con2" class="inner2-container w3-white">
         <p>25-29 August, 2018</p>

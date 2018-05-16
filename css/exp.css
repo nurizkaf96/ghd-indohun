@@ -212,14 +212,16 @@
     color: #ff3f40;
     width: 58%;
     margin: auto;
-    font-size: 1.875rem;
+	font-size: 1.875rem;
+	font-family: 'Gotham-Book', sans-serif;
 }
 
 #experience>.outer-container>h6 {
     width: 58%;
     margin: 3rem auto;
     margin-bottom: 6rem;
-    font-size: 1.25rem;
+	font-size: 1.25rem;
+	font-family: 'Gotham-Book', sans-serif;
 }
 
 #experience>.outer-container>h1 {
