@@ -390,15 +390,17 @@
       <div class="w3-row-padding container-intouch">
         <div class="w3-third" id="chat">
           <i class="fas fa-phone intouch-icons-area"></i>
-          <p>(+62) 812-8011-9690</p>
+          <p id="text-intouch">(+62) 812-8011-9690</p>
         </div>
         <div class="w3-third" id="messages">
-          <i class="fas fa-phone intouch-icons-area"></i>
-          <p>discoversghd@gmail.com</p>
+          <i class="fas fa-envelope intouch-icons-area"></i>
+          <p id="text-intouch">discoversghd@gmail.com</p>
         </div class="intouch-icons-area">
         <div class="w3-third" id="location">
-          <i class="fas fa-phone intouch-icons-area"></i>
-          <p>Tempat</p>
+          <i class="fas fa-location-arrow intouch-icons-area"></i>
+          <p id="text-intouch">
+            Universitas Indonesia
+          </p>
         </div>
       </div>
       <!-- <div class="w3-row-padding container-intouch">
