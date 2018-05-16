@@ -136,6 +136,16 @@
     position: fixed !important;
     z-index: 1000 !important;
     padding: 1rem 1.5rem !important;
+    top: 0;
+    left :0;
+    background-color: transparent;
+    /*transition: 0.3s;*/
+}
+
+.scrolled {
+  background-color: rgba(244,67,54,0.8);
+  /*transition: 0.3s;*/
+  top: -9.375rem;
 }
 
 .navigation-bar {
