@@ -37,10 +37,9 @@
 
 #intouch>h1 {
 	font-size: 2rem;
-	font-weight: bold;
 	margin-top: 2rem;
 	margin-bottom: 3rem;
-	font-family: Gotham;
+	font-family: 'Gotham', sans-serif;
 }
 
 #text-intouch {

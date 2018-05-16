@@ -40,7 +40,7 @@
     <div class="w3-rest">
       <a class="w3-bar-item w3-button w3-padding w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     </div>
-    <div id="topbar-post">
+    <div id="topbar-post" class="navigation-bar">
       <a href="#intouch" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Contact</a>
       <a href="#partner" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Partners</a>
       <a href="#events" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Events</a>
@@ -101,7 +101,7 @@
           </div>
           <div class="w3-container w3-red">
             <a onclick="accordionfunc()" href="#contentExecutive" id="programExecutive">
-              <p>Learn More</p>
+              <p id="con3">Learn More</p>
             </a>
           </div>
         </div>
@@ -113,7 +113,7 @@
           </div>
           <div class="w3-container w3-red">
             <a href="#" id="programStudent">
-              <p>Coming Soon</p>
+              <p id="con3">Coming Soon</p>
             </a>
           </div>
         </div>
@@ -125,7 +125,7 @@
           </div>
           <div class="w3-container w3-red">
             <a href="#" id="programIntermediate">
-              <p>Coming Soon</p>
+              <p id="con3">Coming Soon</p>
             </a>
           </div>
         </div>
