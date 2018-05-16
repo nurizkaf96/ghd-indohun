@@ -107,21 +107,23 @@
 <footer class="w3-padding-32 w3-center" id="footer">
 	<h5>&copy; 2018 - <a href="https://indohun.org/">INDOHUN</a> All Right Reserved</h5>
 	<div class="w3-xlarge w3-padding-large" id="social-link">
-		<a href="https://www.facebook.com/indohun.id/">
-			<i class="fa fa-facebook-official w3-hover-opacity" id="icon-social"></i>
-		</a>
-		<a href="https://twitter.com/Indohun">
-			<i class="fa fa-twitter w3-hover-opacity" id="icon-social"></i>
-		</a>
-		<a href="#">
-			<i class="fa fa-dribbble w3-hover-opacity" id="icon-social"></i>
-		</a>
-		<a href="#">
-			<i class="fa fa-google-plus w3-hover-opacity" id="icon-social"></i>
-		</a>
-		<a href="https://www.youtube.com/user/INDONESIAOHUN">
-			<i class="fa fa-youtube w3-hover-opacity" id="icon-social"></i>
-		</a>
+		<div id="icon-social">
+	        <a href="https://www.facebook.com/indohun.id/">
+	          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+	        </a>
+	        <a href="https://twitter.com/Indohun">
+	          <i class="fa fa-twitter w3-hover-opacity"></i>
+	        </a>
+	        <a href="#">
+	          <i class="fa fa-dribbble w3-hover-opacity"></i>
+	        </a>
+	        <a href="#">
+	          <i class="fa fa-google-plus w3-hover-opacity"></i>
+	        </a>
+	        <a href="https://www.youtube.com/user/INDONESIAOHUN">
+	          <i class="fa fa-youtube w3-hover-opacity"></i>
+	        </a>
+		</div>
 		<a href="#top">
 			<button class="btn-up"><i class="fa fa-chevron-up"></i></button>
 		</a>

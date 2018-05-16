@@ -428,16 +428,16 @@
           <i class="fa fa-facebook-official w3-hover-opacity"></i>
         </a>
         <a href="https://twitter.com/Indohun">
-          <i class="fa fa-twitter w3-hover-opacity" id="icon-social"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
         </a>
         <a href="#">
-          <i class="fa fa-dribbble w3-hover-opacity" id="icon-social"></i>
+          <i class="fa fa-dribbble w3-hover-opacity"></i>
         </a>
         <a href="#">
-          <i class="fa fa-google-plus w3-hover-opacity" id="icon-social"></i>
+          <i class="fa fa-google-plus w3-hover-opacity"></i>
         </a>
         <a href="https://www.youtube.com/user/INDONESIAOHUN">
-          <i class="fa fa-youtube w3-hover-opacity" id="icon-social"></i>
+          <i class="fa fa-youtube w3-hover-opacity"></i>
         </a>
       </div>
       <a href="#top">

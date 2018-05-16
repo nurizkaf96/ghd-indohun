@@ -7,6 +7,10 @@
 	margin: 0;
 }
 
+#icon-social>a {
+	color: #fff !important;
+}
+
 #social-link>div>a {
 	text-decoration: none;
 	padding: 0 1rem;
