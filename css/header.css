@@ -278,11 +278,14 @@
     padding: 0.5rem 1rem;
 }
 
+#inner-navsmall {
+    width: 50%;
+}
+
 #navsmall {
     z-index: 1001 !important;
     position: fixed;
-    width: 50%;
-    display: none;
+    width: 100%;
 }
 
 #bawahnyanavbar {

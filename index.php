@@ -38,8 +38,8 @@
       <!-- <a href="#">Global</br>Health</br>Diplomacy</a> -->
     </div>
     <!-- <div class="w3-rest"> -->
-      <button class="w3-bar-item w3-button w3-hide-large w3-right" onclick="myFunction()">
-      <a href="javascript:void(0)"><i class="fas fa-bars"></i></a></button>
+      <button class="w3-bar-item w3-button w3-hide-large w3-right" onclick="openFunction()">
+      <a><i class="fas fa-bars"></i></a></button>
     <!-- </div> -->
     <div id="topbar-post" class="navigation-bar">
       <a href="#intouch" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Contact</a>
@@ -53,14 +53,16 @@
   </div>
 
   <!-- Navbar on small screens -->
-  <div id="navsmall" class="w3-bar-block w3-black w3-hide-large w3-top">
-    <a href="#intouch" class="w3-bar-item w3-button w3-padding-large">Contact</a>
-    <a href="#partner" class="w3-bar-item w3-button w3-padding-large">Partners</a>
-    <a href="#events" class="w3-bar-item w3-button w3-padding-large">Events</a>
-    <a href="#ghd-news" class="w3-bar-item w3-button w3-padding-large">News</a>
-    <a href="#register" class="w3-bar-item w3-button w3-padding-large">Register</a>
-    <a href="#programs" class="w3-bar-item w3-button w3-padding-large">Programs</a>
-    <a href="#about" class="w3-bar-item w3-button w3-padding-large">About</a>
+  <div id="navsmall" class="w3-modal" onclick="closeFunction()">
+    <div id="inner-navsmall" class="w3-bar-block w3-black w3-top w3-center">
+      <a href="#intouch" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+      <a href="#partner" class="w3-bar-item w3-button w3-padding-large">Partners</a>
+      <a href="#events" class="w3-bar-item w3-button w3-padding-large">Events</a>
+      <a href="#ghd-news" class="w3-bar-item w3-button w3-padding-large">News</a>
+      <a href="#register" class="w3-bar-item w3-button w3-padding-large">Register</a>
+      <a href="#programs" class="w3-bar-item w3-button w3-padding-large">Programs</a>
+      <a href="#about" class="w3-bar-item w3-button w3-padding-large">About</a>
+    </div>
   </div>
 
   <!-- Below Navbar -->
