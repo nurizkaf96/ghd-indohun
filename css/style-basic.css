@@ -6,13 +6,7 @@ body {
     background-color: #fff !important;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+body {
     font-family: 'Gotham-Book', sans-serif;
 }
 
@@ -22,6 +16,7 @@ h3,
 h4,
 h5,
 h6 {
+    font-family: 'Gotham', sans-serif;
     margin: 1rem 0rem;
     /* letter-spacing: -0.05rem; */
 }

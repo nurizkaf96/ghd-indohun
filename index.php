@@ -6,8 +6,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./css/w3.css">
-  <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/style-basic.css">
+  <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/programs.css">
   <link rel="stylesheet" href="./css/exp.css">
   <link rel="stylesheet" href="./css/training.css">
@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="./css/intouch.css">
   <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/prism.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 
   <script src="./js/jquery-1.10.2.min.js"></script>
@@ -39,7 +39,7 @@
     </div>
     <!-- <div class="w3-rest"> -->
       <button class="w3-bar-item w3-button w3-hide-large w3-right" onclick="myFunction()">
-      <a href="javascript:void(0)"><i class="fa fa-bars"></i></a></button>
+      <a href="javascript:void(0)"><i class="fas fa-bars"></i></a></button>
     <!-- </div> -->
     <div id="topbar-post" class="navigation-bar">
       <a href="#intouch" class="menu-bar w3-right w3-button w3-mobile w3-hide-small w3-hide-medium">Contact</a>
@@ -68,7 +68,7 @@
     <div class="header-inner-container w3-col l4 m12 s12">
       <p class="w3-hide-small w3-hide-medium" id="text-big">DIPLOMACY</br>NEEDS</br>ACTION</p>
       <div id="con1" class="inner2-container w3-white">
-        <p>GHD Training</p>
+        <h1>GHD Training</h1>
       </div>
       <div id="con2" class="inner2-container w3-white">
         <p>25-29 August, 2018</p>
@@ -355,11 +355,11 @@
 
           <!-- Left and right controls -->
           <a id="sebelum" class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="fa fa-long-arrow-left"></span>
+            <span class="fas fa-arrow-left"></span>
             <span class="sr-only">Previous</span>
           </a>
           <a id="sesudah" class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="fa fa-long-arrow-right"></span>
+            <span class="fas fa-arrow-right"></span>
             <span class="sr-only">Next</span>
           </a>
         </div>
@@ -384,34 +384,51 @@
       </div>
     </div>
 
+
     <div class="outer-container w3-center" id="intouch">
       <h1>Get In Touch</h1>
       <div class="w3-row-padding container-intouch">
-        <div class="w3-third w3-container" id="chat">
-          <div class="w3-half" id="img-intouch">
+        <div class="w3-third" id="chat">
+          <i class="fas fa-phone intouch-icons-area"></i>
+          <p id="text-intouch">(+62) 812-8011-9690</p>
+        </div>
+        <div class="w3-third" id="messages">
+          <i class="fas fa-envelope intouch-icons-area"></i>
+          <p id="text-intouch">discoversghd@gmail.com</p>
+        </div class="intouch-icons-area">
+        <div class="w3-third" id="location">
+          <i class="fas fa-location-arrow intouch-icons-area"></i>
+          <p id="text-intouch">
+            Universitas Indonesia
+          </p>
+        </div>
+      </div>
+      <!-- <div class="w3-row-padding container-intouch">
+        <div class="w3-third" id="chat">
+          <div class="w3-third" id="img-intouch">
             <img src="./img/intouch/chat.png">
           </div>
-          <div class="w3-half" id="text-intouch">
-            <p>847-939-9359</p>
+          <div class="w3-twothird" id="text-intouch">
+            <p>(+62) 812-8011-9690</p>
           </div>
         </div>
         <div class="w3-third w3-container" id="messages">
-          <div class="w3-half" id="img-intouch">
+          <div class="w3-third" id="img-intouch">
             <img src="./img/intouch/message.png">
           </div>
-          <div class="w3-half" id="text-intouch">
-            <p>montreal@mail.com</p>
+          <div class="w3-twothird" id="text-intouch">
+            <p>discoversghd@gmail.com</p>
           </div>
         </div>
         <div class="w3-third w3-container" id="location">
-          <div class="w3-half" id="img-intouch">
+          <div class="w3-third" id="img-intouch">
             <img src="./img/intouch/globe.png">
           </div>
-          <div class="w3-half" id="text-intouch">
-            <p>4116 Oak Avenue</br>Chicago, IL 60607</p>
+          <div class="w3-twothird" id="text-intouch">
+            <p>Tempat</p>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="w3-row-padding w3-padding-large" id="tombol-indohun">
         <a href="https://indohun.org/">
           <button type="button" class="w3-button w3-red w3-margin-top" id="button-source">Visit INDOHUN website</button>
@@ -426,23 +443,23 @@
     <div class="w3-xlarge w3-padding-large" id="social-link">
       <div id="icon-social">
         <a href="https://www.facebook.com/indohun.id/">
-          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fab fa-facebook w3-hover-opacity"></i>
         </a>
         <a href="https://twitter.com/Indohun">
-          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fab fa-twitter w3-hover-opacity"></i>
         </a>
         <a href="#">
-          <i class="fa fa-dribbble w3-hover-opacity"></i>
+          <i class="fab fa-dribbble w3-hover-opacity"></i>
         </a>
         <a href="#">
-          <i class="fa fa-google-plus w3-hover-opacity"></i>
+          <i class="fab fa-google-plus w3-hover-opacity"></i>
         </a>
         <a href="https://www.youtube.com/user/INDONESIAOHUN">
-          <i class="fa fa-youtube w3-hover-opacity"></i>
+          <i class="fab fa-youtube w3-hover-opacity"></i>
         </a>
       </div>
       <a href="#top">
-        <button class="btn-up"><i class="fa fa-chevron-up"></i></button>
+        <button class="btn-up"><i class="fas fa-chevron-up"></i></button>
       </a>
     </div>
   </footer>

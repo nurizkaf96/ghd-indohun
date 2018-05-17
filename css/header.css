@@ -343,6 +343,9 @@
     .inner2-container>p {
         font-size: 0.8rem;
     }
+    .inner2-container>h1 {
+        font-size: 1rem;
+    }
     .menu-bar {
         font-size: 1rem;
         padding: 0.5rem 2rem;
