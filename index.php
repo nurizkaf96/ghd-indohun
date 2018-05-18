@@ -162,13 +162,18 @@
             <li>Complete this application form and submit to our email at discoversghd@gmail.com, (with the file subject: GHD – SCH – 2018 – Full Name – Your Institution/Organisation Name – Nationality).</li>
             <li>If selected, we will publish the announcement of the Global Health Diplomacy candidates at: globalhealthdiplomacy.id on 15th June, 2018</li>
           </ol>
-          <h4><b>Impotant Dates</b></h3>
+          <h4><b>Important Dates</b></h3>
           <ul>
             <li>Scholarship Application Deadline May 30, 2018</li>
             <li>Non-scholarship Application Deadline June 30, 2018</li>
             <li>Participant Selected and Administration Process 15 July – 22 July, 2018</li>
             <li>Pre-departure Assignment Process July 23 – August 6, 2018</li>
             <li>Training Days August 25 – August 29, 2018</li>
+          </ul>
+          <h4><b>Regular Application</b></h4>
+          <ul>
+            <li>Indonesian: IDR 7.000.000</li>
+            <li>Non-Indonesian: USD 850</li>
           </ul>
         </div>
       </div>
