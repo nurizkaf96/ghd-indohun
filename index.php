@@ -229,7 +229,7 @@
           <div class="w3-half m6 s12" id="inner-training">
             <h1>GHD Training 2017</h1>
             <h6>Diplomacy is undergoing profound changes in the 21st century – and global health is one of the areas where this is most apparent.</h6>
-            <a href="./post.php">
+            <a href="#">
               <button type="button" class="w3-button w3-red w3-margin-top">Learn More</button>
             </a>
           </div>
@@ -245,7 +245,7 @@
           <div class="w3-half" id="inner-be-ourpartner">
             <h1>Be Our Partner</h1>
             <h6>Are you the best candidate for our future Global Health Diplomacy Training? Join our Team as Speaker or Volunteer. Also, we are happy to open donate or grant from everyone, particularly Health Philanthropy for Global Health development.</h6>
-            <a href="./post.php">
+            <a href="#">
               <button type="button" class="w3-button w3-red w3-margin-top">Learn More</button>
             </a>
           </div>

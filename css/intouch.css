@@ -1,12 +1,7 @@
-/* @media only screen and (max-width: 81.5rem) {
-	#text-intouch {
-		font-size: 1rem !important;
-	}
-} */
-
 @media only screen and (max-width: 70.9375rem) {
 	.container-intouch {
 		width: auto !important;
+		margin: 0 2rem !important;
 	}
 	#chat, #messages, #location {
 		/*width: 100% !important;*/
