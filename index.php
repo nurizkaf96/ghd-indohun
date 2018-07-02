@@ -81,6 +81,15 @@
           <p>Register Now!</p>
         </a>
       </div>
+      <div id="con2" class="inner2-container w3-white sp-margin sp-left sp-padding sp-line">
+        <h1>Scholarship application is closed</h1>
+        <p class="sp-normal">The result date: July, 5 2018</p>
+      </div>
+      <div id="con2" class="inner2-container w3-white sp-left sp-padding">
+        <h1>Regular application is open now!</h1>
+        <p class="sp-normal">Registration Fee: USD850</p>
+        <p class="sp-normal">The result date: July 15, 2019</p>
+      </div>
     </div>
   </div>
 

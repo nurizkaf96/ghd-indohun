@@ -20,7 +20,7 @@
 
 #con1 {
     font-size: 1rem;
-    border-color: #000;
+    border-color: #333;
     border-bottom: 0.01rem;
     border-bottom-style: solid;
     text-transform: uppercase;
@@ -348,6 +348,7 @@
     }
     .inner2-container>h1 {
         font-size: 1rem;
+        line-height: 1.15;
     }
     .menu-bar {
         font-size: 1rem;
@@ -371,4 +372,30 @@
         padding-bottom: 8rem;
         background-color: #51c3e4;
     }
+}
+
+.sp-margin {
+    margin-top: 2.5rem;
+}
+
+.sp-left {
+    text-align: left;
+}
+
+.sp-padding {
+    padding: 1rem 1.5rem;
+}
+
+p.sp-normal {
+    font-family: 'Gotham-Book', sans-serif;
+    font-weight: 400 !important;
+    font-style: normal;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+
+.sp-line {
+    border-color: #333;
+    border-bottom: 0.01rem;
+    border-bottom-style: solid;
 }
