@@ -78,18 +78,18 @@
       </div>
       <div class="inner2-container w3-red">
         <a onclick="accordionfunc()" href="#contentExecutive" id="con3">
-          <p>Register Now!</p>
+          <p>Regular Application <br>is Open Now!</p>
         </a>
       </div>
-      <div id="con2" class="inner2-container w3-white sp-margin sp-left sp-padding sp-line">
-        <h1>Scholarship application is closed</h1>
-        <p class="sp-normal">The result date: July, 5 2018</p>
+      <div id="con2" class="inner2-container w3-white sp-margin sp-left sp-padding">
+        <h1>Scholarship Delegates - GHD 2018</h1>
+        <p class="sp-normal">Announcement <a href="https://drive.google.com/open?id=1MKhK-KhJW_iickEJAjQzmLxxPV5gkYVg" class="sp-red" target=”_blank”>Click Here</a></p>
       </div>
-      <div id="con2" class="inner2-container w3-white sp-left sp-padding">
+      <!-- <div id="con2" class="inner2-container w3-white sp-left sp-padding">
         <h1>Regular application is open now!</h1>
         <p class="sp-normal">Registration Fee: USD850</p>
         <p class="sp-normal">The result date: July 15, 2019</p>
-      </div>
+      </div> -->
     </div>
   </div>
 

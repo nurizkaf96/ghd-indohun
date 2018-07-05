@@ -399,3 +399,7 @@ p.sp-normal {
     border-bottom: 0.01rem;
     border-bottom-style: solid;
 }
+
+.sp-red {
+    color: #f44336;
+}
